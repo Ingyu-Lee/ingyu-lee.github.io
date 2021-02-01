@@ -28,6 +28,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
           flex-direction: column;
+  font-family: $serif;
 }
 
 .initial-content,
@@ -71,6 +72,7 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  font-family: $serif;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -78,7 +80,8 @@ body {
 }
 
 .page__lead {
-  font-family: $global-font-family;
+  // font-family: $global-font-family;
+  font-family: $serif;
   font-size: $type-size-4;
 }
 
@@ -86,6 +89,7 @@ body {
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    font-family: $serif;
   }
 
 	h1, h2, h3, h4, h5, h6 {
@@ -136,13 +140,15 @@ body {
 
   dt {
     margin-top: 1em;
-    font-family: $sans-serif;
+    // font-family: $sans-serif;
+    font-family: $serif;
     font-weight: bold;
   }
 
   dd {
     margin-left: 1em;
-    font-family: $sans-serif;
+    // font-family: $sans-serif;
+    font-family: $serif;
     font-size: $type-size-6;
   }
 
@@ -205,8 +211,8 @@ body {
     }
 
     .page__title {
+      // font-family: $serif;
       font-size: $type-size-2;
-
       @include breakpoint($small) {
         font-size: $type-size-1;
       }
@@ -282,6 +288,7 @@ body {
   margin-top: 2em;
   color: $muted-text-color;
   font-family: $sans-serif;
+  // font-family: $serif;
   font-size: $type-size-6;
 
   p {

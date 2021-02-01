@@ -97,7 +97,7 @@ analytics:
 author:
   name             : "Ingyu Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Graduate student in POSTECH"
+  bio              : "Graduate student"
   location         : "Pohang, Republic of Korea"
   email            :
   links:
@@ -278,7 +278,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
       show_date: true
+      comments: true
