@@ -5,7 +5,7 @@ main:
   - title: "C.V."
     url: /cv/
   - title: "Posts"
-    url: /posts/
+    url: /categories/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

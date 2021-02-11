@@ -72,7 +72,6 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
-  font-family: $serif;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -102,6 +101,7 @@ body {
 			-moz-transition: opacity 0.2s ease-in-out 0.1s;
 			-o-transition: opacity 0.2s ease-in-out 0.1s;
 			transition: opacity 0.2s ease-in-out 0.1s;
+      font-family: $serif;
 		}
 
 		&:hover .header-link {
@@ -211,7 +211,6 @@ body {
     }
 
     .page__title {
-      // font-family: $serif;
       font-size: $type-size-2;
       @include breakpoint($small) {
         font-size: $type-size-1;

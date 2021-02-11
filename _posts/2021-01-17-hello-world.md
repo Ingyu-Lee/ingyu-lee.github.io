@@ -1,45 +1,64 @@
 ---
 layout: posts
 title:  "Welcome to Jekyll!"
+page.toc: true
+toc_sticky: true
 use_math: true
-toc: true
-toc_label: "My Table of Contents"
-toc_icon: "cog"
 excerpt: "A unique line of text to describe this post that will display in an archive listing and meta description with SEO benefits."
+tags:
+  - test0
+  - test1
+category: testCategory
 ---
+<h1>{{ page.tags }}</h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ "post.title0" }}</a>
-    </li>
-    <li>
-      <a href="{{ post.url }}">{{ "post.title1" }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-# Welcome aa
+{% include toc.html %}
 
 **Hello world**, this is my first Jekyll blog post.
 
 I hope you like it!
 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahowlongdoesitgoesaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+<!-- # this is a H1 -->
+
+<!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahowlongdoesitgoesaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+
+## This is a H2
 
 ... which is shown in the screenshot below:
 ![My helpful screenshot](/assets/screenshot.png)
 
-This formula $f(x) = x^2$ is an example.
+<img src="/assets/screenshot.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck">
+<img src="/assets/screenshot.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck">
 
-레후$f(x)$레후
+<!-- # This is a H1_1 -->
+This formula \[f(x) = x^2\] is an example.
 
-레후
-#K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)#
-레후
+## This is a H2_1
+\[f(x)\]
 
-#
-\int _V\nabla \cdot \overrightarrow{e}dv=\oint _S\overrightarrow{e}\cdot \hat{n}da=\frac{Q}{\epsilon _0}
-#
+test text:
 
-레후
+\\[
+\lim_{x\to 0}{\frac{e^x-1}{2x}}
+\overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
+\lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
+\\]
+
+test text
+
+## This is a H2_2
+this is a normal paragraph
+
+    this is a code block
+
+return to normal paragraph
+
+*single asterisks*
+
+_single underscores_
+
+**double asterisks**
+
+__double underscores__
+
+~~cancelline~~
