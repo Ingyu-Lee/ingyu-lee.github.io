@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Welcome to Jekyll!"
-page.toc: true
+toc: true
 toc_sticky: true
 use_math: true
 excerpt: "A unique line of text to describe this post that will display in an archive listing and meta description with SEO benefits."
@@ -10,9 +10,14 @@ tags:
   - test1
 category: testCategory
 ---
-<h1>{{ page.tags }}</h1>
 
-{% include toc.html %}
+<!-- <h1>{{ page.tags }}</h1> -->
+
+<!-- {% include toc.html %} -->
+
+<!-- {:toc} -->
+
+{% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=2 h_max=3 %}
 
 **Hello world**, this is my first Jekyll blog post.
 
