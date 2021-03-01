@@ -1,4 +1,44 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+permalink: /
+hidden: true
+title: 공부 및 취미 기록
+header:
+  overlay_color: "#5e616c"
+  <!-- overlay_image: /assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg -->
+  actions:
+    - label: "<i class='far fa-file-alt'></i> Curriculum Vitae"
+      url: "/docs/quick-start-guide/"
+excerpt: >
+  기계공학, 음향학, 트랜스듀서 연구 및 공부 기록<br>
+  미니어처 페인팅 기록<br>
+  티 노트 기록<br>
+  그 외 독서 또는 공부 기록
+feature_row:
+  - image_path: /assets/images/999999_home_image_banner_textbook.jpg
+    alt: "major_study"
+    title: "전공 공부 기록"
+    excerpt: "기계공학과 학부 과정 중 배우는 내용,<br>
+    음향학 및 비선형 음향 현상에 관한 기록,<br>
+    트랜스듀서 및 현재 연구 내용 관한 기록,<br>
+    그 외 공부한 내용 등에 관한 기록"
+    url: "/docs/configuration/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/999999_home_image_banner_infinity.jpg
+    alt: "miniatures"
+    title: "미니어처 게임 및 페인팅"
+    excerpt: "미니어처 게임에 관한 내용 및 미니어처 페인팅에 관한 기록"
+    url: "/docs/layouts/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/999999_home_image_banner_blacktea.jpg
+    alt: "tea_note"
+    image_caption: "image_caption_test"
+    title: "티 노트"
+    excerpt: "차 브루잉 컨디션 및 그에 따른 맛 기록"
+    url: "/docs/license/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 ---
+{% include feature_row %}
