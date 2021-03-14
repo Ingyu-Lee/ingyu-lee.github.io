@@ -282,6 +282,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      read_time: false
 
   # _pages
   - scope:
