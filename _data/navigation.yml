@@ -10,3 +10,9 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+sidebar-dynamics:
+  - title: "동역학 01 <br>Kinematics of Particles"
+    url: /dynamics/Dynamics-01/
+  - title: "동역학 02 Kinetics of Particles: <br>Newton's Second Law"
+    url: /dynamics/Dynamics-02/
