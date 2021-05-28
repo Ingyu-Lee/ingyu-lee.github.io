@@ -18,8 +18,9 @@
   }
 }
 
-.archive__item {
+.archive__item-practice {
   position: relative;
+  display: block;
 
   a {
     position: relative;
@@ -29,6 +30,73 @@
   a[rel="permalink"] {
     position: static;
   }
+
+  .archive__image-practice {
+    width: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $light-gray;
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:after {
+      content: "";
+      display: table;
+      width: 100%;
+      padding-bottom: 70%;
+    }
+  }
+
+}
+
+.archive__item {
+  margin-top: .75em;
+  margin-bottom: .75em;
+  position: relative;
+  display: flex;
+
+  a {
+    position: relative;
+    z-index: 10;
+  }
+
+  a[rel="permalink"] {
+    position: static;
+  }
+
+
+  .archive__image {
+    width: 20%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $light-gray;
+    &:hover {
+      opacity: 0.9;
+    }
+
+    &:after {
+      content: "";
+      display: table;
+      width: 100%;
+      padding-bottom: 70%;
+    }
+  }
+
+  .archive_content{
+    width: 80%;
+    padding: 20px;
+    margin-left: 1%;
+    z-index: 1;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  }
+
 }
 
 .archive__subtitle {
@@ -49,6 +117,8 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-align: center;
+  font-size: $type-size-3;
 
   a[rel="permalink"]::before {
     content: '';
@@ -75,6 +145,7 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
+  text-align: center;
 
   & + p {
     text-indent: 0;
@@ -251,7 +322,7 @@
 .feature__item {
   position: relative;
   margin-bottom: 2em;
-  font-size: 1.125em;
+  // font-size: 1.125em;
 
   @include breakpoint($small) {
     float: left;
@@ -416,6 +487,12 @@
         margin: 0 auto;
         width: span(7 of 12);
       }
+
+      .archive__item-title {
+        margin-top: 0.5em;
+        font-size: $type-size-1;
+      }
+
     }
   }
 }

@@ -56,6 +56,49 @@ body {
     width: 100%;
     clear: both;
 
+    .page__image {
+        position: relative;
+        margin-bottom: 2em;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: $light-gray;
+      &:after {
+        content: "";
+        display: table;
+        width: 100%;
+        padding-top: 50%;
+      }
+    }
+
+    .page__image-caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%, -50%);
+      // bottom: 0;
+      // right: 0;
+      margin: 0 auto;
+      padding: 5% 10%;
+      color: #fff;
+      font-family: $caption-font-family;
+      font-size: $type-size-1;
+      background: #000;
+      text-align: center;
+      z-index: 5;
+      opacity: 0.8;
+      border-radius: $border-radius 0 0 0;
+
+      // @include breakpoint($large) {
+      //   padding: 5px 10px;
+      // }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+
     .page__content,
     .page__meta,
     .page__share {
