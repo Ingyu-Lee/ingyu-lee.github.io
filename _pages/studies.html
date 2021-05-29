@@ -1,32 +1,23 @@
 ---
 permalink: /study/
 layout: splash
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/999999_home_image_banner_textbook.jpg
-title: ' '
-intro:
-  - title: "Studies"
-    excerpt: "학부 과정 중 다룬 내용<br>
-    대학원 과정 중 다룬 내용<br>
-    그 외 독서 또는 공부 기록"
-feature_row:
+banner: 999999_home_image_banner_textbook.jpg
+banner_caption: "Studies"
+graduate:
+  - image_path: /assets/images/999999_category_image_postech.jpg
+    excerpt: "대학원 강의 정리"
+undergraduate:
+  - image_path: /assets/images/999999_category_image_unist.png
+    excerpt: "학부 강의 정리"
+undergraduate_list:
   - image_path: /assets/images/999999_category_beer_dynamics_01.jpg
     alt: "dynamics"
     title: "동역학"
     excerpt: "기계공학과 학부 동역학"
-    url: "/dynamics/Dynamics-01"
+    url: "/study/Dynamics-01"
 ---
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="graduate" type="center" %}
 
-{% include feature_row %}
+{% include feature_row id="undergraduate" type="center" %}
 
-
-
-
-
-
-<!-- excerpt:
-학부 과정 중 다룬 내용<br>
-대학원 과정 중 다룬 내용<br>
-그 외 독서 또는 공부 기록 -->
+{% include feature_row id="undergraduate_list" %}
