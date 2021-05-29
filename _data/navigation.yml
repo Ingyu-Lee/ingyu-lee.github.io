@@ -4,15 +4,15 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "C.V."
     url: /cv/
-  - title: "Posts"
-    url: /categories/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Studies"
+    url: /study/
+  - title: "Hobbies"
+    url: /miniatures/
+  - title: "Tea Note"
+    url: /teanote/
 
 sidebar-dynamics:
   - title: "동역학 01 <br>Kinematics of Particles"
-    url: /dynamics/Dynamics-01/
+    url: /study/Dynamics-01/
   - title: "동역학 02 Kinetics of Particles: <br>Newton's Second Law"
-    url: /dynamics/Dynamics-02/
+    url: /study/Dynamics-02/
