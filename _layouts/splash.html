@@ -16,6 +16,17 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
     <section class="page__content" itemprop="text">
+
+
+      {% if page.banner %}
+        <div class="page__image" style="background-image: url({{site.baseurl}}/assets/images/{{page.banner}})">
+          {% if page.banner_caption %}
+            <span class="page__image-caption">{{ page.banner_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
+
+
       {{ content }}
     </section>
   </article>
