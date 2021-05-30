@@ -1,20 +1,41 @@
 ---
 title: "200108 ToH Darjeeling 8g/500ml/180s"
 excerpt: "Darjeeling / ToH / 8 g / 500 ml / 180 s"
+thumbnail: 191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg
+banner: 999999_home_image_banner_blacktea.jpg
+banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
   - Tea Note
-tags:
-  - Taylors of Harrogate
-  - Darjeeling
 last_modified_at: 2020-01-08T11:44:00
+sidebar:
+  title: "Taylors of Harrogate<br>Afternoon Darjeeling"
+  nav: sidebar-toh_darjeeling
+
+gallery:
+  - url: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0010.jpg
+    image_path: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0010.jpg
+    title: "Fig.2 예열되지 않은 비커에 물을 500 ml 담았을 때의 온도"
+  - url: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0011.jpg
+    image_path: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0011.jpg
+    title: "Fig.3 위 fig. 2 의 과정으로 예열된 비커에 물을 500 ml 담았을 때의 온도"
+  - url: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0012.jpg
+    image_path: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0012.jpg
+    title: "Fig.4 찻잎 8 g 이 담긴 찻주전자에 위 fig. 3 의 물을 넣고난 후 90 초 시점의 온도"
+  - url: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0013.jpg
+    image_path: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0013.jpg
+    title: "Fig.5 찻잎 8 g 이 담긴 찻주전자에 위 fig. 3 의 물을 넣고난 후 150 초 시점의 온도"
 ---
 
-<div align="center">
-  <img src="/assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.1 Taylors of Harrogate Afternoon Darjeeling</p>
-</div>
+<figure class="align-center" style="width: 300px">
+  <a href="/assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg" alt="">
+  </a>
+  <figcaption>
+  Fig.1 Taylors of Harrogate Afternoon Darjeeling
+  </figcaption>
+</figure>
 
 ## Brewing factors
 
@@ -81,23 +102,16 @@ last_modified_at: 2020-01-08T11:44:00
     <td>덜 강한데 부드러운 다즐링</td>
       </tr>
   </table>
+</div>
 
-  <img src="/assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0010.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.2 예열되지 않은 비커에 물을 500 ml 담았을 때의 온도</p>
+{% include gallery caption="Fig.2 예열되지 않은 비커에 물을 500 ml 담았을 때의 온도<br>
+Fig.3 위 fig. 2 의 과정으로 예열된 비커에 물을 500 ml 담았을 때의 온도<br>
+Fig.4 찻잎 8 g 이 담긴 찻주전자에 위 fig. 3 의 물을 넣고난 후 90 초 시점의 온도<br>
+Fig.5 찻잎 8 g 이 담긴 찻주전자에 위 fig. 3 의 물을 넣고난 후 150 초 시점의 온도" %}
 
-  <img src="/assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0011.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.3 위 fig. 2 의 과정으로 예열된 비커에 물을 500 ml 담았을 때의 온도</p>
-
-  <img src="/assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0012.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.4 찻잎 8 g 이 담긴 찻주전자에 위 fig. 3 의 물을 넣고난 후 90 초 시점의 온도</p>
-
-  <img src="/assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0013.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.5 찻잎 8 g 이 담긴 찻주전자에 위 fig. 3 의 물을 넣고난 후 150 초 시점의 온도</p>
-
-  <img src="/assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0007.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.6 마시기 적당하다고 느꼈을 때의 온도
-</p>
 ### 온도 기록
+
+<div align="center">
   <table align = "center" >
       <tr bgcolor="#ebedef" style="white-space:nowrap">
   	<td><b></b></td>
@@ -106,25 +120,25 @@ last_modified_at: 2020-01-08T11:44:00
     <td style="width:130px"><b>200108</b></td>
       </tr>
       <tr>
-  	<td bgcolor="#ebedef">예열되지 않은 비커에 물을<br>500 ml 담았을 때의 온도</td>
+  	<td bgcolor="#ebedef">예열되지 않은 비커에 물을 500 ml 담았을 때의 온도</td>
   	<td>90</td>
     <td>94</td>
     <td>93</td>
       </tr>
       <tr>
-  	<td bgcolor="#ebedef">비커를 온수를 통해 한 차례 예열한 후<br>물을 500 ml 담았을 때의 온도</td>
+  	<td bgcolor="#ebedef">비커를 온수를 통해 한 차례 예열한 후 물을 500 ml 담았을 때의 온도</td>
   	<td>96</td>
     <td>N/A</td>
     <td>97</td>
       </tr>
       <tr>
-  	<td bgcolor="#ebedef">찻잎 8 g 이 담긴 찻주전자에<br>예열되지 않은 물을 넣었을 때의 온도</td>
+  	<td bgcolor="#ebedef">찻잎 8 g 이 담긴 찻주전자에 예열되지 않은 물을 넣었을 때의 온도</td>
   	<td>N/A</td>
     <td>87</td>
     <td>N/A</td>
       </tr>
       <tr>
-  	<td bgcolor="#ebedef">찻잎 8 g 이 담긴 찻주전자에<br>예열된 물(96 ˚C)을 넣었을 때의 온도</td>
+  	<td bgcolor="#ebedef">찻잎 8 g 이 담긴 찻주전자에 예열된 물(96 ˚C)을 넣었을 때의 온도</td>
   	<td>89</td>
     <td>N/A</td>
     <td>89</td>

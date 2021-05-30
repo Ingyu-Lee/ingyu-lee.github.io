@@ -1,20 +1,44 @@
 ---
 title: "191226 ToH Darjeeling 8g/500ml/180s"
 excerpt: "Darjeeling / ToH / 8 g / 500 ml / 180 s"
+thumbnail: 191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg
+banner: 999999_home_image_banner_blacktea.jpg
+banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
   - Tea Note
-tags:
-  - Taylors of Harrogate
-  - Darjeeling
 last_modified_at: 2019-12-26T14:16:00
+sidebar:
+  title: "Taylors of Harrogate<br>Afternoon Darjeeling"
+  nav: sidebar-toh_darjeeling
+
+gallery:
+  - url: /assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0003.jpg
+    image_path: /assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0003.jpg
+    title: "Fig.2 물을 끓인 직후의 온도"
+  - url: /assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0004.jpg
+    image_path: /assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0004.jpg
+    title: "Fig.3 예열되지 않은 비커에 물을 500 ml 담았을 때의 온도"
+  - url: /assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0005.jpg
+    image_path: /assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0005.jpg
+    title: "Fig.4 위 fig.3 의 과정으로 예열된 비커에 물을 500 ml 담았을 때의 온도"
+  - url: /assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0006.jpg
+    image_path: /assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0006.jpg
+    title: "Fig.5 찻잎 8 g 이 담긴 찻주전자에 위 fig.4 의 물을 넣었을 때의 온도"
+  - url: /assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0007.jpg
+    image_path: /assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0007.jpg
+    title: "Fig.6 마시기 적당하다고 느꼈을 때의 온도"
 ---
 
-<div align="center">
-  <img src="/assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.1 Taylors of Harrogate Afternoon Darjeeling</p>
-</div>
+<figure class="align-center" style="width: 300px">
+  <a href="/assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg" alt="">
+  </a>
+  <figcaption>
+  Fig.1 Taylors of Harrogate Afternoon Darjeeling
+  </figcaption>
+</figure>
 
 ## Brewing factors
 
@@ -85,31 +109,12 @@ last_modified_at: 2019-12-26T14:16:00
 
 25일 기록에서 의심되는 점 1, 3 에 대한 측정 결과:
 
-<div align="center">
-  <img src="/assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0003.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.2 물을 끓인 직후의 온도</p>
-</div>
+{% include gallery caption="Fig.2 물을 끓인 직후의 온도<br>
+Fig.3 예열되지 않은 비커에 물을 500 ml 담았을 때의 온도<br>
+Fig.4 위 fig.3 의 과정으로 예열된 비커에 물을 500 ml 담았을 때의 온도<br>
+Fig.5 찻잎 8 g 이 담긴 찻주전자에 위 fig.4 의 물을 넣었을 때의 온도<br>
+Fig.6 마시기 적당하다고 느꼈을 때의 온도" %}
 
-<div align="center">
-  <img src="/assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0004.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.3 예열되지 않은 비커에 물을 500 ml 담았을 때의 온도</p>
-</div>
-
-<div align="center">
-  <img src="/assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0005.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.4 위 fig.3 의 과정으로 예열된 비커에 물을 500 ml 담았을 때의 온도</p>
-</div>
-
-<div align="center">
-  <img src="/assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0006.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.5 찻잎 8 g 이 담긴 찻주전자에 위 fig.4 의 물을 넣었을 때의 온도</p>
-</div>
-
-<div align="center">
-  <img src="/assets/images/191226_TaylorsOfHarrogate_AfternoonDarjeeling_0007.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.6 마시기 적당하다고 느꼈을 때의 온도
-</p>
-</div>
 
 ## Discussion
 

@@ -234,8 +234,9 @@ figure {
   }
 
   &.half {
-    a,
-    img {
+    > p,
+    > a,
+    > img {
       @include breakpoint($small) {
         width: calc(50% - 0.5em);
       }
@@ -247,6 +248,7 @@ figure {
   }
 
   &.third {
+    > p,
     > a,
     > img {
       @include breakpoint($small) {

@@ -1,20 +1,27 @@
 ---
 title: "200113 ToH Darjeeling 8g/500ml/180s"
 excerpt: "Darjeeling / ToH / 8 g / 500 ml / 180 s"
+thumbnail: 191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg
+banner: 999999_home_image_banner_blacktea.jpg
+banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
   - Tea Note
-tags:
-  - Taylors of Harrogate
-  - Darjeeling
 last_modified_at: 2020-01-13T13:17:00
+sidebar:
+  title: "Taylors of Harrogate<br>Afternoon Darjeeling"
+  nav: sidebar-toh_darjeeling
 ---
 
-<div align="center">
-  <img src="/assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.1 Taylors of Harrogate Afternoon Darjeeling</p>
-</div>
+<figure class="align-center" style="width: 300px">
+  <a href="/assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg" alt="">
+  </a>
+  <figcaption>
+  Fig.1 Taylors of Harrogate Afternoon Darjeeling
+  </figcaption>
+</figure>
 
 ## Brewing factors
 
