@@ -1,7 +1,5 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "C.V."
     url: /cv/
   - title: "Studies"
@@ -9,10 +7,44 @@ main:
   - title: "Hobbies"
     url: /miniatures/
   - title: "Tea Note"
-    url: /teanote/
+    url: /tea_note/
+
+################################################################################
+################################### Study ######################################
+################################################################################
 
 sidebar-dynamics:
   - title: "동역학 01 <br>Kinematics of Particles"
     url: /study/Dynamics-01/
   - title: "동역학 02 Kinetics of Particles: <br>Newton's Second Law"
     url: /study/Dynamics-02/
+
+################################################################################
+################################# Tea note #####################################
+################################################################################
+
+sidebar-toh_assam:
+  - title: "200118 / 6.50 g / 500 ml / 180 s"
+    url: /tea%20note/ToH-Assam-02/
+  - title: "200118 / 7.07 g / 500 ml / 180 s"
+    url: /tea%20note/ToH-Assam-01/
+  - title: "200116 / 7.5 g / 500 ml / 180 s"
+    url: /tea%20note/ToH-Assam-00/
+
+sidebar-toh_darjeeling:
+  - title: "200114 / 8 g / 500 ml / 180 s"
+    url: /tea%20note/ToH-Darjeeling-07/
+  - title: "200113 / 8 g / 500 ml / 180 s"
+    url: /tea%20note/ToH-Darjeeling-06/
+  - title: "200110 / 8 g / 500 ml / 180 s"
+    url: /tea%20note/ToH-Darjeeling-05/
+  - title: "200108 / 8 g / 500 ml / 180 s"
+    url: /tea%20note/ToH-Darjeeling-04/
+  - title: "200107 / 8 g / 500 ml / 180 s"
+    url: /tea%20note/ToH-Darjeeling-03/
+  - title: "191226 / 8 g / 500 ml / 180 s"
+    url: /tea%20note/ToH-Darjeeling-02/
+  - title: "191225 / 8 g / 500 ml / 180 s"
+    url: /tea%20note/ToH-Darjeeling-01/
+  - title: "191224 / 8 g / 500 ml / 180 s"
+    url: /tea%20note/ToH-Darjeeling-00/
