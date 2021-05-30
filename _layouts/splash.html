@@ -19,11 +19,13 @@ layout: default
 
 
       {% if page.banner %}
-        <div class="page__image" style="background-image: url({{site.baseurl}}/assets/images/{{page.banner}})">
-          {% if page.banner_caption %}
-            <span class="page__image-caption">{{ page.banner_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-          {% endif %}
-        </div>
+        <a href="{{ site.url }}{{ site.baseurl }}">
+          <div class="page__image" style="background-image: url({{site.baseurl}}/assets/images/{{page.banner}})">
+            {% if page.banner_caption %}
+              <span class="page__image-caption">{{ page.banner_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        </a>
       {% endif %}
 
 
