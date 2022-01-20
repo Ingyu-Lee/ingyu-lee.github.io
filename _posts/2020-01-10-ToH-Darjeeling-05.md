@@ -7,7 +7,7 @@ banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
-  - Tea Note
+  - Tea Notes
 last_modified_at: 2020-01-10T16:45:00
 sidebar:
   title: "Taylors of Harrogate<br>Afternoon Darjeeling"
