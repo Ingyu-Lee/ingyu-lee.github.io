@@ -6,7 +6,7 @@ banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Research Memo
 use_math: true
 categories:
-  - Study
+  - Studies
 toc: true
 last_modified_at: 2021-09-01T18:30:00
 ---

@@ -3,11 +3,11 @@ main:
   - title: "C.V."
     url: /cv/
   - title: "Studies"
-    url: /study/
+    url: /studies/
   - title: "Hobbies"
-    url: /miniatures/
+    url: /hobbies/
   - title: "Tea Note"
-    url: /tea_note/
+    url: /tea_notes/
 
 ################################################################################
 ################################### Study ######################################
