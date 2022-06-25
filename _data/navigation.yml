@@ -15,13 +15,13 @@ main:
 
 sidebar-dynamics:
   - title: "동역학 01 <br>Kinematics of Particles"
-    url: /study/Dynamics-01/
+    url: /studies/Dynamics-01/
   - title: "동역학 02 Kinetics of Particles: <br>Newton's Second Law"
-    url: /study/Dynamics-02/
+    url: /studies/Dynamics-02/
   - title: "동역학 03 Kinetics of Particles: <br>Energy and Momentum Methods"
-    url: /study/Dynamics-03/
+    url: /studies/Dynamics-03/
   - title: "동역학 04 Systems of Particles"
-    url: /study/Dynamics-04/
+    url: /studies/Dynamics-04/
 
 ################################################################################
 ################################# Tea note #####################################
