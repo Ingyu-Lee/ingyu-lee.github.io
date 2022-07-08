@@ -38,7 +38,7 @@ Matrix algebra와 matrix inversion lemma는 각각 그 내용이 너무 기초�
     }
 \end{equation}
 
-* Derivative of Inverse Matrix
+<!-- * Derivative of Inverse Matrix
 \begin{equation}
     \displaylines
     {
@@ -53,7 +53,7 @@ Matrix algebra와 matrix inversion lemma는 각각 그 내용이 너무 기초�
 
 \begin{equation}
     \frac{\partial f}{\partial x} = \left[ \frac{\partial f}{\partial x\_1} \frac{\partial f}{\partial x\_2} \\dots \frac{\partial f}{\partial x\_n} \right]
-\end{equation}
+\end{equation} -->
 
 
 - - -

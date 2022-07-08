@@ -7,7 +7,7 @@ banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
-  - Tea Notes
+  - Tea-Notes
 last_modified_at: 2019-12-26T14:16:00
 sidebar:
   title: "Taylors of Harrogate<br>Afternoon Darjeeling"
@@ -45,32 +45,32 @@ gallery:
 <div align="center">
   <table align = "center" >
       <tr bgcolor="#ebedef" align ="center">
-  	<td><b>팩터</b></td>
-  	<td><b>내용</b></td>
+      <td><b>팩터</b></td>
+      <td><b>내용</b></td>
       </tr>
       <tr>
-  	<td>이름</td>
-  	<td>Taylors of Harrogate<br>Afternoon Darjeeling Leaf Tea</td>
+      <td>이름</td>
+      <td>Taylors of Harrogate<br>Afternoon Darjeeling Leaf Tea</td>
       </tr>
       <tr>
-  	<td>찻잎 질량</td>
-  	<td>8 g</td>
+      <td>찻잎 질량</td>
+      <td>8 g</td>
       </tr>
       <tr>
     <td>물 출처</td>
-  	<td>정수기 온도를 전기주전자로 재가열</td>
+      <td>정수기 온도를 전기주전자로 재가열</td>
       </tr>
       <tr>
     <td>물 부피</td>
-  	<td>500 ml</td>
+      <td>500 ml</td>
       </tr>
       <tr>
     <td>물 온도</td>
-  	<td>98 ˚C</td>
+      <td>98 ˚C</td>
       </tr>
       <tr>
     <td>따라내기 시작한 시간</td>
-  	<td>180 s</td>
+      <td>180 s</td>
       </tr>
   </table>
 </div>
@@ -80,28 +80,28 @@ gallery:
 <div align="center">
   <table align = "center" >
       <tr bgcolor="#ebedef" style="white-space:nowrap">
-  	<td><b>팩터</b></td>
+      <td><b>팩터</b></td>
     <td><b>수치</b></td>
-  	<td><b>내용</b></td>
+      <td><b>내용</b></td>
       </tr>
       <tr>
-  	<td>수렴성</td>
-  	<td>6/10</td>
+      <td>수렴성</td>
+      <td>6/10</td>
     <td>살짝 꺼끌꺼끌함</td>
       </tr>
       <tr>
-  	<td>마시기 전 향</td>
-  	<td>5/10</td>
+      <td>마시기 전 향</td>
+      <td>5/10</td>
     <td>무난한 다즐링 느낌</td>
       </tr>
       <tr>
-  	<td>마시는 중 향&맛</td>
-  	<td>5/10</td>
+      <td>마시는 중 향&맛</td>
+      <td>5/10</td>
     <td>풀냄새 미미함, 약한 쌉사름함, 25일 기록의<br>'마시다보니 침이 자꾸 나오는 것'은 수렴성 때문인 것으로 보임</td>
       </tr>
       <tr>
-  	<td>마시고 나서 향</td>
-  	<td>6/10</td>
+      <td>마시고 나서 향</td>
+      <td>6/10</td>
     <td>강렬한 머스캣 향</td>
       </tr>
   </table>

@@ -7,7 +7,7 @@ banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
-  - Tea Notes
+  - Tea-Notes
 last_modified_at: 2020-01-08T11:44:00
 sidebar:
   title: "Taylors of Harrogate<br>Afternoon Darjeeling"
@@ -42,32 +42,32 @@ gallery:
 <div align="center">
   <table align = "center" >
       <tr bgcolor="#ebedef" align ="center">
-  	<td><b>팩터</b></td>
-  	<td><b>내용</b></td>
+      <td><b>팩터</b></td>
+      <td><b>내용</b></td>
       </tr>
       <tr>
-  	<td>이름</td>
-  	<td>Taylors of Harrogate<br>Afternoon Darjeeling Leaf Tea</td>
+      <td>이름</td>
+      <td>Taylors of Harrogate<br>Afternoon Darjeeling Leaf Tea</td>
       </tr>
       <tr>
-  	<td>찻잎 질량</td>
-  	<td>8 g</td>
+      <td>찻잎 질량</td>
+      <td>8 g</td>
       </tr>
       <tr>
     <td>물 출처</td>
-  	<td>정수기 온도를 전기주전자로 재가열</td>
+      <td>정수기 온도를 전기주전자로 재가열</td>
       </tr>
       <tr>
     <td>물 부피</td>
-  	<td>500 ml</td>
+      <td>500 ml</td>
       </tr>
       <tr>
     <td>물 온도</td>
-  	<td>~95 ˚C</td>
+      <td>~95 ˚C</td>
       </tr>
       <tr>
     <td>따라내기 시작한 시간</td>
-  	<td>180 s</td>
+      <td>180 s</td>
       </tr>
   </table>
 </div>
@@ -77,28 +77,28 @@ gallery:
 <div align="center">
   <table align = "center" >
       <tr bgcolor="#ebedef" style="white-space:nowrap">
-  	<td><b>팩터</b></td>
+      <td><b>팩터</b></td>
     <td><b>수치</b></td>
-  	<td><b>내용</b></td>
+      <td><b>내용</b></td>
       </tr>
       <tr>
-  	<td>수렴성</td>
-  	<td>2/10</td>
+      <td>수렴성</td>
+      <td>2/10</td>
     <td>부드러움, 혀와 입 안을 비벼야 뻑뻑한 게 조금 느껴지는 정도</td>
       </tr>
       <tr>
       <td>마시기 전 향</td>
-  	<td>6/10</td>
+      <td>6/10</td>
     <td>괜찮은 다즐링 느낌</td>
       </tr>
       <tr>
-  	<td>마시는 중 향&맛</td>
-  	<td>6/10</td>
+      <td>마시는 중 향&맛</td>
+      <td>6/10</td>
     <td>풀냄새 미미함, 쓴 맛 거의 느껴지지 않음, 삼길 때 느껴지는 강한 향</td>
       </tr>
       <tr>
-  	<td>마시고 나서 향</td>
-  	<td>6/10</td>
+      <td>마시고 나서 향</td>
+      <td>6/10</td>
     <td>덜 강한데 부드러운 다즐링</td>
       </tr>
   </table>
@@ -114,38 +114,38 @@ Fig.5 찻잎 8 g 이 담긴 찻주전자에 위 fig. 3 의 물을 넣고난 후 
 <div align="center">
   <table align = "center" >
       <tr bgcolor="#ebedef" style="white-space:nowrap">
-  	<td><b></b></td>
+      <td><b></b></td>
     <td style="width:130px"><b>191226</b></td>
-  	<td style="width:130px"><b>200107</b></td>
+      <td style="width:130px"><b>200107</b></td>
     <td style="width:130px"><b>200108</b></td>
       </tr>
       <tr>
-  	<td bgcolor="#ebedef">예열되지 않은 비커에 물을 500 ml 담았을 때의 온도</td>
-  	<td>90</td>
+      <td bgcolor="#ebedef">예열되지 않은 비커에 물을 500 ml 담았을 때의 온도</td>
+      <td>90</td>
     <td>94</td>
     <td>93</td>
       </tr>
       <tr>
-  	<td bgcolor="#ebedef">비커를 온수를 통해 한 차례 예열한 후 물을 500 ml 담았을 때의 온도</td>
-  	<td>96</td>
+      <td bgcolor="#ebedef">비커를 온수를 통해 한 차례 예열한 후 물을 500 ml 담았을 때의 온도</td>
+      <td>96</td>
     <td>N/A</td>
     <td>97</td>
       </tr>
       <tr>
-  	<td bgcolor="#ebedef">찻잎 8 g 이 담긴 찻주전자에 예열되지 않은 물을 넣었을 때의 온도</td>
-  	<td>N/A</td>
+      <td bgcolor="#ebedef">찻잎 8 g 이 담긴 찻주전자에 예열되지 않은 물을 넣었을 때의 온도</td>
+      <td>N/A</td>
     <td>87</td>
     <td>N/A</td>
       </tr>
       <tr>
-  	<td bgcolor="#ebedef">찻잎 8 g 이 담긴 찻주전자에 예열된 물(96 ˚C)을 넣었을 때의 온도</td>
-  	<td>89</td>
+      <td bgcolor="#ebedef">찻잎 8 g 이 담긴 찻주전자에 예열된 물(96 ˚C)을 넣었을 때의 온도</td>
+      <td>89</td>
     <td>N/A</td>
     <td>89</td>
       </tr>
       <tr>
-  	<td></td>
-  	<td></td>
+      <td></td>
+      <td></td>
     <td></td>
     <td style="text-align:right">(단위: ˚C)</td>
       </tr>

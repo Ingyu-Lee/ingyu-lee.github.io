@@ -15,40 +15,50 @@ main:
 
 sidebar-dynamics:
   - title: "동역학 01 <br>Kinematics of Particles"
-    url: /studies/Dynamics-01/
+    url: /studies/dynamics-01/
   - title: "동역학 02 Kinetics of Particles: <br>Newton's Second Law"
-    url: /studies/Dynamics-02/
+    url: /studies/dynamics-02/
   - title: "동역학 03 Kinetics of Particles: <br>Energy and Momentum Methods"
-    url: /studies/Dynamics-03/
+    url: /studies/dynamics-03/
   - title: "동역학 04 Systems of Particles"
-    url: /studies/Dynamics-04/
+    url: /studies/dynamics-04/
 
 ################################################################################
 ################################# Tea note #####################################
 ################################################################################
 
+sidebar-temi_sikkim:
+  - title: "220707 / 5.46 g / 550 ml / 270 s"
+    url: /tea-notes/temi-sikkim-00/
+
+sidebar-mang_assam:
+  - title: "220629 / 5.00 g / 500 ml / 300 s"
+    url: /tea-notes/mangalam-assam-01/
+  - title: "220625 / 5.00 g / 500 ml / 300 s"
+    url: /tea-notes/mangalam-assam-00/
+
 sidebar-toh_assam:
   - title: "200118 / 6.50 g / 500 ml / 180 s"
-    url: /tea%20note/ToH-Assam-02/
+    url: /tea-notes/toh-assam-02/
   - title: "200118 / 7.07 g / 500 ml / 180 s"
-    url: /tea%20note/ToH-Assam-01/
+    url: /tea-notes/toh-assam-01/
   - title: "200116 / 7.5 g / 500 ml / 180 s"
-    url: /tea%20note/ToH-Assam-00/
+    url: /tea-notes/toh-assam-00/
 
 sidebar-toh_darjeeling:
   - title: "200114 / 8 g / 500 ml / 180 s"
-    url: /tea%20note/ToH-Darjeeling-07/
+    url: /tea-notes/toh-darjeeling-07/
   - title: "200113 / 8 g / 500 ml / 180 s"
-    url: /tea%20note/ToH-Darjeeling-06/
+    url: /tea-notes/toh-darjeeling-06/
   - title: "200110 / 8 g / 500 ml / 180 s"
-    url: /tea%20note/ToH-Darjeeling-05/
+    url: /tea-notes/toh-darjeeling-05/
   - title: "200108 / 8 g / 500 ml / 180 s"
-    url: /tea%20note/ToH-Darjeeling-04/
+    url: /tea-notes/toh-darjeeling-04/
   - title: "200107 / 8 g / 500 ml / 180 s"
-    url: /tea%20note/ToH-Darjeeling-03/
+    url: /tea-notes/toh-darjeeling-03/
   - title: "191226 / 8 g / 500 ml / 180 s"
-    url: /tea%20note/ToH-Darjeeling-02/
+    url: /tea-notes/toh-darjeeling-02/
   - title: "191225 / 8 g / 500 ml / 180 s"
-    url: /tea%20note/ToH-Darjeeling-01/
+    url: /tea-notes/toh-darjeeling-01/
   - title: "191224 / 8 g / 500 ml / 180 s"
-    url: /tea%20note/ToH-Darjeeling-00/
+    url: /tea-notes/toh-darjeeling-00/
