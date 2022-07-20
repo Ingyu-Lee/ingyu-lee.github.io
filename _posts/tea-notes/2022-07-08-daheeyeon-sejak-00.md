@@ -8,7 +8,9 @@ toc: true
 toc_sticky: true
 categories:
   - Tea-Notes
-
+sidebar:
+  title: "Daheeyeon<br>Sejak"
+  nav: sidebar-daheeyeon-sejak
 ---
 
 <figure class="align-center">
@@ -66,7 +68,7 @@ categories:
   </figcaption>
 </figure>
 
-향은, 말차와 유사항 향이 났다.
+향은, 말차와 유사한 향이 났다.
 
 질감은, 부드러워 타닌이 적은 것 같고, 쓰거나 떫은 맛은 거의 없었다. 농도는 진해 우유와 비슷한 느낌을 주었다.
 
