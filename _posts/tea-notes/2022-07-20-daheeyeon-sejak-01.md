@@ -8,13 +8,9 @@ toc: true
 toc_sticky: true
 categories:
   - Tea-Notes
-<<<<<<< HEAD
 sidebar:
   title: "Daheeyeon<br>Sejak"
   nav: sidebar-daheeyeon-sejak
-=======
-
->>>>>>> 2f21b3fc77b4bccd6fdc2b822ef7f1192aa98ed8
 ---
 
 <figure class="align-center">
