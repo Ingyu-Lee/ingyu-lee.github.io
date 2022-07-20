@@ -7,7 +7,7 @@ main:
   - title: "Hobbies"
     url: /hobbies/
   - title: "Tea Note"
-    url: /tea_notes/
+    url: /tea-notes/
 
 ################################################################################
 ################################### Study ######################################
@@ -26,6 +26,16 @@ sidebar-dynamics:
 ################################################################################
 ################################# Tea note #####################################
 ################################################################################
+
+sidebar-phuguri-darjeeling:
+  - title: "220718 / 5.00 g / 500 ml / 300 s"
+    url: /tea-notes/phuguri-darjeeling-00/
+
+sidebar-daheeyeon-sejak:
+  - title: "220720 / 5.00 g / 500 ml / 270 s"
+    url: /tea-notes/daheeyeon-sejak-01/
+  - title: "220708 / 5.00 g / 500 ml / 300 s"
+    url: /tea-notes/daheeyeon-sejak-00/
 
 sidebar-temi_sikkim:
   - title: "220707 / 5.46 g / 550 ml / 270 s"
