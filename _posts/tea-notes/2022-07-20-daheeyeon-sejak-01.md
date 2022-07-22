@@ -1,7 +1,7 @@
 ---
 title: "220720 Daheeyeon Sejak 5.0g/500ml/270s"
 excerpt: "Sejak / Daheeyeon / 5.0 g / 500 ml / 270 s"
-thumbnail: 220720_daheeyeon_Sejak_0001.png
+thumbnail: 220708_daheeyeon_Sejak_0001.jpg
 banner: 999999_home_image_banner_blacktea.jpg
 banner_caption: Tea Note
 toc: true

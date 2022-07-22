@@ -1,7 +1,7 @@
 ---
 title: "220718 Phuguri tea estate Assam 5.0g/500ml/300s"
 excerpt: "Darjeeling / Phuguri tea estate / 5.0 g / 500 ml / 300 s"
-thumbnail: 220718_PhuguriTeaEstate_Darjeeling_0000.jpg
+thumbnail: 220718_PhuguriTeaEstate_Darjeeling_0001.jpg
 banner: 999999_home_image_banner_blacktea.jpg
 banner_caption: Tea Note
 toc: true
