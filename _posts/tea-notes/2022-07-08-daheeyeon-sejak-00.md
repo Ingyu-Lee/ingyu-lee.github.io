@@ -63,7 +63,7 @@ sidebar:
 
 ## Result
 
-<figure style="width: 450px" class="align-center">
+<figure style="width: 75%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/200417_TeaFlavourWheel_eng.png">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/200417_TeaFlavourWheel_eng.png">
   </a>
