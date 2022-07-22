@@ -27,6 +27,12 @@ sidebar-dynamics:
 ################################# Tea note #####################################
 ################################################################################
 
+sidebar-twinings-ladygrey:
+  - title: "220722 / 10.00 g / 1,000 ml / 150 s"
+    url: /tea-notes/twinings-ladygrey-01/
+  - title: "220701 / 10.00 g / 1,000 ml / 150 s"
+    url: /tea-notes/twinings-ladygrey-00/
+
 sidebar-phuguri-darjeeling:
   - title: "220718 / 5.00 g / 500 ml / 300 s"
     url: /tea-notes/phuguri-darjeeling-00/
