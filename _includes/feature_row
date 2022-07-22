@@ -29,13 +29,31 @@
 
         <div class="archive__item-body">
           {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
+            {% if f.url %}
+              <h2 class="archive__item-title">
+                <a href="{{ f.url | relative_url }}">
+                  {{ f.title }}
+                </a>
+              </h2>
+            {% else %}
+              <h2 class="archive__item-title">
+                {{ f.title }}
+              </h2>
+            {% endif %}
           {% endif %}
 
           {% if f.excerpt %}
+            {% if f.url %}
+              <div class="archive__item-excerpt">
+                <a href="{{ f.url | relative_url }}">
+                  {{ f.excerpt | markdownify }}
+                </a>
+              </div>
+            {% else %}
             <div class="archive__item-excerpt">
               {{ f.excerpt | markdownify }}
             </div>
+            {% endif %}
           {% endif %}
         </div>
       </div>
