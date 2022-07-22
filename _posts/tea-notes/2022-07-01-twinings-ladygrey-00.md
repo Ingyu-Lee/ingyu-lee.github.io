@@ -1,6 +1,6 @@
 ---
-title: "220701 Twinings Lady Grey 10.0g/1,000ml/300s"
-excerpt: "Lady Grey / Twinings / 10.0 g / 1,000 ml / 300 s"
+title: "220701 Twinings Lady Grey 10.0g/1,000ml/150s"
+excerpt: "Lady Grey / Twinings / 10.0 g / 1,000 ml / 150 s"
 thumbnail: 220701_twinings_ladygrey_0000.jpg
 banner: 999999_home_image_banner_blacktea.jpg
 banner_caption: Tea Note
@@ -49,7 +49,7 @@ categories:
       </tr>
       <tr>
     <td>따라내기 시작한 시간</td>
-      <td>300 s</td>
+      <td>150 s</td>
       </tr>
   </table>
 </div>
