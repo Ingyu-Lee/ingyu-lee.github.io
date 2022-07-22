@@ -1,5 +1,5 @@
 ---
-title: "220721 Daheeyeon Sejak 5.0g/500ml/300"
+title: "220721 Daheeyeon Sejak 5.0g/500ml/300s"
 excerpt: "Sejak / Daheeyeon / 5.0 g / 500 ml / 300 s"
 thumbnail: 220720_daheeyeon_Sejak_0001.png
 banner: 999999_home_image_banner_blacktea.jpg
