@@ -290,10 +290,9 @@ body {
       padding-left: 1em;
       padding-right: 1em;
       margin-left: 8%;
+      width:35%;
+      max-width: $smaller;
 
-      @include breakpoint($smaller) {
-        max-width: $smaller;
-      }
       background: #000;
       opacity: 0.8;
       padding: 3% 3%;
