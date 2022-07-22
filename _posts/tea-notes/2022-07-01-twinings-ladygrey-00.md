@@ -36,6 +36,10 @@ categories:
       <td>10.0 g</td>
       </tr>
       <tr>
+      <td>다구</td>
+      <td>휴롬 티 메이커<br>1.4 L TM B06</td>
+      </tr>
+      <tr>
     <td>물 출처</td>
       <td>정수기 온수를 전기주전자로 재가열</td>
       </tr>

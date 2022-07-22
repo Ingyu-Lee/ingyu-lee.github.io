@@ -48,6 +48,10 @@ sidebar:
       <td>5.0 g</td>
       </tr>
       <tr>
+      <td>다구</td>
+      <td>HARIO 점핑 티 포트<br>500 mL</td>
+      </tr>
+      <tr>
     <td>물 출처</td>
       <td>정수기 온수를 전기주전자로 재가열</td>
       </tr>
