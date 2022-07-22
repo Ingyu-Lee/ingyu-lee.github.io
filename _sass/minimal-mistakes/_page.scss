@@ -290,12 +290,12 @@ body {
       padding-left: 1em;
       padding-right: 1em;
       margin-left: 8%;
-      width:35%;
+      width:max(35%, 84vw);
       max-width: $smaller;
 
       background: #000;
       opacity: 0.8;
-      padding: 3% 3%;
+      padding: 2.5em 2em;
 
     }
 
