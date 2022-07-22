@@ -60,13 +60,23 @@ sidebar:
 ## Result
 
 <figure style="width: 450px" class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/220721_daheeyeon_Sejak_0002.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/220721_daheeyeon_Sejak_0002.jpg">
+  </a>
+  <figcaption>
+  Fig.2 Tea
+  </figcaption>
+</figure>
+
+<figure style="width: 450px" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/200417_TeaFlavourWheel_eng.png">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/200417_TeaFlavourWheel_eng.png">
   </a>
   <figcaption>
-  Fig.2 Tea Flavour Wheel
+  Fig.3 Tea Flavour Wheel
   </figcaption>
 </figure>
+
 
 향은, 미역과 파슬리를 연상시키는 향이 났다.
 
