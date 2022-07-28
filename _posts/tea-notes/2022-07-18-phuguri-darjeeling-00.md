@@ -8,6 +8,8 @@ toc: true
 toc_sticky: true
 categories:
   - Tea-Notes
+tags:
+  - Darjeeling
 sidebar:
   title: "Phuguri Tea Estate<br>Darjeeling"
   nav: sidebar-phuguri-darjeeling

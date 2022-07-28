@@ -8,6 +8,8 @@ toc: true
 toc_sticky: true
 categories:
   - Tea-Notes
+tags:
+  - Earl Grey
 sidebar:
   title: "Twinings<br>Lady Grey"
   nav: sidebar-twinings-ladygrey

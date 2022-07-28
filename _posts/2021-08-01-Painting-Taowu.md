@@ -6,6 +6,8 @@ banner_caption: Hobbies
 last_modified_at: 2021-08-01T11:30:00
 categories:
   - Hobbies
+tags:
+  - Miniatures
 toc: true
 toc_sticky: true
 

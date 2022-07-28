@@ -8,6 +8,8 @@ toc: true
 toc_sticky: true
 categories:
   - Tea-Notes
+tags:
+  - Darjeeling
 last_modified_at: 2019-12-25T14:46:00
 sidebar:
   title: "Taylors of Harrogate<br>Afternoon Darjeeling"

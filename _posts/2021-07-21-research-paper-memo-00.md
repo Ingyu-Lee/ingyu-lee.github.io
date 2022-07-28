@@ -7,6 +7,9 @@ banner_caption: Research Memo
 use_math: true
 categories:
   - Studies
+tags:
+  - Mechanical Engineering
+  - Ultrasonic Transducers
 last_modified_at: 2021-07-21T21:24:00
 ---
 

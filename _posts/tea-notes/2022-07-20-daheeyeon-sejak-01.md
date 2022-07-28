@@ -8,6 +8,8 @@ toc: true
 toc_sticky: true
 categories:
   - Tea-Notes
+tags:
+  - Sejak
 sidebar:
   title: "Daheeyeon<br>Sejak"
   nav: sidebar-daheeyeon-sejak

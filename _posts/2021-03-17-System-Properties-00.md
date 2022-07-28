@@ -6,9 +6,9 @@ toc: true
 categories:
   - Studies
 tags:
-  - Control systems engineering
-  - Digital signal process
-  - Linear system theory
+  - Control Systems Engineering
+  - Digital Signal Process
+  - Linear System Theory
 
 last_modified_at: 2021-03-17T20:52:00
 ---

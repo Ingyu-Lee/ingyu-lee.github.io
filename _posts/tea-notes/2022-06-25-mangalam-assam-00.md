@@ -8,6 +8,8 @@ toc: true
 toc_sticky: true
 categories:
   - Tea-Notes
+tags:
+  - Assam
 sidebar:
   title: "Mangalam Estate<br>Assam"
   nav: sidebar-mang_assam
