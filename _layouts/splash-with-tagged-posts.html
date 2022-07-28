@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+
+
+      {% if page.banner %}
+        <a href="{{ site.url }}{{ site.baseurl }}">
+          <div class="page__image" style="background-image: url({{site.baseurl}}/assets/images/{{page.banner}})">
+            {% if page.banner_caption %}
+              <span class="page__image-caption">{{ page.banner_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        </a>
+      {% endif %}
+
+
+      {{ content }}
+
+
+      {% assign entries_layout = page.entries_layout | default: 'list' %}
+
+      {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+
+      <h1 class="page__title">Posts by Year</h1>
+
+      {% for year in postsByYear %}
+
+      <section id="{{ year.name }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ year.name }}</h2>
+
+        <section id="{{ year.name }}" class="taxonomy__section">
+          <div class="entries-{{ entries_layout }}">
+            {% for post in year.items %}
+
+              {% assign postFlag = false %}
+
+              {% for pageTag in page.tags %}
+                {% for postTag in post.tags %}
+                  {% if postTag == pageTag %}
+                    {% include archive-single.html type=entries_layout %}
+                    {% assign postFlag = true %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+
+                {% if postFlag == true %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </div>
+        </section>
+        <a href="#site-nav" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+      </section>
+
+
+      {% endfor %}
+
+</section>
+</article>
+
+</div>
