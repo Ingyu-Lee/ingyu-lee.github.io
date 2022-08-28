@@ -8,6 +8,7 @@ use_math: true
 categories:
   - Studies
 tags:
+  - Paper Reviews
   - Mechanical Engineering
   - Ultrasonic Transducers
 toc: true
