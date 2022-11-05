@@ -1,13 +1,13 @@
 ---
 title: "220718 Phuguri tea estate Assam 5.0g/500ml/300s"
 excerpt: "Darjeeling / Phuguri tea estate / 5.0 g / 500 ml / 300 s"
-thumbnail: 220718_PhuguriTeaEstate_Darjeeling_0001.jpg
+thumbnail: tea_notes/220718_PhuguriTeaEstate_Darjeeling_0001.jpg
 banner: 999999_home_image_banner_blacktea.jpg
 banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
-  - Tea-Notes
+  - Hobbies/darjeeling
 tags:
   - Darjeeling
 sidebar:
@@ -16,8 +16,8 @@ sidebar:
 ---
 
 <figure class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/220718_PhuguriTeaEstate_Darjeeling_0000.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/220718_PhuguriTeaEstate_Darjeeling_0000.png">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/220718_PhuguriTeaEstate_Darjeeling_0000.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/220718_PhuguriTeaEstate_Darjeeling_0000.png">
   </a>
   <figcaption>
   Fig.1 Phuguri Tea Estate Darjeeling FTGFOP1
@@ -25,8 +25,8 @@ sidebar:
 </figure>
 
 <figure class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/220718_PhuguriTeaEstate_Darjeeling_0002.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/220718_PhuguriTeaEstate_Darjeeling_0002.png">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/220718_PhuguriTeaEstate_Darjeeling_0002.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/220718_PhuguriTeaEstate_Darjeeling_0002.png">
   </a>
   <figcaption>
   Fig.2 Phuguri Tea Estate Darjeeling FTGFOP1
@@ -76,8 +76,8 @@ sidebar:
 ## Result
 
 <figure style="width: 75%" class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/200417_TeaFlavourWheel_eng.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/200417_TeaFlavourWheel_eng.png">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/200417_TeaFlavourWheel_eng.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/200417_TeaFlavourWheel_eng.png">
   </a>
   <figcaption>
   Fig.3 Tea Flavour Wheel

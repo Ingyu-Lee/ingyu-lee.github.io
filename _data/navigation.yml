@@ -4,10 +4,10 @@ main:
     url: /cv/
   - title: "Studies"
     url: /studies/
-  - title: "Hobbies"
+  - title: "Hobbies I"
     url: /hobbies/
-  - title: "Tea Note"
-    url: /tea-notes/
+  - title: "Hobbies II"
+    url: /otaku-hobbies/
   - title: "Posts"
     url: /posts/
 

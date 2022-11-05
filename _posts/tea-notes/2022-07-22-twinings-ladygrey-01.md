@@ -1,13 +1,13 @@
 ---
 title: "220722 Twinings Lady Grey 10.0g/1,000ml/150s"
 excerpt: "Lady Grey / Twinings / 10.0 g / 1,000 ml / 150 s"
-thumbnail: 220701_twinings_ladygrey_0000.jpg
+thumbnail: tea_notes/220701_twinings_ladygrey_0000.jpg
 banner: 999999_home_image_banner_blacktea.jpg
 banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
-  - Tea-Notes
+  - Hobbies/earl-grey
 tags:
   - Earl Grey
 sidebar:
@@ -16,8 +16,8 @@ sidebar:
 ---
 
 <figure style="width: 300px" class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/220701_twinings_ladygrey_0000.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/220701_twinings_ladygrey_0000.jpg">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/220701_twinings_ladygrey_0000.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/220701_twinings_ladygrey_0000.jpg">
   </a>
   <figcaption>
   Fig.1 Twinings Lady Grey
@@ -66,8 +66,8 @@ sidebar:
 ## Result
 
 <figure style="width: 75%" class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/220721_twinings_ladygrey_0001.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/220721_twinings_ladygrey_0001.jpg">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/220721_twinings_ladygrey_0001.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/220721_twinings_ladygrey_0001.jpg">
   </a>
   <figcaption>
   Fig.2 Tea
@@ -75,8 +75,8 @@ sidebar:
 </figure>
 
 <figure style="width: 75%" class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/200417_TeaFlavourWheel_eng.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/200417_TeaFlavourWheel_eng.png">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/200417_TeaFlavourWheel_eng.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/200417_TeaFlavourWheel_eng.png">
   </a>
   <figcaption>
   Fig.3 Tea Flavour Wheel

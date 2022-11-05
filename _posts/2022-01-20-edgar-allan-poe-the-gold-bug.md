@@ -8,6 +8,7 @@ categories:
   - Hobbies
 tags:
   - Books
+  - Edgar Allan Poe
 ---
 
 <figure class="align-center" style="width: 450px">

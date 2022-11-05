@@ -1,13 +1,13 @@
 ---
 title: "200108 ToH Darjeeling 8g/500ml/180s"
 excerpt: "Darjeeling / ToH / 8 g / 500 ml / 180 s"
-thumbnail: 191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg
+thumbnail: tea_notes/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg
 banner: 999999_home_image_banner_blacktea.jpg
 banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
-  - Tea-Notes
+  - Hobbies/darjeeling
 tags:
   - Darjeeling
 last_modified_at: 2020-01-08T11:44:00
@@ -16,23 +16,23 @@ sidebar:
   nav: sidebar-toh_darjeeling
 
 gallery:
-  - url: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0010.jpg
-    image_path: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0010.jpg
+  - url: /assets/images/tea_notes/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0010.jpg
+    image_path: /assets/images/tea_notes/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0010.jpg
     title: "Fig.2 예열되지 않은 비커에 물을 500 ml 담았을 때의 온도"
-  - url: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0011.jpg
-    image_path: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0011.jpg
+  - url: /assets/images/tea_notes/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0011.jpg
+    image_path: /assets/images/tea_notes/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0011.jpg
     title: "Fig.3 위 fig. 2 의 과정으로 예열된 비커에 물을 500 ml 담았을 때의 온도"
-  - url: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0012.jpg
-    image_path: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0012.jpg
+  - url: /assets/images/tea_notes/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0012.jpg
+    image_path: /assets/images/tea_notes/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0012.jpg
     title: "Fig.4 찻잎 8 g 이 담긴 찻주전자에 위 fig. 3 의 물을 넣고난 후 90 초 시점의 온도"
-  - url: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0013.jpg
-    image_path: /assets/images/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0013.jpg
+  - url: /assets/images/tea_notes/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0013.jpg
+    image_path: /assets/images/tea_notes/200108_TaylorsOfHarrogate_AfternoonDarjeeling_0013.jpg
     title: "Fig.5 찻잎 8 g 이 담긴 찻주전자에 위 fig. 3 의 물을 넣고난 후 150 초 시점의 온도"
 ---
 
 <figure class="align-center" style="width: 300px">
-  <a href="/assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg" alt="">
+  <a href="/assets/images/tea_notes/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/191224_TaylorsOfHarrogate_AfternoonDarjeeling_0000.jpg" alt="">
   </a>
   <figcaption>
   Fig.1 Taylors of Harrogate Afternoon Darjeeling

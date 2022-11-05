@@ -26,7 +26,13 @@ layout: default
     <div class="page__inner-wrap">
       {% if page.banner %}
         {% assign crumbs = page.url | split: '/' %}
-        <a href="{{ crumbs[1] | replace: '%20', '_' | relative_url }}">
+        {% assign crumbsLength = crumbs | size | minus: 2 %}
+        {% assign bannerLink = "" %}
+        {% for i in (1..crumbsLength)%}
+          {% assign bannerLink = bannerLink | append: crumbs[i] | append: "/" %}
+        {% endfor %}
+
+        <a href="{{ bannerLink | replace: '%20', '-' | relative_url }}">
           <div class="page__image" style="background-image: url({{site.baseurl}}/assets/images/{{page.banner}})">
             {% if page.banner_caption %}
               <span class="page__image-caption">{{ page.banner_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>

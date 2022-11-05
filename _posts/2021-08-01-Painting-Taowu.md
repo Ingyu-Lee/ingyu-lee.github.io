@@ -5,7 +5,7 @@ banner: 999999_category_infinity_00.jpg
 banner_caption: Hobbies
 last_modified_at: 2021-08-01T11:30:00
 categories:
-  - Hobbies
+  - Otaku-hobbies
 tags:
   - Miniatures
 toc: true

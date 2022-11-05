@@ -1,13 +1,13 @@
 ---
 title: "220720 Daheeyeon Sejak 5.0g/500ml/270s"
 excerpt: "Sejak / Daheeyeon / 5.0 g / 500 ml / 270 s"
-thumbnail: 220708_daheeyeon_Sejak_0001.jpg
+thumbnail: tea_notes/220708_daheeyeon_Sejak_0001.jpg
 banner: 999999_home_image_banner_blacktea.jpg
 banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
-  - Tea-Notes
+  - Hobbies/etc
 tags:
   - Sejak
 sidebar:
@@ -16,8 +16,8 @@ sidebar:
 ---
 
 <figure class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/220708_daheeyeon_Sejak_0000.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/220708_daheeyeon_Sejak_0000.png">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/220708_daheeyeon_Sejak_0000.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/220708_daheeyeon_Sejak_0000.png">
   </a>
   <figcaption>
   Fig.1 Daheeyeon Sejak
@@ -66,8 +66,8 @@ sidebar:
 ## Result
 
 <figure style="width: 75%" class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/200417_TeaFlavourWheel_eng.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/200417_TeaFlavourWheel_eng.png">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/200417_TeaFlavourWheel_eng.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/tea_notes/200417_TeaFlavourWheel_eng.png">
   </a>
   <figcaption>
   Fig.2 Tea Flavour Wheel
