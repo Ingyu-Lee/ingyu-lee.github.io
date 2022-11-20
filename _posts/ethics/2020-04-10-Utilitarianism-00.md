@@ -10,6 +10,7 @@ toc_sticky: true
 categories:
   - Hobbies/Ethics
 tags:
+  - Books
   - Ethics
   - Utilitarianism
 last_modified_at: 2020-04-10T15:33:00
