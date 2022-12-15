@@ -46,7 +46,7 @@ Underwater SLAM에 활용되는 다양한 센서와 그 특징을 다루고, SSS
 
 ### B. Long Baseline (LBL)
 
-<figure style="width: 40%" class="align-center">
+<figure style="width: 60%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/lbl.png">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/lbl.png" alt="">
   </a>
@@ -61,7 +61,7 @@ Underwater SLAM에 활용되는 다양한 센서와 그 특징을 다루고, SSS
 
 ### C. GNSS Aided Ultrashort Baseline
 
-<figure style="width: 40%" class="align-center">
+<figure style="width: 60%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/sbl.png">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/sbl.png" alt="">
   </a>
@@ -74,7 +74,7 @@ GNSS는 Global Navigation Satellite System으로, 위성항법시스템으로 �
 
 ### D. Cameras - Gated Viewing
 
-<figure style="width: 40%" class="align-center">
+<figure style="width: 60%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/gatedview00.jpg">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/gatedview00.jpg" alt="">
   </a>
@@ -83,7 +83,7 @@ GNSS는 Global Navigation Satellite System으로, 위성항법시스템으로 �
   </figcaption>
 </figure>
 
-<figure style="width: 40%" class="align-center">
+<figure style="width: 60%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/gatedview01.jpg">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/gatedview01.jpg" alt="">
   </a>
@@ -130,7 +130,7 @@ GNSS는 Global Navigation Satellite System으로, 위성항법시스템으로 �
 
 #### 2) Multi-beam Sonar
 
-<figure style="width: 40%" class="align-center">
+<figure style="width: 60%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/multibeam.png">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/multibeam.png" alt="">
   </a>
@@ -206,6 +206,15 @@ GNSS는 Global Navigation Satellite System으로, 위성항법시스템으로 �
 
 ### A. Estimating Elevation from Shadows
 
+<figure style="width: 40%" class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/css.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/css.png" alt="">
+  </a>
+  <figcaption>
+  Fig.7 Co-operative statistical snake
+  </figcaption>
+</figure>
+
 <div class="tex2jax_ignore">
 * Co-operative Statistical Snake(CSS)[3]
   * Shadowed region과 object(highlighted)를 detection
@@ -220,6 +229,15 @@ GNSS는 Global Navigation Satellite System으로, 위성항법시스템으로 �
 
 ### B. Propagation Shape-from-Shading
 
+<figure style="width: 50%" class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/sfs.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/sfs.png" alt="">
+  </a>
+  <figcaption>
+  Fig.8 Shape from shadows
+  </figcaption>
+</figure>
+
 <div class="tex2jax_ignore">
 * SSS data의 line by line으로 3D reconstruction을 수행하는 방법 중 하나[4]
 * The towfish의 바로 아래의 해저면(SSS data centerline으로부터의 first greatest difference of grey-level value)은 towfish에 대해 normal한 면으로 가정
@@ -233,7 +251,7 @@ GNSS는 Global Navigation Satellite System으로, 위성항법시스템으로 �
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/ref5.png" alt="">
   </a>
   <figcaption>
-  Fig.7 Path of the side-scan sonar and tilt angle \[\tau\]
+  Fig.9 Path of the side-scan sonar and tilt angle \[\tau\]
   </figcaption>
 </figure>
 
@@ -255,10 +273,10 @@ F(\omega, \theta) = I_i \mu i [\omega F_H ( \omega, \theta ) ] [\cos(\theta + \t
 
 <div class="tex2jax_ignore">
 * 앞서 propagation shape-from-shading 과정에서 Fourier transformed intensity가 nonlinear eqn. 인데, 이를 linear eqn. 으로 근사[6]
+</div>
   * Nonlinear components를 Wiener filter로 제거
   * 노이즈 \[N(\omega, \theta)\] 는 \[\sin(2\sigma) \cos(\theta+\tau)\] 에 비례한다고 가정
   * 표면을 fractal Brownian function으로 가정하여 power spectrum이 \[w^{-4}\] 에 비례
-</div>
 
 \[\therefore\] Propagation SfS는 processing ripples에 robust하고,<br>linear SfS는 noise와 processing isotropic seabed 에 robust하다.
 
@@ -341,12 +359,12 @@ F(\omega, \theta) = I_i \mu i [\omega F_H ( \omega, \theta ) ] [\cos(\theta + \t
 
 ### C. 3D SLAM on Sonar Data
 
-<figure style="width: 40%" class="align-center">
+<figure style="width: 50%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/threeDSLAM.png">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/threeDSLAM.png" alt="">
   </a>
   <figcaption>
-  Fig.8 3D SLAM in an underwater tunnel
+  Fig.10 3D SLAM in an underwater tunnel
   </figcaption>
 </figure>
 
