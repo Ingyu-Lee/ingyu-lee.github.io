@@ -207,8 +207,8 @@ GNSS는 Global Navigation Satellite System으로, 위성항법시스템으로 �
 ### A. Estimating Elevation from Shadows
 
 <figure style="width: 40%" class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/css.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/css.png" alt="">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/css.PNG">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/css.PNG" alt="">
   </a>
   <figcaption>
   Fig.7 Co-operative statistical snake
@@ -230,8 +230,8 @@ GNSS는 Global Navigation Satellite System으로, 위성항법시스템으로 �
 ### B. Propagation Shape-from-Shading
 
 <figure style="width: 50%" class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/sfs.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/sfs.png" alt="">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/sfs.PNG">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/sfs.PNG" alt="">
   </a>
   <figcaption>
   Fig.8 Shape from shadows
