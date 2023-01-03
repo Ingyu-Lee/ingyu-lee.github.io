@@ -99,7 +99,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Graduate student"
   location         : "Pohang, Republic of Korea"
-  email            : "ingyulee@postech.ac.kr"
+  # email            : "ingyulee@postech.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
