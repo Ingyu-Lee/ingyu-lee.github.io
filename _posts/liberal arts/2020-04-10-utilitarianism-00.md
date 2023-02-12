@@ -3,21 +3,21 @@ title: "공리주의 제1장 머리말"
 excerpt: "존 스튜어트 밀의 공리주의Utilitarianism 제1장 머리말"
 thumbnail: ethics/200410_Utilitarianism_00_300.jpg
 banner: 999999_ethics_00_800.jpg
-banner_caption: Ethics
+banner_caption: Liberal Arts
 use_math: true
 toc: true
 toc_sticky: true
 categories:
-  - Hobbies/Ethics
+  - Hobbies/Liberal-Arts
 tags:
   - Books
-  - Ethics
+  - Liberal Arts
   - Utilitarianism
 last_modified_at: 2020-04-10T15:33:00
 ---
 
 <div align="center">
-  <img src="/assets/images/ethics/200410_Utilitarianism_00.jpg" width="300">
+  <img src="/assets/images/liberal_arts/200410_Utilitarianism_00.jpg" width="300">
   <p style="color:#aeb6bf;" style="font-size:16px;">Fig.1 책 표지</p>
 </div>
 

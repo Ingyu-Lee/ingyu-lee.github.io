@@ -3,22 +3,22 @@ title: "공리주의 제2장 공리주의란 무엇인가"
 excerpt: "존 스튜어트 밀의 공리주의Utilitarianism 제2장 공리주의란 무엇인가"
 thumbnail: ethics/200410_Utilitarianism_00_300.jpg
 banner: 999999_ethics_00_800.jpg
-banner_caption: Ethics
+banner_caption: Liberal Arts
 use_math: true
 toc: true
 toc_sticky: true
 categories:
-  - Hobbies/Ethics
+  - Hobbies/Liberal-Arts
 tags:
   - Books
-  - Ethics
+  - Liberal Arts
   - Utilitarianism
 last_modified_at: 2020-04-17T23:08:00
 ---
 
 <figure style="width: 300px" class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/ethics/200410_Utilitarianism_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ethics/200410_Utilitarianism_00.jpg">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/200410_Utilitarianism_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/200410_Utilitarianism_00.jpg">
   </a>
   <figcaption>
   Fig.1 Book cover
@@ -146,8 +146,8 @@ Those who know anything about the matter are aware that every writer, from Epicu
 ​It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied.<sup>2</sup>
 
 <figure style="width: 300px" class="align-center">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/ethics/200410_Utilitarianism_01.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ethics/200410_Utilitarianism_01.jpg">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/200410_Utilitarianism_01.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/200410_Utilitarianism_01.jpg">
   </a>
   <figcaption>
   Fig.2 Maslow's hierarchy of needs
