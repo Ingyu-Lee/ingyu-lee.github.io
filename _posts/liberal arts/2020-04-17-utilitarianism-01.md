@@ -1,7 +1,7 @@
 ---
 title: "공리주의 제2장 공리주의란 무엇인가"
 excerpt: "존 스튜어트 밀의 공리주의Utilitarianism 제2장 공리주의란 무엇인가"
-thumbnail: ethics/200410_Utilitarianism_00_300.jpg
+thumbnail: liberal_arts/200410_Utilitarianism_00_300.jpg
 banner: 999999_ethics_00_800.jpg
 banner_caption: Liberal Arts
 use_math: true
