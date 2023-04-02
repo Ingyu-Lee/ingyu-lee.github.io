@@ -13,7 +13,7 @@ tags:
 
 <figure class="align-center" style="width: 450px">
   <a href="/assets/images/220120_EdgarAllanPoe_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/220120_EdgarAllanPoe_00.jpg" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg" alt="">
   </a>
   <figcaption>
   Fig.1 에드거 앨런 포 전집, 시공사
