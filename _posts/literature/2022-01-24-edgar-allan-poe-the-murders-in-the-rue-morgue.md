@@ -1,6 +1,6 @@
 ---
 title: "모르그 가의 살인The Murders in the Rue Morgue"
-thumbnail: 220120_EdgarAllanPoe_00.jpg
+thumbnail: literatures/edgar_allan_poe/220120_theMurdersInTheRueMorgue_00.jpg
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Hobbies
 last_modified_at: 2021-08-01T11:30:00
@@ -11,8 +11,8 @@ tags:
   - Edgar Allan Poe
 ---
 
-<figure class="align-center" style="width: 450px">
-  <a href="/assets/images/220120_EdgarAllanPoe_00.jpg">
+<figure class="align-center" style="width: 200px">
+  <a href="/assets/images/literatures/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg" alt="">
   </a>
   <figcaption>
