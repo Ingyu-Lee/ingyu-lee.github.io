@@ -67,7 +67,7 @@ tags:
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230227_tightrope_00.jpg" alt="">
   </a>
   <figcaption>
-  Fig.5 서술 트릭과 추리 포기 사이의 아슬아슬한 줄타6
+  Fig.5 서술 트릭과 추리 포기 사이의 아슬아슬한 줄타기
   </figcaption>
 </figure>
 
