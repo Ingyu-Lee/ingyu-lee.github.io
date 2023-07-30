@@ -84,11 +84,9 @@ tags:
 
 우리는 이런 감정을 살인현장에서 볼 일은 없겠지만, 인간 관계에서 많이 느낄 수 있다. 이상적으로 서로를 배려해주는 관계는 드물다. 학교를 졸업하고 직장에서, 또는 이해관계로 사람을 만날수록, 또는 마주치는 시간이 길 수록 인간 관계에서의 주도권 싸움이 치열해진다. 그리고 위계 차이가 커질수록, 상대가 매여 있을수록 주도권을 가진 측의 그 만족감은 살인 현장에서의 그것과 비슷하지 않을까.
 
-더 띵 포스터
-
 <figure class="align-center" style="width: 300px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230716_hannibal_powerful_00.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230716_hannibal_powerful_01_300.png" alt="">
+  <a href="/assets/images/literatures/edgar_allan_poe/230716_theThing_00.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230716_theThing_01_300.png" alt="">
   </a>
   <figcaption>
   Fig.7 The Thing, 1982
