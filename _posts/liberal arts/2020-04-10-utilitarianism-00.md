@@ -1,7 +1,7 @@
 ---
 title: "공리주의 제1장 머리말"
 excerpt: "존 스튜어트 밀의 공리주의Utilitarianism 제1장 머리말"
-thumbnail: liberal_arts/200410_Utilitarianism_00_300.jpg
+thumbnail: liberal_arts/utilitarianism/200410_Utilitarianism_00_300.jpg
 banner: 999999_ethics_00_800.jpg
 banner_caption: Liberal Arts
 use_math: true
@@ -16,10 +16,14 @@ tags:
 last_modified_at: 2020-04-10T15:33:00
 ---
 
-<div align="center">
-  <img src="/assets/images/liberal_arts/200410_Utilitarianism_00.jpg" width="300">
-  <p style="color:#aeb6bf;" style="font-size:16px;">Fig.1 책 표지</p>
-</div>
+<figure style="width: 300px" class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/utilitarianism/200410_Utilitarianism_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/utilitarianism/200410_Utilitarianism_00.jpg">
+  </a>
+  <figcaption>
+  Fig.1 Book cover
+  </figcaption>
+</figure>
 
 # 본문 내용 요약
 
