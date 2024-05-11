@@ -48,8 +48,29 @@ layout: default
 
       {% for year in postsByYear %}
 
-      <section id="{{ year.name }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ year.name }}</h2>
+        {% assign isPost = false %}
+
+          {% for post in year.items %}
+            {% for pageTag in page.tags %}
+              {% for postTag in post.tags %}
+                {% if postTag == pageTag %}
+                  {% assign isPost = true %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+
+              {% if isPost == true %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+
+        {% if isPost == false %}
+          {% continue %}
+        {% endif %}
+
+        <section id="{{ year.name }}" class="taxonomy__section">
+          <h2 class="archive__subtitle">{{ year.name }}</h2>
 
         <section id="{{ year.name }}" class="taxonomy__section">
           <div class="entries-{{ entries_layout }}">
@@ -73,8 +94,8 @@ layout: default
             {% endfor %}
           </div>
         </section>
-        <a href="#site-nav" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-      </section>
+          <a href="#site-nav" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+        </section>
 
 
       {% endfor %}
