@@ -5,9 +5,10 @@ banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Hobbies
 last_modified_at: 2021-08-01T11:30:00
 categories:
-  - Hobbies
+  - Hobbies/Literature
 tags:
   - Books
+  - Literature
   - Edgar Allan Poe
 ---
 

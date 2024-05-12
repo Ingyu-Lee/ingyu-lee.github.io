@@ -4,7 +4,7 @@ thumbnail: literature/stanislaw_lem/230730_solarice_01_300.png
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Hobbies
 categories:
-  - Hobbies
+  - Hobbies/Liberal-Arts
 tags:
   - Books
   - Stanislaw Lem

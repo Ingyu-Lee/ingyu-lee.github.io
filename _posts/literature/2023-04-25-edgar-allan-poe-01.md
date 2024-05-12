@@ -4,9 +4,10 @@ thumbnail: literature/edgar_allan_poe/230227_theMurdersInTheRueMorgue_00.jpg
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Hobbies
 categories:
-  - Hobbies
+  - Hobbies/Literature
 tags:
   - Books
+  - Literature
   - Edgar Allan Poe
 ---
 
