@@ -10,7 +10,9 @@
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item-practice">
         {% if f.image_path %}
+        <div class="archive__item-teaser">
           {% if f.url %}
+            
             <a href="{{ f.url | relative_url }}" class="archive__image-practice" style="background-image: url({{ f.image_path | relative_url }})">
             </a>
             {% if f.image_caption %}
@@ -27,18 +29,20 @@
           {% endif %}
         {% endif %}
 
+        </div>
+
         <div class="archive__item-body">
           {% if f.title %}
             {% if f.url %}
-              <h2 class="archive__item-title">
+              <h1 class="archive__item-title">
                 <a href="{{ f.url | relative_url }}">
                   {{ f.title }}
                 </a>
-              </h2>
+              </h1>
             {% else %}
-              <h2 class="archive__item-title">
+              <h1 class="archive__item-title">
                 {{ f.title }}
-              </h2>
+              </h1>
             {% endif %}
           {% endif %}
 
