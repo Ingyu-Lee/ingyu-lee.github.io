@@ -1,6 +1,6 @@
 ---
 title: "에드거 앨런 포 추리·공포 단편선 1: 추리 소설"
-thumbnail: literatures/edgar_allan_poe/230227_theMurdersInTheRueMorgue_00.jpg
+thumbnail: literature/edgar_allan_poe/230227_theMurdersInTheRueMorgue_00.jpg
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Hobbies
 categories:
@@ -11,8 +11,8 @@ tags:
 ---
 
 <figure class="align-center" style="width: 200px">
-  <a href="/assets/images/literatures/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg" alt="">
   </a>
   <figcaption>
   Fig.1 에드거 앨런 포 전집, 시공사
@@ -26,8 +26,8 @@ tags:
 이번 포스트에서는, 위에 나열한 항목들 중에서, 맹인모상식 사건 서술과 추리 유도에 관한 생각에 대해 서술해 보기로 한다.
 
 <figure class="align-center" style="width: 450px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230227_blindmen_Elephant_01.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230227_blindmen_Elephant_01.png" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230227_blindmen_Elephant_01.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230227_blindmen_Elephant_01.png" alt="">
   </a>
   <figcaption>
   Fig.2 맹인과 코끼리의 일화와 같이, 에드거 앨런 포는 한 사건에 대해 다양한 시선에서 서술하여 독자의 흥미와 추리 의욕을 이끈다.
@@ -41,8 +41,8 @@ tags:
 현실에서도 여러 사람이 같은 경험을 하더라도 서로 느끼는 점이 다른 것 처럼, 포의 작품에서 여러 증인과 언론사는 다양한 시각으로 사건을 바라본다. 어떤 증인은 인물의 평소의 행실을 증언하고, 어떤 증인은 사건이 발생한 시간의 일을 증언한다. 어떤 언론은 사건에 대해 추리한 의견을 말하고, 어떤 언론은 그와 상반된 추리를 말한다. 작가는 이렇게 독자에게 다양한 증거를 제시하고, 독자는 사건의 진상을 추리해볼 수 있다.
 
 <figure class="align-center" style="width: 450px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230227_answerSheet_02.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230227_answerSheet_02.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230227_answerSheet_02.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230227_answerSheet_02.jpg" alt="">
   </a>
   <figcaption>
   Fig.3 에드거 앨런 포의 추리 소설의 장점 중 하나는, 독자가 추리 과정에 적극적으로 참여하기 쉽다는 것이다.
@@ -52,8 +52,8 @@ tags:
 가장 매력적인 점은, 탐정 또는 진상을 알고 있는 사람이 그 진상을 설명해 주려고 시작하려 할 때를 명확히 서술해, 해답을 알기 직전에 독자가 읽기를 멈추고 생각을 해 볼 수 있는 기회가 주어진다는 점이다. 이는 '황금 벌레' 에서 윌리엄 르그랑이 설명하려고 하는 순간, '길쭉한 상자' 에서 선장이 설명하려고 하는 순간 등으로 잘 보여진다. 마치 곧 해답을 알려주겠다는 분위기의 서술을 통해 독자는 잠시 독서를 멈추고, 지금까지 주어진 사건의 근거를 되짚어 보며 추리를 해 볼 수 있는 기회를 가질 수 있다.
 
 <figure class="align-center">
-  <a href="/assets/images/literatures/edgar_allan_poe/230227_its_a_trap_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230227_its_a_trap_00.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230227_its_a_trap_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230227_its_a_trap_00.jpg" alt="">
   </a>
   <figcaption>
   Fig.4 It's a trap!
@@ -63,8 +63,8 @@ tags:
 하지만 게임이 너무 쉬우면 재미가 없듯이, 작가는 사건에 대해 많고 다양한 근거를 제시하면서도, 자연스럽게 독자의 생각을 한 방향으로 유도하여 함정에 빠트리는 서술 트릭을 사용하여 독자에게 신선함을 안겨준다. 대표적으로 모르그 가의 살인과 황금 벌레가 그러한데, 전자의 경우 주인공(서술자)이 먼저 추리를 시도하면서 독자가 예상할 수 있는 용의자의 범위를 자연스럽게 한정지었으며, 후자의 경우 윌리엄 르그랑에 대한 서술을 주인공(서술자)의 시선으로 한정지어, 그의 행동의 동기를 주인공의 시선으로 한정지어 독자의 생각을 자연스레 한 방향으로 유도하였다.
 
 <figure class="align-center">
-  <a href="/assets/images/literatures/edgar_allan_poe/230227_tightrope_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230227_tightrope_00.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230227_tightrope_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230227_tightrope_00.jpg" alt="">
   </a>
   <figcaption>
   Fig.5 서술 트릭과 추리 포기 사이의 아슬아슬한 줄타기
@@ -76,8 +76,8 @@ tags:
 이러한 점에 대해서, 필자는 추리/미스터리 소설을 많이 읽지는 않았지만, 아서 코난 도일 경과 애거서 크리스티 여사와 비교해 볼 수 있겠다.
 
 <figure class="align-center" style="width: 150px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230227_aStudyInScarlet_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230227_aStudyInScarlet_00.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230227_aStudyInScarlet_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230227_aStudyInScarlet_00.jpg" alt="">
   </a>
   <figcaption>
   Fig.6 아서 코난 도일 경의 주홍색 연구
@@ -87,8 +87,8 @@ tags:
 아서 코난 도일 경의 셜록 홈즈 시리즈는, <a href="https://ingyu-lee.github.io/hobbies/edgar-allan-poe-the-murders-in-the-rue-morgue/">모르그 가의 살인에 대해 리뷰했던 포스트</a>에서도 다루었듯이, 독자에게 단서를 많이 제공해주지 않거나, 셜록 홈즈의 추리 과정에서 독자에게 주어지지 않았던 단서를 꺼내는 경향이 있다. 필자는 이런 서술 방식에서 추리를 포기하고, 셜록 홈즈의 행보에 대해 집중해 모험 소설을 읽는 기분이 들었다. 이는 '주홍색 연구'의 왓슨과 셜록의 첫 대면 장면, 그리고 '바스커빌 가문의 개'의 편지 해석 장면을 예로 들 수 있다. 전자에서는 셜록의 추리를 선행한 다음에 왓슨의 모습에 대한 묘사를 하며, 후자에서도 편지에 대한 추리를 선행하고 편지의 형태에 대한 서술을 한다. 이러한 경향은 독자로 하여금 추리를 멈추게 만들고, 수동적으로 셜록의 추리를 기다리며 모험을 감상하는 데에만 집중하게 만들었다.
 
 <figure class="align-center" style="width: 150px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230227_murderOnTheOrientExpress_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230227_murderOnTheOrientExpress_01.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230227_murderOnTheOrientExpress_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230227_murderOnTheOrientExpress_01.jpg" alt="">
   </a>
   <figcaption>
   Fig.7 애거서 크리스티 여사의 오리엔트 특급 살인 사건

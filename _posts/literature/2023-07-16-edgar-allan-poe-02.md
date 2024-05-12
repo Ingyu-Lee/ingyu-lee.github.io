@@ -1,6 +1,6 @@
 ---
 title: "에드거 앨런 포 추리·공포 단편선 1: 고딕 호러"
-thumbnail: literatures/edgar_allan_poe/230227_theMurdersInTheRueMorgue_00.jpg
+thumbnail: literature/edgar_allan_poe/230227_theMurdersInTheRueMorgue_00.jpg
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Hobbies
 categories:
@@ -11,8 +11,8 @@ tags:
 ---
 
 <figure class="align-center" style="width: 200px">
-  <a href="/assets/images/literatures/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg" alt="">
   </a>
   <figcaption>
   Fig.1 에드거 앨런 포 전집, 시공사
@@ -24,8 +24,8 @@ tags:
 이번 포스트에서는 이렇게나 오래된 포의 공포 단편선이 어떻게 여전히 필자를 공포감에 들게 할 수 있었는지에 대해 다뤄보려고 한다. 개인적인 의견으로는, 포의 이 공포 단편선은 등장인물들의 잔인하고 무서운 행동들을 독자로 하여금 이해시키고, 공감시키며, 나 또한 그럴 수도 있겠다는 감정이 독자를 공포감으로 모는 탁월한 능력이 있다고 생각한다.
 
 <figure class="align-center" style="width: 300px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230618_Caspar_David_Friedrich_-_Klosterruine_im_Schnee_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230618_Caspar_David_Friedrich_-_Klosterruine_im_Schnee_02.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230618_Caspar_David_Friedrich_-_Klosterruine_im_Schnee_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230618_Caspar_David_Friedrich_-_Klosterruine_im_Schnee_02.jpg" alt="">
   </a>
   <figcaption>
   Fig.2 Monastery Burial-Ground Under Snow
@@ -37,8 +37,8 @@ tags:
 포의 작품 중 인간의 본성을 보여주는 작품으로는 "검은 고양이", "군중 속의 남자", "심술의 악령" 을 들 수 있다. 이미 영화 "조커", "미스트" 등에서 평범한 사람이 어려운 상황과 다양한 위기에 직면하고, 스트레스가 쌓이면서, 어떻게 바뀌는지 다양하게 표현된 적이 있다. 포 또한 평범한 사람이 극한의 상황에 몰리면서 비이성적이거나 폭력적 행동을 하는 모습을 묘사하며, 그런 끔찍한 사건이 평범한 사람에게도 일어날 수 있단 것을 보이며 더욱 공포감을 느낄 수 있게 한다.
 
 <figure class="align-center" style="width: 300px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230716_man_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230716_man_01_300.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230716_man_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230716_man_01_300.jpg" alt="">
   </a>
   <figcaption>
   Fig.3 가짜 사나이
@@ -48,8 +48,8 @@ tags:
 필자는 "가짜사나이" 라는 프로그램을 본 적은 없으나, 이와 같은 극기훈련을 하면서 훈련생들은 생존의 영역으로 몰아붙여진다. 자칫하면 목숨을 잃거나, 큰 부상을 입을 수 있는 상황에서 사람은 자연스럽게 자기 보존을 위한 행동을 한다. 그리고 이러한 살아남기 위한 행동은 대부분 이기적인 행동, 비이성적인 행동, 또는 회피적인 행동으로 보여지게 된다. "이기적 유전자" 식으로 말하면, 유전자 단위에서의 이기적 행동이 아닌, 개체 보존 단위에서의 이기적 행동이라고 할 수도 있을 것이다.
 
 <figure class="align-center" style="width: 300px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230618_irrational_00.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230618_irrational_01.png" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230618_irrational_00.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230618_irrational_01.png" alt="">
   </a>
   <figcaption>
   Fig.4 Darkest Dungeon Affliction
@@ -61,8 +61,8 @@ tags:
 즉, 흉악하고 기괴한, 멀게만 느껴졌던 살인범을 우리 주변에서 쉽게 볼 수 있는, 또는 가까이서 볼 수 있는 사람으로 다가오게 만들었다는 점이 포의 공포 소설이 가지는 강점으로 생각한다. 인종차별주의자나 해산물 혐오자가 아닌 이상 러브크래프트의 일부 작품들은 이해하기 어려워 공포감을 느끼기 어려운 것에 비해, 포는 이 살인범의 심리를 이해할 수 있다는 점이 공포 소설로서 중요한 점을 살렸다고 생각한다.
 
 <figure class="align-center" style="width: 300px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230716_telltaleheart_00.jpeg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230716_telltaleheart_01_300.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230716_telltaleheart_00.jpeg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230716_telltaleheart_01_300.jpg" alt="">
   </a>
   <figcaption>
   Fig.5 Harry Clarke, The Tell-Tale Heart
@@ -72,8 +72,8 @@ tags:
 포의 작품에서 특이한 점 중 하나로는, 등장인물들이 충동적인 행동을, 특히 자기 파괴적인 행동을 한다는 점이다. 예를 들어 "고자쟁이 심장"과 "심술의 악령"에서의 화자의 고백이나, "네가 범인이다" 등에서의 고백이 있다. 왜 범인들이 스스로 파멸에 이르는 행위를 하는걸까?
 
 <figure class="align-center" style="width: 300px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230716_imp_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230716_imp_01_300.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230716_imp_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230716_imp_01_300.jpg" alt="">
   </a>
   <figcaption>
   Fig.6 The impulsive, the imp of the perverse
@@ -85,8 +85,8 @@ tags:
 살인사건을 자백하는 것은 공감이 쉽지 않다. 하지만 내일까지 해야 하는 일을 미루고 다른 짓을 하면서 노는 것은 재미있고, 월요일에 일찍 일어나 출근해야 하지만 일요일 밤 늦게까지 노는 건 재미있다는 것에는 공감할 수 있다. "심술의 악령" 에서는 이런 이해하기 쉬운 예시를 들어 우리를 설득한다. 그리고 화자가 스스로 자백하게 되는 경위와 그 심정을 상세히 서술해, 더더욱 독자를 설득하고 이해시킨다.
 
 <figure class="align-center" style="width: 300px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230716_hannibal_powerful_00.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230716_hannibal_powerful_01_300.png" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230716_hannibal_powerful_00.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230716_hannibal_powerful_01_300.png" alt="">
   </a>
   <figcaption>
   Fig.7 Hannibal S1E2, God is terrific
@@ -98,8 +98,8 @@ tags:
 우리는 이런 감정을 살인현장에서 볼 일은 없겠지만, 인간 관계에서 많이 느낄 수 있다. 이상적으로 서로를 배려해주는 관계는 드물다. 학교를 졸업하고 직장에서, 또는 이해관계로 사람을 만날수록, 또는 마주치는 시간이 길 수록 인간 관계에서의 주도권 싸움이 치열해진다. 그리고 위계 차이가 커질수록, 상대가 매여 있을수록 주도권을 가진 측의 그 만족감은 살인 현장에서의 그것과 비슷하지 않을까.
 
 <figure class="align-center" style="width: 300px">
-  <a href="/assets/images/literatures/edgar_allan_poe/230716_theThing_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/230716_theThing_01_300.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/230716_theThing_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/230716_theThing_01_300.jpg" alt="">
   </a>
   <figcaption>
   Fig.8 The Thing, 1982

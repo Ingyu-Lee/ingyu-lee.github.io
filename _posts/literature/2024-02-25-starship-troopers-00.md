@@ -1,6 +1,6 @@
 ---
 title: "솔라리스"
-thumbnail: literatures/stanislaw_lem/230730_solarice_01_300.png
+thumbnail: literature/stanislaw_lem/230730_solarice_01_300.png
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Hobbies
 categories:
@@ -12,8 +12,8 @@ tags:
 ---
 
 <figure class="align-center" style="width: 300px">
-  <a href="/assets/images/literatures/stanislaw_lem/230730_solarice_00.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/stanislaw_lem/230730_solarice_01_300.png" alt="">
+  <a href="/assets/images/literature/stanislaw_lem/230730_solarice_00.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/stanislaw_lem/230730_solarice_01_300.png" alt="">
   </a>
   <figcaption>
   Fig.1 스타십 트루퍼스, 황금가지

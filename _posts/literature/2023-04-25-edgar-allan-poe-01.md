@@ -1,6 +1,6 @@
 ---
 title: "에드거 앨런 포 추리·공포 단편선 1: 과학 소설"
-thumbnail: literatures/edgar_allan_poe/230227_theMurdersInTheRueMorgue_00.jpg
+thumbnail: literature/edgar_allan_poe/230227_theMurdersInTheRueMorgue_00.jpg
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Hobbies
 categories:
@@ -11,8 +11,8 @@ tags:
 ---
 
 <figure class="align-center" style="width: 200px">
-  <a href="/assets/images/literatures/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literatures/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg" alt="">
+  <a href="/assets/images/literature/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/literature/edgar_allan_poe/220120_EdgarAllanPoe_00.jpg" alt="">
   </a>
   <figcaption>
   Fig.1 에드거 앨런 포 전집, 시공사
