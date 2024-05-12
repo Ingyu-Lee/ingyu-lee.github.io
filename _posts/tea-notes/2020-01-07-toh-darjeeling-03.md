@@ -7,7 +7,7 @@ banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
-  - Hobbies/darjeeling
+  - Hobbies/tea
 tags:
   - Darjeeling
 last_modified_at: 2020-01-07T11:14:00

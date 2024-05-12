@@ -7,7 +7,7 @@ banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
-  - Hobbies/earl-grey
+  - Hobbies/tea
 tags:
   - Earl Grey
 sidebar:

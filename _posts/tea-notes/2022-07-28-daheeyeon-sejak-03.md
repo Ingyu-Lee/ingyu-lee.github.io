@@ -7,7 +7,7 @@ banner_caption: Tea Note
 toc: true
 toc_sticky: true
 categories:
-  - Hobbies/etc
+  - Hobbies/tea
 tags:
   - Sejak
 sidebar:
