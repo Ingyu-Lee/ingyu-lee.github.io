@@ -27,9 +27,8 @@
             {% endif %}
 
           {% endif %}
-        {% endif %}
-
         </div>
+        {% endif %}
 
         <div class="archive__item-body">
           {% if f.title %}
