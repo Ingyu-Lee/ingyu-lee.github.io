@@ -15,6 +15,10 @@
 <nav class="breadcrumbs">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     {% assign crumbs = page.url | split: '/' %}
+
+    {% assign crumbsLength = crumbs | size | minus: 2 %}
+    {% assign crumbAccum = "" %}
+
     {% assign i = 1 %}
     {% for crumb in crumbs offset: 1 %}
       {% if forloop.first %}
@@ -27,9 +31,11 @@
       {% if forloop.last %}
         <li class="current">{{ page.title }}</li>
       {% else %}
+        {% assign j = i %}
         {% assign i = i | plus: 1 %}
+        {% assign crumbAccum = crumbAccum | append: crumbs[j] | append: "/" %}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="{{ crumb | downcase | replace: '%20', '_' | relative_url }}" itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | replace: '%20', ' ' | capitalize }}</span></a>
+          <a href="{{ crumbAccum | downcase | replace: '%20', '_' | relative_url }}" itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | replace: '%20', ' ' | capitalize }}</span></a>
           <meta itemprop="position" content="{{ i }}" />
         </li>
         <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
