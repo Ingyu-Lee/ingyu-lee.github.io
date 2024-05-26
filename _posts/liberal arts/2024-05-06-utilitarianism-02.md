@@ -6,6 +6,9 @@ banner: 999999_ethics_00_800.jpg
 banner_caption: Ethics
 toc: true
 toc_sticky: true
+sidebar:
+  title: "공리주의"
+  nav: sidebar-utilitarianism-jsmill
 categories:
   - Hobbies/Liberal-Arts
 tags:
