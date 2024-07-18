@@ -8,3 +8,6 @@ gem "webrick", "~> 1.7"
 gem 'tzinfo'
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'tzinfo-data'
+gem 'base64'
+gem 'bigdecimal'
+gem 'csv'
