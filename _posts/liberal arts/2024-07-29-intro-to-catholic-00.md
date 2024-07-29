@@ -4,6 +4,9 @@ excerpt: "서양 문명을 이해하기 위한 카톨릭의 이해"
 thumbnail: liberal_arts/religion/240729_catholic_00.jpg
 banner: 999999_home_image_banner_textbook_600_400.jpg
 banner_caption: Religion
+sidebar:
+  title: "카톨릭 공부"
+  nav: sidebar-catholic
 categories:
   - Hobbies/Liberal-Arts
 tags:
