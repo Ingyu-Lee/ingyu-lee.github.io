@@ -155,6 +155,7 @@ kbd,
 samp,
 pre {
   font-family: $monospace;
+  white-space : pre-wrap !important;
 }
 
 pre {
