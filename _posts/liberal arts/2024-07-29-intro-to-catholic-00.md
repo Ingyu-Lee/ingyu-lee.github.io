@@ -73,7 +73,7 @@ tags:
 
 ## 제4과 천주교 소개
 
-<figure style="width: 60%" class="align-center">
+<figure style="width: 50%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/religion/240731_00.jpg">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/religion/240731_00.jpg">
   </a>
@@ -84,7 +84,7 @@ tags:
 
 전례는 카톨릭의 공식적인 경신례敬神禮로, 이를 통해 신자들은 하느님을 흠숭하고 하느님께 영광을 드리며 은총을 받아 거룩하게 된다. 또한 신자들끼리 형제적 사랑을 나누고 그리스도 안에서 일치를 이룬다.
 
-<figure style="width: 60%" class="align-center">
+<figure style="width: 80%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/religion/240731_01.jpg">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/religion/240731_01.jpg">
   </a>
@@ -95,7 +95,7 @@ tags:
 
 카톨릭의 대표적 전례인 미사는 위와 같은 구성과 순서를 따른다. 말씀 전례는 하느님의 말씀을 선포하는 부분으로, 구약 성경, 사도들의 서간들, 그리고 복음서의 말씀들이 봉독된다. 성찬 전례에서는 최후의 만찬 때 사용된 빵과 포도주가 봉헌되고, 축성문을 외우고, 영성체 예식이 진행된다.
 
-<figure style="width: 60%" class="align-center">
+<figure style="width: 50%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/religion/240731_02.jpg">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/religion/240731_02.jpg">
   </a>
@@ -114,7 +114,7 @@ tags:
 
 ## 제5과 성경이란 무엇인가?
 
-<figure style="width: 60%" class="align-center">
+<figure style="width: 70%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/religion/240731_03.jpg">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/religion/240731_03.jpg">
   </a>
