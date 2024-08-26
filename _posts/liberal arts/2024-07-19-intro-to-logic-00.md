@@ -4,6 +4,8 @@ excerpt: "Irving M. Copi의 논리학입문 교과서 공부"
 thumbnail: liberal_arts/logic/240719_intro_to_logic_00.jpg
 banner: 999999_home_image_banner_textbook_600_400.jpg
 banner_caption: Logic
+toc: true
+toc_sticky: true
 categories:
   - Hobbies/Liberal-Arts
 tags:
