@@ -269,5 +269,3 @@ A와 B는 연간보고서의 신뢰에 대해 불일치를 보이고 있으므�
 1 Copi, I. M., *논리학 입문*, 박만준, 윤진각, Transl., Seoul, S.Korea: 경문사, 2015.
 
 [1]: {{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/aesthetics-00/
-
-[3]: {{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/meditations-00/
