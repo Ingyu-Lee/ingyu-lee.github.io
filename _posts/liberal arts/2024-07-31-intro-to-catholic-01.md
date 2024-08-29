@@ -1,9 +1,12 @@
 ---
-title: "한국 천주교 예비 신자 교리서 제2편 7-과"
+title: "한국 천주교 예비 신자 교리서 제2편 7-12과"
 excerpt: "서양 문명을 이해하기 위한 카톨릭의 이해"
 thumbnail: liberal_arts/religion/240729_catholic_00.jpg
 banner: 999999_home_image_banner_textbook_600_400.jpg
 banner_caption: Religion
+toc: true
+toc_sticky: true
+use_math: true
 sidebar:
   title: "카톨릭 공부"
   nav: sidebar-catholic
@@ -106,6 +109,37 @@ tags:
 
 혼자 있을 때를 삼간다는 말은, 말 그대로 해석할 수도 있고, 혼자 있을 때도 남이 있는 것처럼 행동하는 것일 수도 있다고 생각한다. 필자는 성령의 존재를 의식한다는 것을, 홀로 있을 때도 남이 있을 때와 같이 도덕적 선택을 하라는 것으로 해석한다.
 
+## 제11과 삼위일체이신 하느님
+
+이 소단원에서는 유일신의 세 위격, 성부Pater와 성자Filius와 성령Spiritus Sanctus의 같지 않음과 같음을 말하고, 인간의 논리를 뛰어넘어 믿을 것을 요구한다.
+
+<figure style="width: 50%" class="align-center">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/religion/240829_00.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/religion/240829_00.png">
+  </a>
+  <figcaption>
+  Fig.4 Scutum fidei
+  </figcaption>
+</figure>
+
+개인적으로 인간이 인간의 논리를 뛰어넘는다는 것은 어렵다고 생각한다. 인간이 인간의 능력을 넘는다는 것이 어렵다고 생각하기 때문이다. 그리고 믿는다는 것은 근거가 부족함에도 결론이 옳다고 가정하는 것이지, 적절한 근거로부터 적절하게 결론을 유도해 내는 것과는 다르다고 생각한다.
+
+그렇다면 그림 4와 같이 설명하는 삼위일체를 어떻게 해석해야 할 것인가? \[ A=B=C \] 이면서 동시에 \[ A \neq B \], \[B \neq C\], \[C \neq A\] 가 가능한가? 여기서는 완전히 동일한 것으로 생각하기보다는, [논리학입문][3]에서처럼 무엇이 동일하고 무엇이 다른지를 확실히 정의해야만 이 불일치를 해결할 수 있을 것 같다.
+
+개인적으로는 아래와 같이 생각한다.
+
+1. 성부와 성자와 성령을 한 유일신의 세 가지 서로 다른 면이라고 생각하고,
+2. 성부와 성자와 성령을 같은 급으로 흠숭해야 하고,
+3. 성부와 성자와 성령이 상징하는 덕virtus을 좇아야 한다.
+
+먼저 성부와 성자와 성령의 서로 다른 면은 앞서 7-10과에서 다룬 성부, 성자, 그리고 성령이 상징하는 면이라고 생각한다. 성부는 전능하여 우리가 의지할 수 있으면서 동시에 좇아야 할, 비당파적인, 절대선을 상징하고, 성자는 이웃에 대한 사랑과 운명에 대한 사랑, 그리고 성령은 도덕률의 실천이라고 생각한다. 동시에 이 세 가지 서로 다른 미덕을 같은 급으로 흠숭하고 따라야 할 것으로 생각한다.
+
+즉, 서로 상징하는 것이 다르지만 서로 같은 수준으로 따라야 할 도덕률이라고 생각할 수 있을 것 같다.
+
+## 제12과 거룩하고 보편된 교회
+
+
+
 ---
 
 # 참고문헌
@@ -115,3 +149,5 @@ tags:
 [1]: {{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/meditations-00/
 
 [2]: {{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/political-philosophy-00/
+
+[3]: {{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/intro-to-logic-02/
