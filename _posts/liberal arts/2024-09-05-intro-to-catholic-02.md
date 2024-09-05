@@ -64,5 +64,3 @@ tags:
 [1]: {{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/intro-to-catholic-01/#%EC%A0%9C8%EA%B3%BC-%EA%B5%AC%EC%84%B8%EC%A3%BC-%EC%98%88%EC%88%98-%EA%B7%B8%EB%A6%AC%EC%8A%A4%EB%8F%84
 
 [2]: {{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/intro-to-catholic-00/#%EC%A0%9C5%EA%B3%BC-%EC%84%B1%EA%B2%BD%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80
-
-[3]: {{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/intro-to-logic-02/
