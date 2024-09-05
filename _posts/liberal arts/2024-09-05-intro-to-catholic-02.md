@@ -1,5 +1,5 @@
 ---
-title: "한국 천주교 예비 신자 교리서 성부, 성자, 성령과 삼위일체"
+title: "한국 천주교 예비 신자 교리서 교회, 선교 그리고 성모 마리아"
 excerpt: "서양 문명을 이해하기 위한 카톨릭의 이해"
 thumbnail: liberal_arts/religion/240729_catholic_00.jpg
 banner: 999999_home_image_banner_textbook_600_400.jpg
