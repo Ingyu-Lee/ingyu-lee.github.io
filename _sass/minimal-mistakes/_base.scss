@@ -235,6 +235,8 @@ figure {
   }
 
   &.half {
+    margin-left: auto;
+    margin-right: auto;
     > p,
     > a,
     > img {
