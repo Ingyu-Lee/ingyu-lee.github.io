@@ -1,7 +1,7 @@
 ---
 title: "Multi-frequency Backscatter Variations for Classification of Mine-like Targets from Low-resolution Sonar Data"
 excerpt: "논문 공부"
-thumbnail: study_notes/lab-paper/241119_00.png
+thumbnail: study_notes/lab-paper/241120_00.png
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Research Memo
 use_math: true
