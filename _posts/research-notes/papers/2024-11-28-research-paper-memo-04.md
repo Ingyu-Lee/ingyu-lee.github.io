@@ -125,7 +125,7 @@ Cost function은 quadratic cost function, 그리고 \[ \delta \left( 0-1 \right)
   \displaylines
   {
     \begin{array}{ccl}
-      f^\ast &=& \mbox{arg} \max\_{f \in \mathbb{F}} P \left( f \\ \vert \\ d \right) \\\&=& \mbox{arg} \max\_{f \in \mathbb{F}} \left\\{ p \left( d \\ \vert \\ f \right) P \left( f \right) \right\\}
+      f^\ast &=& \mbox{arg} \max\limits\_{f \in \mathbb{F}} P \left( f \\ \vert \\ d \right) \\\&=& \mbox{arg} \max\limits\_{f \in \mathbb{F}} \left\\{ p \left( d \\ \vert \\ f \right) P \left( f \right) \right\\}
     \end{array}
   }
   \label{eq:eq07}
@@ -310,7 +310,7 @@ Core idea는, full joint probability \[ P(f \\ \vert \\ d) \]를 최대화하는
   {
     f\_i^{(k+1)} \leftarrow \text{arg} \min\limits\_{f\_i} \sum\_{i' \in \mathcal{N}\_i} V( f\_i \\ \vert \\ f\_{i'}^{(k)}) + V( d\_i \\ \vert \\ f\_i )
   }
-  \label{eq:eq20}
+  \label{eq:eq21}
 \end{equation}
 
 
