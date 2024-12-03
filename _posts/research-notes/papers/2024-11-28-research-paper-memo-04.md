@@ -319,6 +319,10 @@ Core idea는, full joint probability \[ P(f \\ \vert \\ d) \]를 최대화하는
 # 생각
 
 
+# Todo
+
+* MATLAB 코드 실행 및 각 변수 확인
+
 ---
 
 # 참고문헌
