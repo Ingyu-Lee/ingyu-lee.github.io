@@ -1,7 +1,7 @@
 ---
 title: "Real-time sonar image enhancement for AUV-based acoustic vision"
 excerpt: "연구실 논문 공부"
-thumbnail: study_notes/lab-paper/241202_00.png
+thumbnail: study_notes/lab-paper/241203_00.png
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Research Memo
 use_math: true
@@ -12,8 +12,8 @@ tags:
 ---
 
 <figure class="align-center" style="width: 60%">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/241202_00.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/241202_00.png">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/241203_00.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/241203_00.png">
   </a>
   <figcaption>
   Fig.1 Real-time sonar image enhancement for AUV-based acoustic vision
