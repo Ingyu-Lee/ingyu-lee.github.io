@@ -61,5 +61,3 @@ CNN의 경우 이미지 3개를 학습하는데, \[ 3 \times 3 \] kernel size로
 # 참고문헌
 
 Y. Song et al., "Segmentation of Sidescan Sonar Imagery Using Markov Random Fields and Extreme Learning Machine," in IEEE Journal of Oceanic Engineering, vol. 44, no. 2, pp. 502-513, April 2019, doi: 10.1109/JOE.2018.2819278.
-
-<a name="footnote_1">2</a> 
