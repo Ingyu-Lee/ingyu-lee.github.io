@@ -8,6 +8,7 @@ categories:
   - Hobbies/Liberal-Arts
 tags:
   - Books
+  - Liberal Arts
   - Marcus Aurelius
   - Meditations
 ---

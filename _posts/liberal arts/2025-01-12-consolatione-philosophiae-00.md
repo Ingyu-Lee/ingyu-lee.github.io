@@ -8,6 +8,7 @@ categories:
   - Hobbies/Liberal-Arts
 tags:
   - Books
+  - Liberal Arts
   - Boethius
   - De Consolatione Philosophiae
 ---
