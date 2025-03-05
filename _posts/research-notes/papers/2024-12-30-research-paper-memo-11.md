@@ -20,9 +20,11 @@ tags:
   </figcaption>
 </figure>
 
-Remote Sens. 2019, 11(11), 1281; https://doi.org/10.3390/rs11111281
+Published in: IEEE Transactions on Geoscience and Remote Sensing ( Volume: 61) 
 
-Submission received: 24 April 2019 / Revised: 23 May 2019 / Accepted: 25 May 2019 / Published: 29 May 2019 
+Date of Publication: 28 November 2023
+
+DOI: 10.1109/TGRS.2023.3334492
 
 # 내용
 
