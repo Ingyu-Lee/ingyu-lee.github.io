@@ -77,6 +77,36 @@ MIRA는 다음과 같은 모델 eqn.을 사용해 4개 params.를 커브 피팅�
 
 Structural similarity index measure(SSIM)은 본 논문에서 SSS로 특정 랜드마크를 좌현 및 우현 방향에서 스캔한 이미지를 비교하기 위해 사용한 방법이다.
 
+먼저 이미지 일부의 mean과 variance를 계산한다.
+
+\begin{equation}
+    \mu\_x = \frac{1}{N} \sum\_{i=1}^{N}{x\_i}
+\end{equation}
+
+\begin{equation}
+    \sigma\_x = \frac{1}{N-1} \left( \sum\_{i=1}^{N}{ (x\_i - \mu\_x)^2 } \right)^{\frac{1}{2}}
+\end{equation}
+
+두 신호 \[x\]와 \[y\] 사이의 covariance는 다음과 같다.
+
+\begin{equation}
+    \sigma\_{xy} = \frac{1}{N-1} \sum\_{i=1}^{N}{ (x\_i - \mu\_x) (y\_i - \mu\_y) }
+\end{equation}
+
+Comparison function을 다음과 같이 정의한다.
+
+\begin{equation}
+    L(a,b) = \frac{2ab}{a^2 + b^2}
+\end{equation}
+
+그러면, SSIM은 다음과 같이 정의한다. 각각 luminance comparison, contrast comparison, 그리고 structure comparison이다.
+
+\begin{equation}
+    SSIM(x,y) = L(\mu_x, \mu_y)L(\sigma_x, \sigma_y)s(x,y)
+\end{equation}
+
+\[s(x,y) = \sigma\_{xy} / \sigma\_x \sigma\_y \] 이다.
+
 ## Sonar Image Quality Assessment Metric
 
 Sonar Image Quality Assessment Metric (SIQEM)은 본 논문에서 SSS의 이미지 퀄리티를 확인하기 위해 새롭게 제안한 방법이다. 먼저 이미지를 \[M \times N\]개의 패치로 나눈 후, 각 \[m,n\]번째 패치에 대해 mean intensity \[ \mu\_{m,n} \]를 계산한다. 그리고 인접한 패치의 mean intensity \[\mu\_{m\_k,n\_k}\]와 비교하여 \[\mu\_{m,n}\] 으로 나눈다. 즉 다음 식과 같다. 본문에서는 Weber's perceptual law를 사용했다고 한다.
