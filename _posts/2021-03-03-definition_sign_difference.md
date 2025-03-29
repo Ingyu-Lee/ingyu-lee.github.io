@@ -17,26 +17,26 @@ read_time: false
 ~~~
 \equiv
 ~~~
-\[\equiv\]
+$\equiv$
 
 2. Delta-equals
 ~~~
 \triangleq
 ~~~
-\[\triangleq\]
+$\triangleq$
 
 3. Colon-equals
 ~~~
 :=
 ~~~
-\[:=\]
+$:=$
 ~~~
 =:
 ~~~
-\[=:\]
+$=:$
 
 4. Def equals
 ~~~
 \overset{def}{=}
 ~~~
-\[\overset{def}{=}\]
+$\overset{def}{=}$

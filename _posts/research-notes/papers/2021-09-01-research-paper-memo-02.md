@@ -55,7 +55,7 @@ Laminated piezoelectric transducer의 장점은 잘 알려져 있으나, 그 str
 
 ## Impedance issue of multi-layered transducer
 
-* Volt. source를 ideal source로 하면 single-layer와 double-layer 사이에 6 dB 차이가 나지만, \[R\_{\text{OUT}}\]을 고려하면 performance 차이 크게 없음
+* Volt. source를 ideal source로 하면 single-layer와 double-layer 사이에 6 dB 차이가 나지만, $R\_{\text{OUT}}$을 고려하면 performance 차이 크게 없음
 * 이는 multi-layered일 수록 capacitance가 작아지므로 그만큼 transducer에 걸리는 volt. 가 작아져서 생기는 현상
 * 즉, 단순히 layer를 늘리는 것만이 아닌 volt. source와의 elec. impedance matching 또한 고려해야 함
 

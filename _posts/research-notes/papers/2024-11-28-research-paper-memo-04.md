@@ -28,7 +28,7 @@ tags:
 
 ## MAP-MRF Framework
 
-Image segmentation은 labeling problem이라고 할 수 있다. The problem은, a set of sites \[ \mathcal{S} \]를 a set of labels \[ \mathcal{L} \]로 매핑하는 함수 \[f\]라고 할 수 있다.
+Image segmentation은 labeling problem이라고 할 수 있다. The problem은, a set of sites $ \mathcal{S} $를 a set of labels $ \mathcal{L} $로 매핑하는 함수 $f$라고 할 수 있다.
 
 \begin{equation}
   \displaylines
@@ -38,7 +38,7 @@ Image segmentation은 labeling problem이라고 할 수 있다. The problem은, 
   \label{eq:eq00}
 \end{equation}
 
-예를 들어, \[n \times m\] 이미지에서의 edge detection에서의 sites \[ \mathcal{L} \]와 labels \[ \mathcal{L} \]은 다음과 같이 생각할 수 있다.
+예를 들어, $n \times m$ 이미지에서의 edge detection에서의 sites $ \mathcal{L} $와 labels $ \mathcal{L} $은 다음과 같이 생각할 수 있다.
 
 \begin{equation}
   \displaylines
@@ -72,10 +72,10 @@ Continuous label과 discrete label의 차이는 말 그대로 label이 continuou
 
 여기서 2번의 posterior energy 계산은 아래와 같이 수행한다.
 
-1. Sites \[ \mathcal{S} \]의 neighborhood system \[ \mathcal{N} \] 을 정의하고, 그 \[ \mathcal{N} \]의 set of cliques \[ \mathcal{C} \]를 정의한다.
-2. Prior clique potentials \[ V\_c\left( f \right) \]를 정의하여 \[U \left( f \right)\]를 계산한다.
-3. Likelihood energy \[ U \left( d \\ \vert \\ f \right) \]를 계산한다.
-4. \[U \left( f \right)\] 와 \[ U \left( d \\ \vert \\ f \right) \] 를 더해 \[ U \left( f \\ \vert \\ d \right) \]를 계산한다.
+1. Sites $ \mathcal{S} $의 neighborhood system $ \mathcal{N} $ 을 정의하고, 그 $ \mathcal{N} $의 set of cliques $ \mathcal{C} $를 정의한다.
+2. Prior clique potentials $ V\_c\left( f \right) $를 정의하여 $U \left( f \right)$를 계산한다.
+3. Likelihood energy $ U \left( d \\ \vert \\ f \right) $를 계산한다.
+4. $U \left( f \right)$ 와 $ U \left( d \\ \vert \\ f \right) $ 를 더해 $ U \left( f \\ \vert \\ d \right) $를 계산한다.
 
 MAP은 Maximum a posterior 의 준말로, 사후 확률 최대화의 의미이다. 베이즈 정리를 기반으로, Bayes risk를 최소화하는 것을 목표로 한다. Bayes risk는 아래 수식으로 표현된다.
 
@@ -87,9 +87,9 @@ MAP은 Maximum a posterior 의 준말로, 사후 확률 최대화의 의미이�
   \label{eq:eq03}
 \end{equation}
 
-여기서 \[f\]는 label, \[f ^{\ast} \]는 truth, \[d\]는 관측값observation, \[C \left( f ^{\ast} , f \right)\]는 cost function, 그리고 \[P \left( f \vert d \right)\]는 사후 분포posterior distribution이다.
+여기서 $f$는 label, $f ^{\ast} $는 truth, $d$는 관측값observation, $C \left( f ^{\ast} , f \right)$는 cost function, 그리고 $P \left( f \vert d \right)$는 사후 분포posterior distribution이다.
 
-Cost function은 quadratic cost function, 그리고 \[ \delta \left( 0-1 \right) \] function 두 가지가 주로 사용된다. 각각 아래와 같다.
+Cost function은 quadratic cost function, 그리고 $ \delta \left( 0-1 \right) $ function 두 가지가 주로 사용된다. 각각 아래와 같다.
 
 \begin{equation}
   \displaylines
@@ -107,7 +107,7 @@ Cost function은 quadratic cost function, 그리고 \[ \delta \left( 0-1 \right)
   \label{eq:eq05}
 \end{equation}
 
-\[P \left( f \vert d \right)\]는 Bayes rule에 의해 아래와 같이 정리할 수 있다.
+$P \left( f \vert d \right)$는 Bayes rule에 의해 아래와 같이 정리할 수 있다.
 
 \begin{equation}
   \displaylines
@@ -117,7 +117,7 @@ Cost function은 quadratic cost function, 그리고 \[ \delta \left( 0-1 \right)
   \label{eq:eq06}
 \end{equation}
 
-\[ P\left( f \right) \]는 probability of labelings, \[ p \left( d \vert f \right) \]는 conditional p.d.f. of the observation d, 그리고 \[ p\left( d \right) \]는 density of d로, d가 given이면 constant이다.
+$ P\left( f \right) $는 probability of labelings, $ p \left( d \vert f \right) $는 conditional p.d.f. of the observation d, 그리고 $ p\left( d \right) $는 density of d로, d가 given이면 constant이다.
 
 두 가지 cost function 각각에 대한 상세한 증명은 책을 찾아보기로 하고, 위 Bayes rule에 따라 minimal risk estimate는 다음과 같다.
 
@@ -143,7 +143,7 @@ Neighborhood system은 말 그대로 어떤 site의 성분에 대해 이웃한 s
   \label{eq:eq08}
 \end{equation}
 
-Clique는 subset of sites in \[ \mathcal{S} \]로 정의되고, 보통 single-site \[ c=\\{i\\} \], pair-site \[ c=\\{i, i'\\} \], 또는 triple-site \[ c=\\{i, i', i''\\} \], 등이 있다. 각각 아래와 같이 정의된다.
+Clique는 subset of sites in $ \mathcal{S} $로 정의되고, 보통 single-site $ c=\\{i\\} $, pair-site $ c=\\{i, i'\\} $, 또는 triple-site $ c=\\{i, i', i''\\} $, 등이 있다. 각각 아래와 같이 정의된다.
 
 \begin{equation}
   \displaylines
@@ -169,26 +169,26 @@ Clique는 subset of sites in \[ \mathcal{S} \]로 정의되고, 보통 single-si
   \label{eq:eq11}
 \end{equation}
 
-중요한 것은 clique는 ordered, 즉 순서가 있다. 다시 말해 \[ \\{ i, i' \\} \]와 \[ \\{ i', i \\} \]는 다르다는 것이다.
+중요한 것은 clique는 ordered, 즉 순서가 있다. 다시 말해 $ \\{ i, i' \\} $와 $ \\{ i', i \\} $는 다르다는 것이다.
 
 책 그림 2.1 과 2.2 에 각각 regular 및 irregular sites에 대해 neighborhood와 clique의 예시 이미지가 있으므로 참고해보도록 하자.
 
 ## Markov Random Fields
 
-\[ \mathcal{F} \]는 \[\mathcal{S}\]에서 \[\mathcal{N}\]에 대해 if and only if 다음 두 조건, positivity와 Markovianity, 을 만족하는 경우 Markov random field라고 할 수 있다.
+$ \mathcal{F} $는 $\mathcal{S}$에서 $\mathcal{N}$에 대해 if and only if 다음 두 조건, positivity와 Markovianity, 을 만족하는 경우 Markov random field라고 할 수 있다.
 
 Positivity는 random field이므로 가져야 할 조건이다. Markovianity는 어떤 site에서의 label은 그 neighbor에 의해서만 영향을 받는다는 것이다. Positivity와 Markovianity를 수식으로 표현하면 아래와 같다.
 
-1. \[ P \left( f \right) > 0, \\ \\ \forall f \in \mathbb{F} \]
-2. \[ P \left( f\_i \\ \vert \\ f\_{\mathcal{S}-\\{i\\} } \right) = P\left( f\_i \\ \vert \\ f\_{\mathcal{N}\_i} \right) \]
+1. $ P \left( f \right) > 0, \\ \\ \forall f \in \mathbb{F} $
+2. $ P \left( f\_i \\ \vert \\ f\_{\mathcal{S}-\\{i\\} } \right) = P\left( f\_i \\ \vert \\ f\_{\mathcal{N}\_i} \right) $
 
-\[ \mathcal{S}-\\{i\\} \]은 set difference, \[ f\_{\mathcal{S}-\\{i\\}} \]는 \[ \mathcal{S}-\\{i\\} \]에서의 set of labels, 그리고 \[f\_{\mathcal{N}\_i}\]는 \[i\]에 neighbor인 sites의 set of labels이다.
+$ \mathcal{S}-\\{i\\} $은 set difference, $ f\_{\mathcal{S}-\\{i\\}} $는 $ \mathcal{S}-\\{i\\} $에서의 set of labels, 그리고 $f\_{\mathcal{N}\_i}$는 $i$에 neighbor인 sites의 set of labels이다.
 
-수식으로 보면, site \[i\]의 label은 \[i\]를 제외한 site 전체에 의한 확률과, \[i\]와 neighbor한 sites에 의한 확률이 동일하다는 것이다. 즉, site \[i\]의 label은 neighbor한 site에 의해서만 영향을 받는다.
+수식으로 보면, site $i$의 label은 $i$를 제외한 site 전체에 의한 확률과, $i$와 neighbor한 sites에 의한 확률이 동일하다는 것이다. 즉, site $i$의 label은 neighbor한 site에 의해서만 영향을 받는다.
 
 ## Gibbs Random Fields
 
-Gibbs random field, GRF는 a set of random variables \[F\]가 \[\mathcal{S}\]에서 \[\mathcal{N}\]에 대해 Gibbs distribution을 만족할 때, \[F\]는 GRF라고 말할 수 있다.
+Gibbs random field, GRF는 a set of random variables $F$가 $\mathcal{S}$에서 $\mathcal{N}$에 대해 Gibbs distribution을 만족할 때, $F$는 GRF라고 말할 수 있다.
 
 Gibbs distribution은 아래 식과 같다.
 
@@ -200,7 +200,7 @@ Gibbs distribution은 아래 식과 같다.
   \label{eq:eq12}
 \end{equation}
 
-여기서 \[Z\]는 normalizing constant로, partition function이라고도 하며, 아래와 같이 계산할 수 있다.
+여기서 $Z$는 normalizing constant로, partition function이라고도 하며, 아래와 같이 계산할 수 있다.
 
 \begin{equation}
   \displaylines
@@ -210,7 +210,7 @@ Gibbs distribution은 아래 식과 같다.
   \label{eq:eq13}
 \end{equation}
 
-\[T\]는 temperature인데, 열역학에서는 의미가 있는 값이었지만 여기서는 별도로 값을 넣지 않는 한 1로 고정한다. \[U(f)\]는 energy function으로, 모든 가능한 cliques \[\mathcal{C}\]에 대해 clique potentials \[V\_{c}(f)\]의 총합으로 계산한다. 수식으로는 아래와 같이 표현한다.
+$T$는 temperature인데, 열역학에서는 의미가 있는 값이었지만 여기서는 별도로 값을 넣지 않는 한 1로 고정한다. $U(f)$는 energy function으로, 모든 가능한 cliques $\mathcal{C}$에 대해 clique potentials $V\_{c}(f)$의 총합으로 계산한다. 수식으로는 아래와 같이 표현한다.
 
 \begin{equation}
   \displaylines
@@ -220,7 +220,7 @@ Gibbs distribution은 아래 식과 같다.
   \label{eq:eq14}
 \end{equation}
 
-이 \[U(f)\]를 계산하는 것에 대해 책에서 식 (2.16-19)을 같이 봐도 좋을 듯 하다. Homogeneous한 cliques에 대해 pair-site까지 수식을 정리한 것이다.
+이 $U(f)$를 계산하는 것에 대해 책에서 식 (2.16-19)을 같이 봐도 좋을 듯 하다. Homogeneous한 cliques에 대해 pair-site까지 수식을 정리한 것이다.
 
 ## Markov-Gibbs Equivalence
 
@@ -228,13 +228,13 @@ Gibbs distribution은 아래 식과 같다.
 
 상세한 증명은 (Besag 1974), (Moussouris 1974) and (Kindermann and Snell 1980)에 맡기자.
 
-그렇다면 그 의미가 뭐냐, clique potential functions \[V\_c (f)\]를 결정함으로써 joint probability \[P(f)\]를 결정할 수 있고, 그로부터 label 사이의 interaction을 알 수 있다는 것이다.
+그렇다면 그 의미가 뭐냐, clique potential functions $V\_c (f)$를 결정함으로써 joint probability $P(f)$를 결정할 수 있고, 그로부터 label 사이의 interaction을 알 수 있다는 것이다.
 
 그래서 책의 후반부에서는 그 potential functions를 어떻게 결정하고 계산하는지에 대해 다룬다. 이 포스팅에서는 본인의 연구 목표, sonar image 즉 greyscale image에서의 segmentation, 을 위해 간단한 Gaussian distribution model과, optimization을 위한 ICM에 대해 마저 공부하기로 한다.
 
 ## Auto-models and Multi-level Logistic Model
 
-Clique를 pair까지만 생각하면 에너지 \[ U(f) \]는 아래와 같이 쓸 수 있다.
+Clique를 pair까지만 생각하면 에너지 $ U(f) $는 아래와 같이 쓸 수 있다.
 
 \begin{equation}
   \displaylines
@@ -244,7 +244,7 @@ Clique를 pair까지만 생각하면 에너지 \[ U(f) \]는 아래와 같이 �
   \label{eq:eq15}
 \end{equation}
 
-여기서 \[ V\_{1}(f\_{i}) = f\_{i}G\_{i}(f\_{i})\], \[V\_2 (f\_i , f\_{i'} = \beta\_{i,i'} f\_i f\_{i'})\]이라고 하면 아래와 같이 다시 정리할 수 있다. 여기서 \[G\_i(\cdot)\]은 임의의 함수이고, \[\beta\_{i, i'}\]은 \[i\]와 \[i'\] 사이의 pair-site interaction을 반영하는 상수이다.
+여기서 $ V\_{1}(f\_{i}) = f\_{i}G\_{i}(f\_{i})$, $V\_2 (f\_i , f\_{i'} = \beta\_{i,i'} f\_i f\_{i'})$이라고 하면 아래와 같이 다시 정리할 수 있다. 여기서 $G\_i(\cdot)$은 임의의 함수이고, $\beta\_{i, i'}$은 $i$와 $i'$ 사이의 pair-site interaction을 반영하는 상수이다.
 
 \begin{equation}
   \displaylines
@@ -254,7 +254,7 @@ Clique를 pair까지만 생각하면 에너지 \[ U(f) \]는 아래와 같이 �
   \label{eq:eq16}
 \end{equation}
 
-책의 (2.44)번 수식으로 넘어가면, 위 식에서 single-site cliques의 상수를 \[\alpha\], pair-site cliques의 상수를 \[\beta\]라고 두면 \[V\_2(f\_i , f\_{i'})\]을 아래와 같이 쓸 수 있다.
+책의 (2.44)번 수식으로 넘어가면, 위 식에서 single-site cliques의 상수를 $\alpha$, pair-site cliques의 상수를 $\beta$라고 두면 $V\_2(f\_i , f\_{i'})$을 아래와 같이 쓸 수 있다.
 
 \begin{equation}
   \displaylines
@@ -264,15 +264,15 @@ Clique를 pair까지만 생각하면 에너지 \[ U(f) \]는 아래와 같이 �
   \label{eq:eq17}
 \end{equation}
 
-대략적으로 \[\beta\]는 pair-site에서의 energy에 영향을 미치는 값이라고 생각해 볼 수 있겠다.
+대략적으로 $\beta$는 pair-site에서의 energy에 영향을 미치는 값이라고 생각해 볼 수 있겠다.
 
 ## Iterated Conditional Modes
 
-Core idea는, full joint probability \[ P(f \\ \vert \\ d) \]를 최대화하는 대신, 각각의 variable \[ f\_i \] 에 대해 local conditional probabilities \[P( f\_i \\ \vert \\ d, \\ f\_{S-\\{i\\} } ) \]​을 반복 계산하여 최대화하는 것이다.
+Core idea는, full joint probability $ P(f \\ \vert \\ d) $를 최대화하는 대신, 각각의 variable $ f\_i $ 에 대해 local conditional probabilities $P( f\_i \\ \vert \\ d, \\ f\_{S-\\{i\\} } ) $​을 반복 계산하여 최대화하는 것이다.
 
 2 가지 가정이 필요하다.
 
-1. \[d\_1 , \cdots , d\_m\] 는 \[f\]에 대해 conditionally independent하고, 각 \[d\_i\] 는 \[f\_i\]에만 dependent한 같은 conditional density function \[ p ( d\_i \vert f\_i ) \]을 가진다.
+1. $d\_1 , \cdots , d\_m$ 는 $f$에 대해 conditionally independent하고, 각 $d\_i$ 는 $f\_i$에만 dependent한 같은 conditional density function $ p ( d\_i \vert f\_i ) $을 가진다.
 2. 앞서 확인한 Markovianity
 
 이를 각각 수식으로 표현하면 아래와 같다.

@@ -54,28 +54,28 @@ attenuation 방향으로 segment를 나눠 incident angle 관련 factor를 계�
 
 ## TVG
 
-\[\alpha\]는 익숙한 coefficient인데 \[a\]에 대한 확인 필요
+$\alpha$는 익숙한 coefficient인데 $a$에 대한 확인 필요
 
 ## Incident angle
 
-단순 \[ \cos \theta \]로 계산
+단순 $ \cos \theta $로 계산
 
 ## Segmentation
 
-TVG와 입사각을 합쳐서 \[ f(r) \]로 치환하고, segmentation을 충분히 잘게 나누었을 경우, \[ f(r) \]을 식 (9)와 같이 나타낼 수 있다.
+TVG와 입사각을 합쳐서 $ f(r) $로 치환하고, segmentation을 충분히 잘게 나누었을 경우, $ f(r) $을 식 (9)와 같이 나타낼 수 있다.
 
 다만 여기서는 beam pattern을 고려하지 않았다는 점이 있다.
 
 ## Thresholds
 
-Threshold \[ c \]는 그림자를 제외하고 intensity의 기하평균을 구하기 위해 사용된다.
+Threshold $ c $는 그림자를 제외하고 intensity의 기하평균을 구하기 위해 사용된다.
 <br />*기하평균인건 dB가 log scale이라서?
 
-Threshold \[ m \]은 그림자를 제외하고 intensity를 보정하기 위해 사용된다.
+Threshold $ m $은 그림자를 제외하고 intensity를 보정하기 위해 사용된다.
 
 용도를 보면 비슷해 보이지만, 식 (11)과 식 (12)를 보면 구분되어 사용됨을 확인할 수 있다.
 
-\[c\] 와 \[m\] 은 ref 11번의 SIQEM, entropy, mean gradient, 그리고 gray difference를 비교하여 결정되었다.
+$c$ 와 $m$ 은 ref 11번의 SIQEM, entropy, mean gradient, 그리고 gray difference를 비교하여 결정되었다.
 <br /> SIQEM은 식 (13-14)를 확인 또는 ref. 확인
 
 ## Process
@@ -94,7 +94,7 @@ Threshold \[ m \]은 그림자를 제외하고 intensity를 보정하기 위해 
 
 # Todo
 
-* TVG 계산식에서 \[a\] 확인 필요
+* TVG 계산식에서 $a$ 확인 필요
 
 * 비교군인 MGC, MSR, SDR, RCM, MIRA에 대해 확인: 코드 있는지와 레퍼런스 논문
 

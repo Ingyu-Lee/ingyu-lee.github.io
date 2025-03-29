@@ -178,7 +178,7 @@ GNSS는 Global Navigation Satellite System으로, 위성항법시스템으로 �
 (원본 논문 fig 4-7 다시 그려서 올리기)
 3. Shadowed area의 정보가 없음
 4. Foreshortening
-  * 소나 이미지는 polar coordinate에서 \[\theta\] 정보가 없다는 특성 상, 경사진 지형의 길이 데이터가 실제보다 훨씬 짧게 보이는 현상이 생긴다.
+  * 소나 이미지는 polar coordinate에서 $\theta$ 정보가 없다는 특성 상, 경사진 지형의 길이 데이터가 실제보다 훨씬 짧게 보이는 현상이 생긴다.
 5. Change of side-scan resolution
   * Along-track
     * SSS의 진행 방향에 대해서, beam width로 인해 지형의 거리가 멀 수록 resolution이 떨어질 수 밖에 없다.
@@ -251,11 +251,11 @@ GNSS는 Global Navigation Satellite System으로, 위성항법시스템으로 �
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/221212/ref5.png" alt="">
   </a>
   <figcaption>
-  Fig.9 Path of the side-scan sonar and tilt angle \[\tau\]
+  Fig.9 Path of the side-scan sonar and tilt angle $\tau$
   </figcaption>
 </figure>
 
-* 왜 sonar image에 Fourier transform(\[F(\omega, \theta)\])을 하는가?
+* 왜 sonar image에 Fourier transform($F(\omega, \theta)$)을 하는가?
 
 <div class="tex2jax_ignore">
   * 소나 이미지를 Fourier transform 한 수식은 아래와 같다.[5]
@@ -264,10 +264,10 @@ GNSS는 Global Navigation Satellite System으로, 위성항법시스템으로 �
 F(\omega, \theta) = I_i \mu i [\omega F_H ( \omega, \theta ) ] [\cos(\theta + \tau)] [\sin 2\sigma]
 \end{equation\*}
 
-여기서 \[I_i\] 는 incident intensity, \[\mu\]는 empirically defined reflectivity coefficient, which is dependent on the sediment type, i 는 허수, \[\theta\]는 x축에 대한 각도, \[\tau\]는 위 그림에서 확인할 수 있는 tilt angle이다.
-  * (a) 소나 이미지의 freq. domain representation 은 slant angle(\[\sigma\])와 관련되어 있다
-  \[F(\omega, \theta) \propto \cos(2\sigma) \]
-  * (b) 소나 이미지는 seabed height map의 directional filtered 된 것이고, 이 directional filter는 tilt angle(\[\tau\])에 대한 코사인 함수와 연관되어 있다(i.e., \[ F(\omega, \theta) \propto \cos(\theta + \tau) \])
+여기서 $I_i$ 는 incident intensity, $\mu$는 empirically defined reflectivity coefficient, which is dependent on the sediment type, i 는 허수, $\theta$는 x축에 대한 각도, $\tau$는 위 그림에서 확인할 수 있는 tilt angle이다.
+  * (a) 소나 이미지의 freq. domain representation 은 slant angle($\sigma$)와 관련되어 있다
+  $F(\omega, \theta) \propto \cos(2\sigma) $
+  * (b) 소나 이미지는 seabed height map의 directional filtered 된 것이고, 이 directional filter는 tilt angle($\tau$)에 대한 코사인 함수와 연관되어 있다(i.e., $ F(\omega, \theta) \propto \cos(\theta + \tau) $)
 
 ### C. Linear Shape-from-Shading
 
@@ -275,10 +275,10 @@ F(\omega, \theta) = I_i \mu i [\omega F_H ( \omega, \theta ) ] [\cos(\theta + \t
 * 앞서 propagation shape-from-shading 과정에서 Fourier transformed intensity가 nonlinear eqn. 인데, 이를 linear eqn. 으로 근사[6]
 </div>
   * Nonlinear components를 Wiener filter로 제거
-  * 노이즈 \[N(\omega, \theta)\] 는 \[\sin(2\sigma) \cos(\theta+\tau)\] 에 비례한다고 가정
-  * 표면을 fractal Brownian function으로 가정하여 power spectrum이 \[w^{-4}\] 에 비례
+  * 노이즈 $N(\omega, \theta)$ 는 $\sin(2\sigma) \cos(\theta+\tau)$ 에 비례한다고 가정
+  * 표면을 fractal Brownian function으로 가정하여 power spectrum이 $w^{-4}$ 에 비례
 
-\[\therefore\] Propagation SfS는 processing ripples에 robust하고,<br>linear SfS는 noise와 processing isotropic seabed 에 robust하다.
+$\therefore$ Propagation SfS는 processing ripples에 robust하고,<br>linear SfS는 noise와 processing isotropic seabed 에 robust하다.
 
 ### D. Hierarchical Recovering of Shape from Side-scan Data
 
@@ -308,10 +308,10 @@ F(\omega, \theta) = I_i \mu i [\omega F_H ( \omega, \theta ) ] [\cos(\theta + \t
 
 * 칼만 필터의 output을 smoothing하기 위해 Rauch-Tung-Striebel(RTS) backward filter가 사용되었다.
 * Optimal smoothing
-  * \[0 \leq t \leq T \] 인 real-time data가 있을 때,<br>Estimation 은 \[0-t\] 까지의 data만 사용하지만,<br>Smoothing은 \[0-T\] 의 data를 사용한다.
+  * $0 \leq t \leq T $ 인 real-time data가 있을 때,<br>Estimation 은 $0-t$ 까지의 data만 사용하지만,<br>Smoothing은 $0-T$ 의 data를 사용한다.
   * Optimal smoother는 two optimal filter, forward filter와 backward filter로 구성되어 있다.
-  * Forward filter는 t 이전의 모든 data를 사용하여 estimate \[ \hat{x}\_f \]
-  * Backward filter는 t 이후의 모든 data를 사용하여 estimate \[ \hat{x}\_b \]
+  * Forward filter는 t 이전의 모든 data를 사용하여 estimate $ \hat{x}\_f $
+  * Backward filter는 t 이후의 모든 data를 사용하여 estimate $ \hat{x}\_b $
 
 \begin{equation\*}
 \hat{x} = A \hat{x}\_f + B \hat{x}\_b
@@ -327,12 +327,12 @@ F(\omega, \theta) = I_i \mu i [\omega F_H ( \omega, \theta ) ] [\cos(\theta + \t
 \end{cases}
 \end{equation\*}
 
-* 여기서 \[\textbf{P}, \textbf{P}\_f, \textbf{P}\_b\] 는 각각
+* 여기서 $\textbf{P}, \textbf{P}\_f, \textbf{P}\_b$ 는 각각
 <br>error covariance of smoothed estimate,
 <br>error covariance of forward estimate,
 <br>error covariance of backward estimate 이다.
 
-* At the time \[t=T\]에서는 \[ \textbf{P} = \textbf{P}\_f \] 이고,\[ \textbf{P}\_b : \textbf{P}\_b^{-1} = 0 \] 이다.
+* At the time $t=T$에서는 $ \textbf{P} = \textbf{P}\_f $ 이고,$ \textbf{P}\_b : \textbf{P}\_b^{-1} = 0 $ 이다.
 
 * 이 방법으로 forward Kalman filter를 먼저 수행하고, 이후에 backward RTS eqn. 을 수행한다.
 
@@ -347,9 +347,9 @@ F(\omega, \theta) = I_i \mu i [\omega F_H ( \omega, \theta ) ] [\cos(\theta + \t
 }
 \end{equation\*}
 
-* 여기서 \[ \hat{x}\_f(k \| k) \] 와 \[ \hat{x}\_f(k+1 \\ \\ k) \]는 prediction 및 correction state of the forward filter at instant k, \[ \textbf{P}\_f(k \\ \\ k) \]와 \[ \textbf{P}\_f(k+1 \\ \\ k) \]는 각각의 respective covariance이다.
-<br>\[ \hat{x}(k \\ \\ N) \] 과 \[ \textbf{P}(k \\ \\ N) \] 은 각각 time instant k에서 smoothed estimate 와 error covariance이다.
-<br> \[\textbf{F} \] 는 transition matrix이다.
+* 여기서 $ \hat{x}\_f(k \| k) $ 와 $ \hat{x}\_f(k+1 \\ \\ k) $는 prediction 및 correction state of the forward filter at instant k, $ \textbf{P}\_f(k \\ \\ k) $와 $ \textbf{P}\_f(k+1 \\ \\ k) $는 각각의 respective covariance이다.
+<br>$ \hat{x}(k \\ \\ N) $ 과 $ \textbf{P}(k \\ \\ N) $ 은 각각 time instant k에서 smoothed estimate 와 error covariance이다.
+<br> $\textbf{F} $ 는 transition matrix이다.
 
 ### B. SLAM in Structured Environments
 

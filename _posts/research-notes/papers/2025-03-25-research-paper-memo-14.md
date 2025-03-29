@@ -85,9 +85,9 @@ Retinex algorithm은 영상의 contrast나 sharpness를 향상시키기 위해�
     S(x,y) = R(x,y) \star L(x,y)
 \end{equation}
 
-\[ S(x,y) \]는 원본 이미지, \[R(x,y)\]는 reflectance map, \[ L(x,y) \]는 illumination map이고, operation \[\star\]는 element-wise multiplication이다.
+$ S(x,y) $는 원본 이미지, $R(x,y)$는 reflectance map, $ L(x,y) $는 illumination map이고, operation $\star$는 element-wise multiplication이다.
 
-그러면 배경 성분 \[L\]을 어떻게 얻느냐, 원본 이미지에 low-pass filter를 적용한 후 그 흐릿한 이미지를 배경이라고 가정하여 계산한다.
+그러면 배경 성분 $L$을 어떻게 얻느냐, 원본 이미지에 low-pass filter를 적용한 후 그 흐릿한 이미지를 배경이라고 가정하여 계산한다.
 
 \begin{equation}
     F(x,y) = \lambda e^{-\frac{(x^2 + y^2)}{c^2}}
@@ -97,7 +97,7 @@ Retinex algorithm은 영상의 contrast나 sharpness를 향상시키기 위해�
     r(x,y) = \log{S(x,y)} - \log{ \left[ F(x,y) \otimes S(x,y) \right] }
 \end{equation}
 
-\[r=\log R = \log (S/L)\], \[\lambda\]는 scale, \[\otimes\]는 convolution operation이다.
+$r=\log R = \log (S/L)$, $\lambda$는 scale, $\otimes$는 convolution operation이다.
 
 이 방법은 Single Scale Retinex(SSR)이다. 이미지를 서로 다른 low pass filter로 사용해 weight를 가해 처리하는 경우를 Multi-Scale Retinex(MSR)이라고 한다.
 
@@ -105,7 +105,7 @@ Retinex algorithm은 영상의 contrast나 sharpness를 향상시키기 위해�
     r(x,y) = \sum^K\_k W\_k \left[ \log{S(x,y)} - \log{ \left[ F\_k(x,y) \otimes S(x,y) \right] } \right]
 \end{equation}
 
-\[K\]가 low-pass filter의 개수이다.
+$K$가 low-pass filter의 개수이다.
 
 ## Method
 
@@ -128,13 +128,13 @@ Retinex algorithm은 영상의 contrast나 sharpness를 향상시키기 위해�
 
 ### Parameter A
 
-\[A\]는 수식 \ref{eq:temp00}에서 볼 수 있듯이 결과의 크기에 관한 상수이다. 이 논문에서는 별다른 수학적 분석보다는 human perception을 근거로 적절한 값으로 결정한다.
+$A$는 수식 \ref{eq:temp00}에서 볼 수 있듯이 결과의 크기에 관한 상수이다. 이 논문에서는 별다른 수학적 분석보다는 human perception을 근거로 적절한 값으로 결정한다.
 
 ### Parameter a
 
 위와 마찬가지로, 논문에서는 직접 parameter a의 값을 변화시키며 그 결과의 차이를 확인하고, 적절한 값으로 결정한다.
 
-하지만 이게 맞는지는 잘 모르겠다. 앞서 Method에서는 이 a의 목표가 노이즈 방지라고 설명했는데, 개인적으로는 이 노이즈 방지라는 의미가 NaN값을 방지하는 의도라고 생각한다. 즉, (original value) \[\gg \] (filtered value)일 경우나, (filtered value) = 0 일 경우에 대한 값이라고 생각한다.
+하지만 이게 맞는지는 잘 모르겠다. 앞서 Method에서는 이 a의 목표가 노이즈 방지라고 설명했는데, 개인적으로는 이 노이즈 방지라는 의미가 NaN값을 방지하는 의도라고 생각한다. 즉, (original value) $\gg $ (filtered value)일 경우나, (filtered value) = 0 일 경우에 대한 값이라고 생각한다.
 
 a=0라고 생각하면, 어떤 신호를 low-pass filtered value 으로 나눈다는 것이니, 저역대를 낮추고 고역대를 높인다는 느낌으로 생각해볼 수 있겠다.
 
@@ -152,7 +152,7 @@ Bilateral filter는 gaussian filter kernel에 signal intensity 기반 gaussian d
     I\_{\text{filtered}}(p) = \frac{1}{W(p)} \sum\_{q \in \Omega} G\_s\left( \| p - q \| \right) \cdot G\_r\left( I(p) - I(q) \right) \cdot I(q)
 \end{equation}
 
-\[  I\_{\text{filtered}}\]는 필터 결과 신호 강도, \[W(p)\]는 normalization factor, \[ G\_s \]는 spatial Gaussian kernel, \[p, q\]는 각 데이터 포인트의 위치, \[G\_r\]는 range Gaussian kernel, 즉 signal intensity 차이에 의한 weight, 그리고 \[ I(p), I(q) \]는 각 데이터 포인트의 signal intensity이다.
+$  I\_{\text{filtered}}$는 필터 결과 신호 강도, $W(p)$는 normalization factor, $ G\_s $는 spatial Gaussian kernel, $p, q$는 각 데이터 포인트의 위치, $G\_r$는 range Gaussian kernel, 즉 signal intensity 차이에 의한 weight, 그리고 $ I(p), I(q) $는 각 데이터 포인트의 signal intensity이다.
 
 가우시안이 두 번 들어가는 점에서, Bilateral filter의 computational complexity는 Gaussian filter보다 kernel의 영향을 더 받는다.
 

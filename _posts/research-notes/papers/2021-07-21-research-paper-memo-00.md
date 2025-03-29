@@ -20,7 +20,7 @@ last_modified_at: 2021-07-21T21:24:00
   </a>
 </figure>
 
-본 논문에선 길이 대비 반경이 두꺼운 Langevin transducer에 대해 resonance frequency를 analytic하게 예측하는 방법에 대해 다룬다. Length와 radius가 slender rod condition, 즉 \[ L > \lambda / 4 \]를 만족하지 않으면 Langevin transducer는 1-D vibration으로 가정할 수 없다. 이에 본 논문에서는 mechanical coupling coefficient를 통해 각 metal mass 와 piezoelectric ceramic의 radial resonance frequency equation, 그리고 metal mass의 longitudinal resonance frequency equation 총 세 수식을 통해 fundamental mode를 계산한다.
+본 논문에선 길이 대비 반경이 두꺼운 Langevin transducer에 대해 resonance frequency를 analytic하게 예측하는 방법에 대해 다룬다. Length와 radius가 slender rod condition, 즉 $ L > \lambda / 4 $를 만족하지 않으면 Langevin transducer는 1-D vibration으로 가정할 수 없다. 이에 본 논문에서는 mechanical coupling coefficient를 통해 각 metal mass 와 piezoelectric ceramic의 radial resonance frequency equation, 그리고 metal mass의 longitudinal resonance frequency equation 총 세 수식을 통해 fundamental mode를 계산한다.
 
 단, 본 논문에선 mechanical coupling coefficient의 계산 방법은 나오지 않았다. radial 과 transverse vibration에 대한 mechanical coupling coefficient인 것 같은데, 저자의 이전 논문을 찾아봐야 할 것으로 보인다.
 

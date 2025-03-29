@@ -40,7 +40,7 @@ Speckle noise 에 의한 pixel value는 다음과 같이 표현할 수 있다. <
   \label{eq:eq00}
 \end{equation}
 
-\[y\_{ij}\]는 measured pixel value, \[x\_{ij}\]는 true data, 그리고 \[n\_{ij}\]는 speckle noise로, 평균이 1인 random variable로 가정된다.
+$y\_{ij}$는 measured pixel value, $x\_{ij}$는 true data, 그리고 $n\_{ij}$는 speckle noise로, 평균이 1인 random variable로 가정된다.
 
 RLS를 적용하기 위해서는 linearization이 필요하므로, 양변에 로그를 적용하여 아래와 같이 나타낸다.
 
@@ -60,7 +60,7 @@ RLS를 적용하기 위해서는 linearization이 필요하므로, 양변에 로
   \label{eq:eq02}
 \end{equation}
 
-where \[ d\_{ij} (t) = \ln \left( y\_{ij} (t) \right) \], \[ w\_{ij} (t) = \ln \left( x\_{ij} (t) \right) \], and \[ v\_{ij} (t) = \ln \left( n\_{ij} (t) \right) \].
+where $ d\_{ij} (t) = \ln \left( y\_{ij} (t) \right) $, $ w\_{ij} (t) = \ln \left( x\_{ij} (t) \right) $, and $ v\_{ij} (t) = \ln \left( n\_{ij} (t) \right) $.
 
 ## RLS
 
@@ -74,9 +74,9 @@ where \[ d\_{ij} (t) = \ln \left( y\_{ij} (t) \right) \], \[ w\_{ij} (t) = \ln \
   \label{eq:eq03}
 \end{equation}
 
-\[ d (t) \]와 \[ v (t) \]는 각각 time \[t\]에서의 측정값과 측정 노이즈, 그리고 \[\mathbf{u}(t)\]와 \[\mathbf{w} (t)\]는 각각 input data vector와 찾아야 하는 unknown parameters이다.
+$ d (t) $와 $ v (t) $는 각각 time $t$에서의 측정값과 측정 노이즈, 그리고 $\mathbf{u}(t)$와 $\mathbf{w} (t)$는 각각 input data vector와 찾아야 하는 unknown parameters이다.
 
-RLS에서는 estimation of \[\mathbf{w} (t)\], 즉 \[\hat{\mathbf{w}} (t)\]를 다음과 같이 찾는다.
+RLS에서는 estimation of $\mathbf{w} (t)$, 즉 $\hat{\mathbf{w}} (t)$를 다음과 같이 찾는다.
 
 \begin{equation}
   \displaylines
@@ -86,7 +86,7 @@ RLS에서는 estimation of \[\mathbf{w} (t)\], 즉 \[\hat{\mathbf{w}} (t)\]를 �
   \label{eq:eq04}
 \end{equation}
 
-이 이후의 자세한 recursive eqn. 은 논문 본문의 식 (7)번 이후를 찾아보기로 하자. 위 식에서 볼 수 있는 건 \[i = 1 \rightarrow t\]까지 최소화를 시킨다는 것이다. 때문에 소나가 저속으로 움직일 때는 speckle noise removal이 잘 작동하나, 소나가 고속으로 움직일 때는 잘 작동하지 않는 모습을 보인다.
+이 이후의 자세한 recursive eqn. 은 논문 본문의 식 (7)번 이후를 찾아보기로 하자. 위 식에서 볼 수 있는 건 $i = 1 \rightarrow t$까지 최소화를 시킨다는 것이다. 때문에 소나가 저속으로 움직일 때는 speckle noise removal이 잘 작동하나, 소나가 고속으로 움직일 때는 잘 작동하지 않는 모습을 보인다.
 
 때문에 본 연구에서는 time domain에 대해 limited window를 적용하여, 고속으로 움직일 때와 저속으로 움직일 때의 window length에 차등을 두어 RLS를 적용했다.
 
