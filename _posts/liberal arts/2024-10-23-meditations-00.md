@@ -79,7 +79,7 @@ tags:
 우리는 이 세 범주에 대해 알아보고, 그것이 이 우주에서 어떤 의미를 가지는지 알며, 세 규율을 훈련하며 굳건한 내면의 성채를, 내면의 평온을 유지할 수 있을 것이다.
 
 <figure style="width: 90%" class="align-center">
-  <a href="/assets/images/liberal_arts/stoicism/241025_01.png">
+  <a href="/assets/images/liberal_arts/stoicism/241025_03.png">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/stoicism/241025_03.png">
   </a>
   <figcaption>
