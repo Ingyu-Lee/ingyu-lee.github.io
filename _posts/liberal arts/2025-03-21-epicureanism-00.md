@@ -24,8 +24,8 @@ tags:
 # 요약
 
 <figure class="align-center" style="width: 70%">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/philosophy/250321_02.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/philosophy/250321_02.png">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/philosophy/250321_03.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/philosophy/250321_03.png">
   </a>
   <figcaption>
   Fig.2 Definition of a word 'epicurean'
@@ -42,8 +42,8 @@ tags:
 <a href="https://ingyu-lee.github.io/hobbies/liberal-arts/utilitarianism-01/">공리주의</a>에서 효용에 대해 다뤘던 것처럼 에피쿠로스는 고통이 없는 상태를 쾌락이라고 정의하고, 이를 정적-동적 그리고 육체적-정신적으로 총 네 가지 쾌락으로 구분하였으며, 그 중에서도 정적인 정신적 쾌락 즉 평정(=아타락시아)을 만족하는 것이 가장 중요하다고 주장하였다.
 
 <figure class="align-center" style="width: 70%">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/philosophy/250321_01.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/philosophy/250321_01.png">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/philosophy/250321_02.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/philosophy/250321_02.png">
   </a>
 </figure>
 
@@ -74,7 +74,7 @@ tags:
 
 아우렐리우스의 신에 대한 관점은 신에 대한 경외에 가깝다. <a href="{{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/meditations-00/">"명상록 수업"</a>에서 
 
-에피쿠로스의 신에 대한 관점은 사뭇 다른데, 전통적인 신의 개념인 '인간사에 적극적으로 개입하는 신'을 거부한 것에 가깝다. 즉, 삶에서 마주하는 다양한 사건들에 대해 어떤 거대한 존재의 처벌로 생각하지 않고, 즉 신을 두려워하지 않고 평정을 가지는 것을 강조했다는 것이다.
+에피쿠로스의 신에 대한 관점은 사뭇 다른데, 전통적인 신의 개념인 '인간사에 적극적으로 개입하는 신'을 거부한 것에 가깝다. 삶에서 마주하는 다양한 사건들에 대해 어떤 거대한 존재의 처벌로 생각하지 않고, 즉 신을 두려워하지 않고 평정을 가지는 것을 강조했다는 것이다.
 
 # 결론
 
@@ -83,4 +83,4 @@ tags:
 
 # 참고문헌
 
-M. Michela, *Istruzioni per diventare fascisti*, 한재호, Transl., Goyang, Korea: 사월의책, 2021.
+Epicurus, The Pleasure of Epicurus, translated by Jin-Young Oh. Paju: Hyundae Jiseong, 2021.
