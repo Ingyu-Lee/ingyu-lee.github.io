@@ -47,7 +47,7 @@ https://doi.org/10.1049/iet-rsn:20070032
 이 논문에서는 N-array transducer의 beam pattern 수식을 사용한다.
 
 \begin{equation}
-    B(\theta) = \left[ \frac{\sin\left( N \left( \pi d/\lambda \right) \sin\left( \theta \right) \right)}{N \sin\left( \left( \pid/\lambda \right) \sin\left( \theta \right) \right)} \right]^2
+    B(\theta) = \left[ \frac{\sin\left( N \left( \pi d/\lambda \right) \sin\left( \theta \right) \right)}{N \sin\left( \left( \pi d/\lambda \right) \sin\left( \theta \right) \right)} \right]^2
 \end{equation}
 
 ### Backscatter and grazing angle
@@ -98,18 +98,50 @@ SSS 스캔 방향에 대해 중간값median을 확인하여 보정치를 계산�
 
 #### Resampling
 
-센서 고도의 변화가 있는 상황에서는, 데이터를 획득 시간(즉 거리)에 따라 정렬하는 대신, 빔 각도에 따라 데이터를 정렬함으로써 각도에 따른 강도 변화를 추정할 수 있다. 이 재정렬은 각 핑(ping) 시간에서의 고도 추정을 기반으로 한 리샘플링 기법을 통해 수행된다.
+각도 영향을 확인하기 위해 소나 데이터를 시간(=거리)축이 아닌, 각도 축으로 변환시킨다. 이 변환은 각 핑(ping)에서의 고도 추정을 기반으로 한 리샘플링 기법을 통해 수행된다.
 
-리샘플링은 폴리페이즈 필터(polyphase filter) [3]를 사용하여 수행되며, 샘플링 비율 변환은 비율 $d\_{ref} / d(n)$에 따라 결정된다. 여기서 dref는 기준 라인의 첫 반사 위치 샘플 번호이고, d(n)은 n번째 라인의 첫 반사 샘플 번호이다 (이들은 바닥 탐지 결과로부터 얻음).
+리샘플링은 폴리페이즈 필터(polyphase filter) [3]를 사용하여 수행되며, sampling rate는 $d\_{ref} / d(n)$이다. 여기서 $n$은 데이터 라인 번호, $d\_{ref}$는 reference 데이터 라인의 첫번째 반사 위치 데이터 넘버, ${d(n)}$은 n번째 데이터 라인의 첫번째 반사 샘플 넘버이다.
 
-리샘플링 후, 각도 기준으로 모든 행에 대해 중앙값을 계산할 수 있다.
-리샘플링된 이미지는 **I′(n, m)**로 표기되며, 각도 기준 중앙값은 **Ĩ′(m)**로 나타낸다.
+리샘플링 후, 각도 기준으로 모든 행에 대해 중앙값을 계산할 수 있다. 논문에서는 리샘플링된 이미지는 $I'(n, m)$로, 각도 기준 중앙값은 $\tilde{I}'(m)$로 표기하였다.
 
-    그림 7a, 7b는 그림 3의 데이터를 리샘플링 전후(빔 각도 기준 재정렬 전후)의 모습을 보여준다.
+그림 7a, 7b는 그림 3의 데이터를 리샘플링 전후(빔 각도 기준 재정렬 전후)의 모습을 보여준다.
 
-    그림 7c, 7d는 각각 리샘플링 전후의 트랙 방향 중앙값 Ĩ(m), Ĩ′(m)를 보여준다.
+그림 7c, 7d는 각각 리샘플링 전후의 트랙 방향 중앙값 $\tilde{I}(m)$, $\tilde{I}'(m)$를 보여준다.
 
-주의: 리샘플링 후 중앙 수심 근처에서는 빔 패턴이 더 세밀하게 표현되지만, 가장자리로 갈수록 사용 가능한 샘플 수가 적어지기 때문에 노이즈가 증가한다. 누락된 데이터는 리샘플링된 이미지에서 검정색으로 표시된다.
+#### Intensity variation with altitude
+
+아래 수식으로 $C^R$을 모델링했다.
+
+\begin{equation}
+    C^R\left( d(n) \right) = C1\left( \frac{d\_{ref}}{d(n)} \right)^2 + C2\left( \frac{d\_{ref}}{d(n)} \right) + C3
+\end{equation}
+
+본문의 그림 8처럼 데이터에 대해 curve fitting하여 $C^R$의 계수, $C1, C2, C3$를 계산한다.
+
+#### Initialization
+
+각도 보정 요소와 거리 보정 요소는 각각 $\tilde{I}$, $\tilde{I}'$에서 유도된다. 각도 효과는 트랜스듀서 근처에서, 거리 효과는 영상의 가장자리에서 더 우세하다고 가정하여, $\tilde{I}'(m)$에는 삼각형 가중치(triangular weighting)가 적용된다.
+
+\begin{equation}
+    C^G\_0(m) = \frac{1}{\tilde{I}(m)}
+\end{equation}
+
+\begin{equation}
+    C^\theta\_0(m) = \frac{1}{W(m)\tilde{I}'(m)}
+\end{equation}
+
+\begin{equation}
+    W(m) = (W\_{max} - W\_{min}) \times \left( 1 - \left| \frac{m}{M/2} -1 \right| \right) + W\_{min}
+\end{equation}
+
+가중치 한계 $W\_{max} = 1.9$, $W\_{min} = 0.1$로 설정하면, $W_T(m)$는 평균 가중치가 1.0이 되어 수중 컬럼 근처에서는 거리 효과를, 가장자리에서는 각도 효과를 일부 표현할 수 있도록 한다.
+초기 거리 보정 계수는 모든 샘플에서 1.0으로 설정된다.
+
+$C^G(m)$와 $C^\theta(m)$는 1로 normalize되므로 전체 데이터의 intensity는 남은 보정 계수인 $C^R$에 의해 결정된다.
+
+#### Application of correction factors
+
+보정 계수는 line by line으로 적용된다.
 
 ---
 
@@ -118,3 +150,5 @@ SSS 스캔 방향에 대해 중간값median을 확인하여 보정치를 계산�
 [1]	C. G. Capus, A. C. Banks, E. Coiras, I. Tena Ruiz, C. J. Smith, and Y. R. Petillot, "Data correction for visualisation and classification of sidescan SONAR imagery," *IET Radar, Sonar & Navigation*, vol. 2, no. 3, pp. 155-169, 2008/06/12 2008.
 
 [2]	W. U. S. A. P. LAB., APL-UW High-Frequency Ocean Environmental Acoustic Models Handbook. Defense Technical Information Center, 1994.
+
+[3]	J. G. Proakis and D. G. Manolakis, Digital signal processing (3rd ed.): principles, algorithms, and applications. Prentice-Hall, Inc., 1996.
