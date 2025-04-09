@@ -36,6 +36,8 @@ TVG 수식을 레퍼런스 따기 위한 논문.
   \label{eq:eq00}
 \end{equation}
 
+일반적인 TVG(dB scale)은 $20 \log R + 2\alpha R$ 이나, transducer의 time delay를 고려한 TVG(time scale)이 \eqref{eq:eq00} 이다. 
+
 ---
 
 # 참고문헌
