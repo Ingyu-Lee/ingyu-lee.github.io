@@ -32,6 +32,10 @@ https://doi.org/10.1049/iet-rsn:20070032
 
 두 개의 실험 데이터로 검증한다. 기존 방법보다 accuracy, robustness, usability and execution times에 대해 더 나은 것을 보인다.
 
+*다만 2008년 논문이어서인지 신호 모델 수식에 비해 fitting 수식은 2차함수로 간단하게 근사하였고, 때문에 fig.10 에서도 처음 바닥면에 닿는 신호의 일부분은 무시한 것을 확인할 수 있다.
+
+*또 curve fitting을 데이터 누적 후 coordination transformation 후 median 값을 가져와 수행하기 때문에, real-time operation이 아니라는 한계도 있다.
+
 # 내용
 
 ## Intro
@@ -101,6 +105,8 @@ SSS 스캔 방향에 대해 중간값median을 확인하여 보정치를 계산�
 각도 영향을 확인하기 위해 소나 데이터를 시간(=거리)축이 아닌, 각도 축으로 변환시킨다. 이 변환은 각 핑(ping)에서의 고도 추정을 기반으로 한 리샘플링 기법을 통해 수행된다.
 
 리샘플링은 폴리페이즈 필터(polyphase filter) [3]를 사용하여 수행되며, sampling rate는 $d\_{ref} / d(n)$이다. 여기서 $n$은 데이터 라인 번호, $d\_{ref}$는 reference 데이터 라인의 첫번째 반사 위치 데이터 넘버, ${d(n)}$은 n번째 데이터 라인의 첫번째 반사 샘플 넘버이다.
+
+*폴리페이즈 필터는 FIR interpolator 종류 중 하나이며, all-pass filter이며, 주로 위상 특성에서 차이를 보인다. 이로 인해 “폴리페이즈(polyphase)”라는 명칭이 붙는다. [3]
 
 리샘플링 후, 각도 기준으로 모든 행에 대해 중앙값을 계산할 수 있다. 논문에서는 리샘플링된 이미지는 $I'(n, m)$로, 각도 기준 중앙값은 $\tilde{I}'(m)$로 표기하였다.
 
