@@ -158,3 +158,4 @@ $C^G(m)$와 $C^\theta(m)$는 1로 normalize되므로 전체 데이터의 intensi
 [2]	W. U. S. A. P. LAB., APL-UW High-Frequency Ocean Environmental Acoustic Models Handbook. Defense Technical Information Center, 1994.
 
 [3]	J. G. Proakis and D. G. Manolakis, Digital signal processing (3rd ed.): principles, algorithms, and applications. Prentice-Hall, Inc., 1996.
+
