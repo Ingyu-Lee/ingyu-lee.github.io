@@ -155,6 +155,12 @@ Object detection of sonar image는 ROI(Regions of Interest)를 인식하고, 각
 
 ### Two-Stage Detection
 
+2단계 탐지 알고리즘은 탐지 문제를 두 단계로 나눈다. 먼저 영역 제안(Region Proposal)을 생성하고, 이후 후보 영역을 분류한다. 이 방법은 정확도가 높지만 속도는 느리다. 일부 논문에서는 1단계 및 2단계 방법을 비교했으며, 이는 1단계 탐지에서 논의되었다. Faster R-CNN [76]은 불확실성 선택, 불확실성과 다양성 선택, 위치 정보 선택 등 세 가지 능동 학습 방법을 사용하여 객체를 탐지하였다. 불확실성과 불확실성+다양성 선택 방법은 랜덤 선택과 동일한 성능을 유지하면서 라벨링 비용을 50% 절감하였다. 이외에도 SSD(Single Shot Multibox Detector)와 YOLOv1이 탐지기로 사용되었으며, SSD와 Faster R-CNN이 YOLOv1보다 더 우수한 성능을 보였다. Mask R-CNN [77]에서는 ResNet50/101을 대체하기 위해 잔차 블록을 사용하여 32층 특징 추출 네트워크를 구성하였다. 또한, 네트워크 성능을 향상시키기 위해 Adagrad 옵티마이저를 사용하였다. 이 방법은 학습 파라미터를 줄였으며, 평균 정밀도(mAP)는 96.97%를 기록하였다.
+
+Two-stage detection algorithm divides the detection problem into two stages. It generates regional proposals and then classifies the candidate regions. This method has high precision, but the speed is low. Some papers compared both one- and two-stage methods, which are discussed in one-stage detection. Faster R-CNN [76] was used to detect objects using three active learning methods, including uncertainty selection, uncertainty and diversity selection, and location information selection. Uncertainty and uncertainty and diversity selection saved 50% of labeling cost and had the same performance compared to random selection. Besides, single shot multibox detector (SSD) and YOLOv1 also were used as detector and SSD and faster R-CNN outperform YOLOv1. A 32-layer feature extraction network was constructed using residual blocks to replace ResNet50/101 in mask RCNN [77]. Besides, the Adagrad optimizer was used to improve the network performance. This method reduced the training parameters and the mean average precision (mAP) is 96.97%.
+
+### One-Stage Detection
+
 One-stage algorithm은 end-to-end 방식의 object detection 방법으로, 하나의 네트워크를 통해 객체의 클래스와 위치를 동시에 출력한다. 이 방법은 속도가 빠르지만 정밀도가 낮은 편으로, 특히 small target regression이 그러함. You Only Look Once(YOLO) 시리즈 기반의 target detection 알고리즘에 관한 연구가 활발히 이루어지고 있음.
 
 YOLOv1 [78], YOLOv2 [79], YOLOv3 [80-83], DPFIN(YOLOv3-dual-path feature fusion neural network) [84], lightweight YOLOv4 [85], 트랜스포머 모듈과 YOLOv5s를 통합한 TR-YOLOv5s [86] 등이 객체 탐지에 사용됨. 회전된 객체 탐지를 위해 엔드-투-엔드 네트워크인 RBoxNet [87]이 제안되었으며, YOLOv2와 RBoxNet으로 구성된 파이프라인은 표적 탐지, 위치 및 회전 정보 산출에 활용되었다. RBoxNet은 정확도와 속도의 최적 균형을 이루었고, YOLOv2+RBoxNet은 16.19 FPS로 가장 빠른 속도를 보였다. YOLOv3는 YOLOv2 및 일반 CNN보다 뛰어난 성능을 보여 98.2%의 진양성률(true positive rate)을 기록하였다.
