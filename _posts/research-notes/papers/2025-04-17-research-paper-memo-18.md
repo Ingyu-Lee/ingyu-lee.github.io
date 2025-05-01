@@ -155,67 +155,61 @@ Object detection of sonar image는 ROI(Regions of Interest)를 인식하고, 각
 
 ### Two-Stage Detection
 
-2단계 탐지 알고리즘은 탐지 문제를 두 단계로 나눈다. 먼저 영역 제안(Region Proposal)을 생성하고, 이후 후보 영역을 분류한다. 이 방법은 정확도가 높지만 속도는 느리다. 일부 논문에서는 1단계 및 2단계 방법을 비교했으며, 이는 1단계 탐지에서 논의되었다. Faster R-CNN [76]은 불확실성 선택, 불확실성과 다양성 선택, 위치 정보 선택 등 세 가지 능동 학습 방법을 사용하여 객체를 탐지하였다. 불확실성과 불확실성+다양성 선택 방법은 랜덤 선택과 동일한 성능을 유지하면서 라벨링 비용을 50% 절감하였다. 이외에도 SSD(Single Shot Multibox Detector)와 YOLOv1이 탐지기로 사용되었으며, SSD와 Faster R-CNN이 YOLOv1보다 더 우수한 성능을 보였다. Mask R-CNN [77]에서는 ResNet50/101을 대체하기 위해 잔차 블록을 사용하여 32층 특징 추출 네트워크를 구성하였다. 또한, 네트워크 성능을 향상시키기 위해 Adagrad 옵티마이저를 사용하였다. 이 방법은 학습 파라미터를 줄였으며, 평균 정밀도(mAP)는 96.97%를 기록하였다.
+Two-stage detection 알고리즘은 탐지 문제를 두 단계로, regional proposal한 후 candidate regions를 classify한다. 이 방법은 정확도가 높지만 속도는 느림.
 
-Two-stage detection algorithm divides the detection problem into two stages. It generates regional proposals and then classifies the candidate regions. This method has high precision, but the speed is low. Some papers compared both one- and two-stage methods, which are discussed in one-stage detection. Faster R-CNN [76] was used to detect objects using three active learning methods, including uncertainty selection, uncertainty and diversity selection, and location information selection. Uncertainty and uncertainty and diversity selection saved 50% of labeling cost and had the same performance compared to random selection. Besides, single shot multibox detector (SSD) and YOLOv1 also were used as detector and SSD and faster R-CNN outperform YOLOv1. A 32-layer feature extraction network was constructed using residual blocks to replace ResNet50/101 in mask RCNN [77]. Besides, the Adagrad optimizer was used to improve the network performance. This method reduced the training parameters and the mean average precision (mAP) is 96.97%.
+Faster R-CNN [76]은 uncertainty selection, uncertainty and diversity selection, 그리고 location information selection 세 가지 active learning methods를 사용하여 객체를 탐지함. Uncertainty selection, uncertainty and diversity selection 방법은 랜덤 선택과 동일한 성능을 유지하면서 labeling cost를 50% 절감함.
+
+Single-stage detection algorithm과 비교하면, SSD(Single Shot Multibox Detector)와 YOLOv1과 비교하였으며, SSD와 Faster R-CNN이 YOLOv1보다 더 우수한 성능을 보임.
+
+Mask R-CNN [77]에서는 ResNet50/101을 대체하기 위해 residual blocks를 사용하여 32-layer feature extraction network를 구성하였으며, 네트워크 성능을 향상시키기 위해 Adagrad 옵티마이저를 사용함. 그 결과로 학습 파라미터를 줄였으며, 평균 정밀도(mAP)는 96.97%를 기록함.
 
 ### One-Stage Detection
 
-One-stage algorithm은 end-to-end 방식의 object detection 방법으로, 하나의 네트워크를 통해 객체의 클래스와 위치를 동시에 출력한다. 이 방법은 속도가 빠르지만 정밀도가 낮은 편으로, 특히 small target regression이 그러함. You Only Look Once(YOLO) 시리즈 기반의 target detection 알고리즘에 관한 연구가 활발히 이루어지고 있음.
+One-stage algorithm은 end-to-end 방식의 object detection 방법으로, 하나의 네트워크를 통해 객체의 클래스와 위치를 동시에 출력한다. 이 방법은 속도가 빠르지만 정밀도가 낮은 편으로, 특히 small target regression이 그러함. 대표적으로 YOLO(You Only Look Once) 시리즈가 있음.
 
-YOLOv1 [78], YOLOv2 [79], YOLOv3 [80-83], DPFIN(YOLOv3-dual-path feature fusion neural network) [84], lightweight YOLOv4 [85], 트랜스포머 모듈과 YOLOv5s를 통합한 TR-YOLOv5s [86] 등이 객체 탐지에 사용됨. 회전된 객체 탐지를 위해 엔드-투-엔드 네트워크인 RBoxNet [87]이 제안되었으며, YOLOv2와 RBoxNet으로 구성된 파이프라인은 표적 탐지, 위치 및 회전 정보 산출에 활용되었다. RBoxNet은 정확도와 속도의 최적 균형을 이루었고, YOLOv2+RBoxNet은 16.19 FPS로 가장 빠른 속도를 보였다. YOLOv3는 YOLOv2 및 일반 CNN보다 뛰어난 성능을 보여 98.2%의 진양성률(true positive rate)을 기록하였다.
+YOLOv1 [78], YOLOv2 [79], YOLOv3 [80-83], DPFIN(YOLOv3-dual-path feature fusion neural network) [84], lightweight YOLOv4 [85], 트랜스포머 모듈과 YOLOv5s를 통합한 TR-YOLOv5s [86] 등이 있음. 회전된 객체 탐지를 위해 엔드-투-엔드 네트워크인 RBoxNet(rotated-bounding-box network) [87]이 제안되었으며, YOLOv2와 RBoxNet으로 구성된 파이프라인은 표적 탐지, 위치 및 회전 정보 산출에 활용됨. RBoxNet은 정확도와 속도의 최적 균형을 이루었고, YOLOv2+RBoxNet은 16.19 FPS로 빠른 속도를 보임. YOLOv3는 YOLOv2 및 일반 CNN보다 뛰어난 성능을 보여 98.2%의 진양성률(true positive rate)을 기록함.
 
-YOLOv1 [78], YOLOv2 [79], YOLOv3 [80], [81], [82], [83], YOLOv3-dual-path feature fusion neural network (DPFIN) [84], lightweight YOLOv4 [85], and integration of transformer module and YOLOv5s (TR-YOLOv5s) [86] were used to detect objects. For rotated object detection, an end-to-end network (RBoxNet) [87] was proposed and a pipeline composed of YOLOv2 and RBoxNet to detect targets and determine target position and rotation. The RBoxNet reached the optimum tradeoff between accuracy and speed, while YOLOv2+RBoxNet was the fastest at 16.19 FPS. YOLOv3 outperformed YOLOv2 and CNN at 98.2% of a true positive rate. 
+소나 데이터셋, 즉 적은 학습 데이터와 낮은 SNR을 가진 소나 데이터셋에 대해 YOLOv3-DPFIN은 DPN(Dual-Path Network) 모듈과 fusion transition module을 활용해 특징을 추출하고, dense connection으로 multiscale prediction 성능을 향상시킴. 실험 결과, 두 개의 시뮬레이션 소나 데이터셋에서 84.4%의 mAP와 56 fps의 성능을 보임.
 
-소량의 유효 샘플과 낮은 신호대잡음비(SNR)를 가진 소나 데이터셋을 대상으로, YOLOv3-DPFIN은 듀얼 패스 네트워크(DPN) 모듈과 융합 전이 모듈을 통해 효과적인 특징을 추출하고, 조밀 연결을 통해 다중 스케일 예측 성능을 향상시켰다. 실험 결과, 두 개의 시뮬레이션 소나 데이터셋에서 84.4%의 mAP와 56 fps의 성능을 보였다. YOLOv3 개선에는 FPN, K-평균(K-means), 이진 분류 크로스 엔트로피 함수가 사용되었다.
+YOLOv3 개선에는 FPN, K-means, binary classification cross-entropy function이 사용됨.
 
-Aiming at sonar datasets with small effective sample size and low SNR, YOLOV3-DPFIN extracted effective features through dual-path network (DPN) module and fusion transition module, and improved multiscale prediction by dense connection. The experiment showed that mAP was 84.4% with 56 fps on two simulated sonar datasets. FPN, K -means, and binary classification cross-entropy function were used to improve YOLOv3.
+Lightweight YOLOv4는 YOLOv4의 feature extraction network인 CSPDarkNet-53을 개선하여 모델 파라미터와 네트워크 depth를 줄였고, PANet feature enhancement module을 ASFF(adaptive spatial feature fusion module)로 대체하였으며, fused feature layers의 수를 증가시킴. 그 결과, YOLOv4 및 YOLOv4-tiny보다 탐지 정확도와 속도 모두 향상됨.
 
-경량 YOLOv4는 YOLOv4의 특징 추출 네트워크인 CSPDarkNet-53을 개선하여 모델 파라미터와 네트워크 깊이를 줄였고, PANet 특징 강화 모듈을 적응형 공간 특징 융합 모듈(ASFF)로 대체하였으며, 융합 특징 층의 수를 증가시켰다. 그 결과, YOLOv4 및 YOLOv4-tiny보다 탐지 정확도와 속도 모두 향상되었다.
+TR-YOLOv5s는 SSS 특유의 sparse한 targets 및 poor features를 고려해 attention mechanism을 도입하여 mAP 85.6%, macro-F2 87.8%, 이미지당 인식 속도 약 0.068초로 검증됨.
 
-The lightweight YOLOv4 improved feature extraction network CSPDARKnet-53 of YOLOv4 to reduce the model parameters and network depth, replaced the PANet feature enhancement module with the adaptive spatial feature fusion module (ASFF), and increased the number of fused feature layers. The performance of the model in detection accuracy and speed improved compared to YOLOv4 and YOLOv4-tiny.
+또한, MLO(Mine-Like Object)를 탐지하기 위해 Gabor-based detector [88]가 제안되었으며, 다른 detector들과 비교함. The method는 약한 특징과 강한 특징을 모두 추출하여 다양한 크기의 MLO를 효과적으로 처리함. 특징 추출을 위해 파라미터화된 Gabor layer를 도입하였으며 계단식 층 구조에 Gabor 필터링 모듈이 내장됨. 이를 통해 탐지 속도와 정밀도를 높임.
 
-TR-YOLOv5s는 SSS 이미지에서 희소한 표적과 부족한 특징을 고려하여 주의 메커니즘(attention mechanism)을 도입하여 실시간 객체 탐지를 수행하였다. 해당 모델은 mAP 85.6%, macro-F2 87.8%, 이미지당 인식 속도 약 0.068초로 검증되었다.
+그 외에는 RetinaNet [89], [90], MiNet [91], CNN [64], [92], AlexNet [25] 등이 있음. ResNet 기반의 RetinaNet 탐지 프레임워크 [89]는 바위를 탐지하기 위해 이미지 내 최소 3×3 픽셀이 필요했으며, single-stage residual network [90]을 사용해 이미지 해상도를 개선할 수 있었음.
 
-TR-YOLOv5s introduced attention mechanism to complete real-time target detection in view of the characteristics of sparse targets and poor features in SSS images. The model was verified that the mAP was 85.6%, macro-F2 was 87.8%, and the real-time recognition speed was about 0.068 s per image.
-
-또한, MLO(기뢰 유사 물체)를 탐지하기 위해 Gabor 기반 탐지기 [88]가 제안되었으며, 다른 탐지기들과 비교되었다. 이 방법은 약한 특징과 강한 특징을 모두 추출하여 다양한 크기의 MLO를 효과적으로 처리하였다. 특징 추출을 위해 파라미터화된 가보어(Gabor) 계층이 도입되었으며, 계단식 층 구조에 Gabor 필터링 모듈이 내장되었다. 이러한 개선은 탐지 속도와 정밀도를 높였다.
-
-In addition, Gabor-based detector [88] was proposed to detect MLOs and compared to other detectors. The method extracted both weak and strong features, which effectively handled multiple scales MLOs. A parameterized Gabor layer was introduced to extract features. The cascaded layers embedded the Gabor filtering modules. These improvements enhanced detection speed and precision.
-
-그 외에도 RetinaNet [89], [90], MiNet [91], CNN [64], [92], AlexNet [25] 등이 객체 탐지에 사용되었다. ResNet 기반의 RetinaNet 탐지 프레임워크 [89]는 바위를 탐지하기 위해 이미지 내 최소 3×3 픽셀이 필요했으며, 단일 스테이지 잔차 신경망 [90]을 사용하면 이미지 해상도를 개선할 수 있었다.
-
-Besides, RetinaNet [89], [90], MiNet [91], CNN [64], [92], and AlexNet [25] were also used to detect objects. RetinaNet detection framework [89] based on ResNet needed to contain at least 3×3 pixels in the image to detect rock and using a single-stage residual network [90] could improve the resolution of the images.
-
-MiNet [91]은 경량 모델로, AUV(자율 수중 차량)에 탑재하기 적합하며, 크기는 9.9MB, 연산량은 0.0122 GFLOPS였다. 모델 학습에는 점진적 학습 방식이 사용되었다. 반면, VGG 기반 CNN [92]을 사용한 MLO 탐지는 높은 오탐률을 유발하였다.
-
-MiNet [91] was light to mount on autonomous underwater vehicle (AUV) at 9.9 MB and 0.0122 giga floating-point operations per second (GFLOPS) and used an incremental training procedure to train the model. However, using a VGG-like CNN [92] to detect MLO caused high false alarm rate.
+MiNet [91]은 AUV(자율 수중 차량)에 탑재하기 적합한 경량 모델로, 크기는 9.9MB, 연산량은 0.0122 GFLOPS임. 모델 학습에는 incremental training procedure이 사용됨. VGG 기반 CNN [92]을 사용한 MLO 탐지는 high false alarm rate가 발생함.
 
 ### Attention Mechanism
 
-1단계 및 2단계 탐지 방법 외에도, 어텐션 메커니즘 기반 모델들도 객체 탐지에 사용되었다. MRF-Net(Multiple Receptive Field Network) [93], AGFE-NET(Adaptive Global Feature Enhancement Network) [94], AutoDL(Automatic DL) [95], MB-CEDN(Multibranch Convolutional Encoder–Decoder Network) [96] 등이 수중 객체 탐지를 위해 사용되었다. 전이 학습 모델의 중복성과 일반화 능력 부족 문제를 해결하기 위해 AutoDL이 도입되었다. AutoDL의 파라미터 수는 ResNet50의 단 15.2%에 불과했지만, 높은 탐지 정확도와 속도를 달성하였다.
+One-stage 및 two-stage 외에는 attention mechanism-based model이 있음. MRF-Net(Multiple Receptive Field Network) [93], AGFE-NET(Adaptive Global Feature Enhancement Network) [94], AutoDL(Automatic DL) [95], MB-CEDN(Multibranch Convolutional Encoder–Decoder Network) [96] 등이 있음.
 
-Except for one- and two-stage detection methods, attention mechanism-based models were also used for object detection. Multiple receptive field network (MRF-Net) [93], adaptive global feature enhancement network (AGFE-NET) [94], automatic DL (AutoDL) [95], and multibranch convolutional encoder–decoder network (MB-CEDN) [96] were used to detect underwater objects. Aiming at the problem of redundancy and poor generalization ability of transfer model, AutoDL was introduced. The number of parameters was only 15.2% of that of ResNet50, but the method achieved high detection precision and speeds.
+AutoDL은 transfer learning의 한계인 redundancy 및 poor generalization ability를 개선하기 위해 제안됐고, AutoDL의 파라미터 수는 ResNet50의 단 15.2%에 불과했지만, 높은 탐지 정확도와 속도를 달성함.
 
-탐지 방법 전반을 검토해보면, YOLO 시리즈는 소나 이미지에서 객체를 탐지하는 데 널리 사용된다. 사전 학습 및 파인튜닝된 기본 CNN 역시 인기 있는 객체 탐지 방법이다. 한편, Fast R-CNN, Faster R-CNN, YOLO, SSD 등의 성능이 비교되었다. 일반적으로, 사전 학습된 딥러닝 모델을 파인튜닝하는 것은 좋은 전략이다. 다양한 탐지 작업에 따라 서로 다른 방법이 필요하다. 과제의 차이점과 데이터셋의 부족으로 인해 탐지 방법을 평가할 수 있는 통일된 기준은 존재하지 않는다.
-
-Reviewing all work of detection methods, YOLO series are widely used to detect objects in sonar images. Basic CNNs after pretraining and fine-tuning are also popular target detection methods. Meanwhile, fast R-CNN, faster R-CNN, YOLO, and SSD were compared. In general, fine-tuning a pretrained DL model is a good strategy. Different methods are required for different detection tasks. Different tasks and the lack of dataset result in no uniform standard for measuring detection methods.
+요약하자면, detection method를 전반적으로 검토해봤을때 소나 이미지에서 객체 탐지에 주로 사용되는 method는 YOLO 및 사전 학습 및 파인튜닝된 기본 CNN임. Fast R-CNN, Faster R-CNN, YOLO, SSD 등 다양한 method의 성능이 서로 비교됨. 일반적으로, 사전 학습된 딥러닝 모델을 파인튜닝하는 것은 좋은 전략이며, 다양한 탐지 작업에 따라 서로 다른 방법이 필요함. 과제의 차이점과 데이터셋의 부족으로 인해 탐지 방법을 평가할 수 있는 통일된 기준은 존재하지 않음.
 
 ## Segmentation
 
-이미지 분할은 이미지의 픽셀을 고유한 특성을 가진 특정 클래스들로 나누고, 관심 대상을 제안하는 기술 및 과정이다. 소나 이미지에서의 ROI(관심 영역)는 객체에 의해 생기는 하이라이트와 그림자 영역으로, 이를 통해 객체의 크기와 형태를 파악한다. 소나 이미지 분할의 결과는 특정 영역에 특정 레이블이 할당된 마스크 이미지이다. 딥러닝 기반의 이미지 분할 기술은 일반적으로 두 가지 범주로 나뉜다: 의미론적 분할과 인스턴스 분할.
+Image segmentation은 이미지의 픽셀을 클래스들로 나누고 object of interest를 제안하는 기술
 
-Image segmentation is the technology and process of dividing pixels of images into specific classes with unique properties and proposing the object of interest. The ROI for sonar images is the highlight and shadow areas caused by an object, which gets its size and shape. The result of sonar image segmentation is a masked image that specific regions are assigned to specific labels. Image segmentation techniques based on DL are commonly divided into two categories: semantic segmentation and instance segmentation.
+소나 이미지에서의 ROI(Region of Interest)는 물체에 의해 생기는 highlight region과 shadow region으로, 이를 통해 객체의 크기와 형태를 파악함
 
-개요는 다음 섹션에 나와 있다. 마찬가지로, 다양한 분할 방법에 대한 논문 수는 그림 10에 제시되어 있으며, 표 VI에는 의미론적 분할과 인스턴스 분할 방법이 나열되어 있다.
+Sonar image segmentation의 결과는 특정 영역에 특정 레이블이 할당된 masked image임. DL 기반 image segmentation은 두 가지로, semantic segmentation과 instance segmentation이 있음.
 
-An overview is in the following section. Similarly, the number of papers for different segmentation methods is presented in Fig. 10 and Table VI lists semantic and instance segmentation methods.
+Fig. 10은 image segmentation method에 따른 논문 수, table VI은 semantic segmentation과 instance segmentation에 대한 논문과 DL method, task(어떤 target에 대해 segmentation을 하는지), 그리고 사용 소나를 기록함.
 
 ### Semantic Segmentation
 
-해당 방식은 각 픽셀에 클래스 레이블만 할당한다. FCN [30], [97], [98], DeepLab [99], DeepLabV3+ [100], CNN [6], [32], [101], SegNet [102], U-Net [103] 등이 소나 이미지의 의미론적 분할에 사용되었다. FCN은 사다리형 네트워크 아키텍처를 결합하여 파인튜닝할 수 있다. 마르코프 랜덤 필드는 FCN의 스무딩 결과를 최적화할 수 있으며, DeepLab과 결합하여 해저 정보를 식별할 수 있다. DeepLabV3+는 수중 컬럼의 강한 에코를 약화시키기 위해 대칭적 정보 합성 모듈(SISM)을 추가하였다. 해당 모델은 거칠게-정교하게(coarse-to-fine) 분할하는 전략으로 학습되었고, 평균 오류 1.1픽셀을 달성했다. CNN 기반 프레임워크 AR-Net [101]은 SegNet의 네트워크 구조 대칭성과 U-Net의 장점을 통합하였다. FCN, DeepLab, U-Net, SegNet, ResUNet-a, AR-Net 등 여섯 가지 분할 모델을 비교하여 그 성능을 검증하였다.
+Semantic segmentation은 각 픽셀에 클래스 레이블을 할당하는 방식임. FCN [30, 97, 98], DeepLab [99], DeepLabV3+ [100], CNN [6, 32, 101], SegNet [102], U-Net [103] 등이 있음.
 
-It only assigns a class label to each pixel. FCN [30], [97], [98], DeepLab [99], DeepLabV3+ [100], CNN [6], [32], [101], SegNet [102], and U-Net [103] were used for semantic segmentation of sonar images. FCN could join a ladder network architecture to fine-tune. The Markov random field could optimize the smoothing results of FCN and could be combined with DeepLab to identify seabed information. DeepLabV3+ added a symmetrical information synthesis module (SISM) to weaken the strong echoes of water column. The model was trained using a coarse-to-fine segmentation strategy. The result achieved 1.1 pixels of mean error. A CNN framework (AR-Net) [101] integrated the advantages of SegNet network structure symmetry and U-Net. The effectiveness was verified by comparing six different segmentation models, including FCN, Deeplab, U-Net, SegNet, ResUNet-a, and AR-Net.
+FCN은 ladder network architecture를 결합하여 파인튜닝할 수 있으며, 마르코프 랜덤 필드는 FCN의 스무딩 결과를 최적화할 수 있으며, DeepLab과 결합하여 해저 정보를 식별할 수 있음.
+
+DeepLabV3+는 water column의 strong echo를 약화시키기 위해 SISM(symmetrical information synthesis module)을 추가하였음. SISM은 coarse-to-fine segmentation을 수행하는 방식이며, 평균 오류 1.1픽셀을 달성함.
+
+AR-Net [101]은 SegNet의 네트워크 구조 대칭성과 U-Net의 장점을 통합하였으며, FCN, DeepLab, U-Net, SegNet, ResUNet-a, AR-Net 등 여섯 가지 분할 모델을 비교하여 그 성능을 검증함.
 
 실시간 분할 작업과 인코더–디코더 네트워크는 활발히 논의되고 있다. 효율적인 네트워크(ENet) [102], 효율적인 합성곱 신경망(ECNet) [104], 팽창 합성곱 신경망(DcNet) [105], 다중 분기 합성곱 인코더–디코더 네트워크(MB-CEDN) [96] 등은 인코더–디코더 네트워크로서 실시간 분할을 달성하였다. 일반적으로 인코더는 풍부한 계층적 특징을 학습하고, 디코더는 입력 크기와 동일한 해상도의 특징 맵을 복원한다. ENet에서는 여러 개의 사이드 출력을 갖는 단일 스트림 DNN이 엣지 분할을 최적화하고, 불균형 분류 문제를 완화하기 위해 가중 손실이 사용되었다. DcNet은 밝기 불균일성 문제 등 다양한 노이즈를 해결하고, 입력 이미지의 공간 차원을 줄이며, 타깃의 세부 정보를 복원하였다. 핵심 네트워크는 DCblock이라 불리는 블록 연결 구조로, 인코더와 디코더 사이에서 팽창 합성곱과 깊이별 분리 합성곱을 사용하여 이미지의 더 많은 문맥 정보를 확보하였다. MB-CEDN은 반지도 학습 모델로, 다중 타깃 분할을 위해 제안되었다. 이외에도 SC-CNN(Self-Cascaded CNN) [106], OS-ELM(Online Sequential Extreme Learning Machine) [107], IDUS(Iterative Deep Unsupervised Segmentation), IDSS(Iterative Deep Semi-supervised Segmentation) [108] 또한 실시간 분할을 달성하였다. SC-CNN은 스펙클 노이즈와 밝기 불균일성에 대응 가능하며, 지역적 및 전역적 특징을 동시에 활용한다. OS-ELM은 시간 가변 이득(TVG) 보정, 속도 보정, 집합 경험적 모드 분해(EEMD) 디노이징을 결합하였다. IDUS와 IDSS는 실시간 성능이 지도 학습 방식보다 우수했으며, 크기·무게·전력 소비가 적은 플랫폼에 적용되었다. 유사하게 MRF도 결과를 정제하는 데 유효하다. 이외에도 GAN [30]과 이미지 디노이징을 위한 딥 CNN(DnCNN) [109] 또한 분할에 사용되었다. DnCNN은 수용 영역 블록과 탐색 어텐션 메커니즘을 통합하여 단일 객체 이미지의 분할을 완성하였다. 이 모델은 더 많은 엣지 정보와 세부 사항을 유지할 수 있다.
 
