@@ -1,6 +1,5 @@
 ---
 layout: splash
-permalink: /
 hidden: true
 title: 공부 및 취미 기록
 header:
@@ -16,10 +15,7 @@ excerpt:
 feature_row:
   - image_path: /assets/images/999999_category_research_paper_memo_00.jpg
     title: "전공 공부 기록"
-    excerpt: "기계공학과 학부 과정 중 배우는 내용,<br>
-    음향학 및 비선형 음향 현상에 관한 기록,<br>
-    트랜스듀서 및 현재 연구 내용 관한 기록,<br>
-    그 외 공부한 내용 등에 관한 기록"
+    excerpt: "공부한 내용에 관한 기록"
     url: "/studies"
   - image_path: /assets/images/999999_home_image_banner_textbook_600_400.jpg
     title: "취미 I"
@@ -32,7 +28,7 @@ feature_row:
 ---
 {% include feature_row %}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
+<!-- {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
@@ -44,4 +40,22 @@ feature_row:
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
-{% endfor %}
+{% endfor %} -->
+
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
