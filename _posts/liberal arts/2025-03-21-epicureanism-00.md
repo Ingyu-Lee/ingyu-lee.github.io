@@ -106,7 +106,7 @@ tags:
 
 ## 신에 대한 관점
 
-스토아 학파로 알려진 아우렐리우스의 "명상록"에서 자주 신을 두려워하라고 나온 것과는 사뭇 다른 모습이다. 아우렐리우스가 신을 두려워하라고 한 의도는 무엇이고, 에피쿠로스가 신을 두려워하지 말라고 한 의도는 뭘까?
+스토아 학파로 알려진 아우렐리우스의 "명상록"에서 자주 신을 두려워하라고 나온 것과는 사뭇 다른 모습이어서 이 차이점을 확인해봤다. 아우렐리우스가 신을 두려워하라고 한 의도는 무엇이고, 에피쿠로스가 신을 두려워하지 말라고 한 의도는 뭘까?
 
 아우렐리우스의 신에 대한 관점은 전통적인 인격신보다는, 우주를 관통하는 이성(λόγος, logos)에 대한 경외에 가깝다. 스토아 학파의 신은 우주를 지배하는 이성적 질서이자, 인간의 내면에 존재하는 보편 이성을 포함하는 개념이다. [[5]](#footnote_3) 인간은 이성적 존재이므로, 자신의 이성에 따라 살아가는 것, 즉 자연의 질서에 조화를 이루는 것이 곧 절대선이며, 궁극적인 행복에 이르는 길이라는 견해이다. [[4]](#footnote_2)
 
@@ -114,19 +114,17 @@ tags:
 
 ## 죽음에 대한 관점
 
-죽음에 대한 관점은 죽음에 대한 두려움을 떨쳐내는 데에는 좋아 보이지만, 자발적 죽음에 대해선 
+죽음에 대한 관점은 죽음에 대한 두려움을 떨쳐내는 데에는 좋아 보이지만, 자발적으로 죽음을 선택하는 것을 옹호하는 것은 아닐까, 해서 이에 대한 생각을 조사해 보았다. 이렇게 생각한 까닭으로는 쾌락주의의 후신인 공리주의, 그 중에서도 소극적 공리주의 때문이다. 소극적 공리주의는 행복과 불행의 최대 차이를 내는 것 보다는, 불행의 총합을 줄이는 것을 중요시하는 철학 사조이다. 하지만 단순히 불행의 총합을 줄이는 것이 목표라면, 세계 멸망 또한 도덕적 행위가 된다는 세계멸망 논증The World Destruction Argument으로 반박된다는 철학 사조이기도 하다. [[6]](#footnote_4) 이와 비슷하게, 죽음은 아무것도 아니고 지금 내가 극심한 정신적 고통에 빠져 있는 상황이라면, 죽음을 선택하지 않을 이유가 있을까, 하는 의문이 들어서이다.
 
-(하지만 죽음을 유도하는게 아닌가, 소극적 공리주의 인용)
+하지만 W. Englert에 따르면 에피쿠로스 학파는 자발적 죽음의 사용에 부정적이었으며, 오히려 스토아 학파에서는 몇몇 상황에서 옹호했으며, 대표적 예로 제논Zeno of Citium과 세네카Lucius Annaeus Seneca가 있다. 에피쿠로스 학파의 이상적인 현자는 운명에 대해 완전히 무적invulnerable이 되며, 쾌락과 고통의 주인이 되어 항상 그 균형을 이루어 평정에 이른 사람이므로, 결코 죽음을 선택할 이유가 없으며 오히려 고통에 대한 패배로 간주하는 것이다. 하지만 스토아 학파에서는 덕virtue의 실천을 위해서는 죽음을 선택하는 경우도 있을 수 있다. [[7]](#footnote_5)
 
-루크레티우스의 대칭 논증Lucretius' symmetry argument의 주된 반박은 EBS의 "위대한 수업"에서 셸리 케이건이 소개한 "박탈 이론deprivation account"이 있다. 즉, 우리는 삶에서 있던 행복을 죽음 이후에는 누릴 수 없으니 행복을 박탈당한 것 때문에 죽음은 나쁘다는 것이다.
-
-(프로이트의 BPP 논문 인용)
+루크레티우스의 대칭 논증Lucretius' symmetry argument의 주된 반박은 어떤 것이 있을까 확인해보니, EBS의 "위대한 수업"에서 셸리 케이건이 소개한 "박탈 이론deprivation account"이 있다. 즉, 우리는 삶에서 있던 행복을 죽음 이후에는 누릴 수 없으니 행복을 박탈당한 것 때문에 죽음은 나쁘다는 것이다. [[8]](#footnote_4)
 
 # 결론
 
-(쾌락에 대해서는 금욕적이되, 금욕을 강제하지 않고 평정에 이르는 것을 중시한 것이 좋다는 생각이 든다. 스토아 학파에서는 이성을 강조하지만, )
+쾌락에 대해서는 금욕적이되, 금욕을 강제하지 않고 평정에 이르는 것을 중시한 것이 내 삶에서 본받을 만 하다는 생각이 든다. 스토아 학파에서는 이성을 강조하며 감정과 충동에 의한 쾌락 추구를 절제하는 것이며, "명상록 수업"에서는 F. Ollier의 "Le Mirage spartiate"를 인용하며 이러한 금욕적 생활을 '스파르타의 허상'으로 지적하기도 했다. 하지만 에피쿠로스 학파는 
 
-(신에 대한 관점에서도 스토아 학파나 기독교적 시선보다는 받아들이기 편하다는 생각이 든다. 두 관점 모두 )
+신에 대한 관점에서도 스토아 학파나 기독교적 시선보다는 받아들이기 편하다는 생각이 들고, 또 조금 확장해서 생각해보면 '신'에도 적용할 수 있지만 '살면서 마주하는 다양한 사건들'로도 해석할 수 있다는 생각이 든다.
 
 (죽음에 관해서는 )
 
@@ -140,7 +138,12 @@ tags:
 
 <a name="footnote_1">[3]</a> Bergsma, A., Poot, G. & Liefbroer, A.C. Happiness in the Garden of Epicurus. J Happiness Stud 9, 397–423 (2008). https://doi.org/10.1007/s10902-006-9036-z
 
-<a name="footnote_2">[4]</a> <a href="{{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/consolatione-philosophiae-00/">철학의 위안</a>
+<a name="footnote_2">[4]</a> <a href="{{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/consolatione-philosophiae-00/">Boethius, 박문재, Transl., 철학의 위안, 현대지성, 2018.</a>
 
-<a name="footnote_3">[5]</a> <a href="{{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/meditations-00/">명상록 및 명상록 수업</a>
+<a name="footnote_3">[5]</a> <a href="{{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/meditations-00/">P. Hadot, 이세진, Transl., 명상록 수업, 복복서가, 2023.</a>
 
+<a name="footnote_4">[6]</a> <a href="{{ site.url }}{{ site.baseurl }}/hobbies/liberal-arts/philosophy-the-basics-00/">W. Nigel, Philosophy: The Basics, 최희봉, Transl., Paju, Korea: 자작나무, 1997.</a>
+
+<a name="footnote_5">[7]</a>	W. Englert, "Colloquium 3: Stoics and Epicureans on the Nature of Suicide," in Proceedings of the Boston area colloquium in ancient philosophy, 1994, vol. 10, no. 1, pp. 67-96: Brill.
+
+<a name="footnote_6">[8]</a> <a href="https://home.ebs.co.kr/greatminds/index">https://home.ebs.co.kr/greatminds/index</a>
