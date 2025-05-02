@@ -211,13 +211,29 @@ DeepLabV3+는 water column의 strong echo를 약화시키기 위해 SISM(symmetr
 
 AR-Net [101]은 SegNet의 네트워크 구조 대칭성과 U-Net의 장점을 통합하였으며, FCN, DeepLab, U-Net, SegNet, ResUNet-a, AR-Net 등 여섯 가지 분할 모델을 비교하여 그 성능을 검증함.
 
-실시간 분할 작업과 인코더–디코더 네트워크는 활발히 논의되고 있다. 효율적인 네트워크(ENet) [102], 효율적인 합성곱 신경망(ECNet) [104], 팽창 합성곱 신경망(DcNet) [105], 다중 분기 합성곱 인코더–디코더 네트워크(MB-CEDN) [96] 등은 인코더–디코더 네트워크로서 실시간 분할을 달성하였다. 일반적으로 인코더는 풍부한 계층적 특징을 학습하고, 디코더는 입력 크기와 동일한 해상도의 특징 맵을 복원한다. ENet에서는 여러 개의 사이드 출력을 갖는 단일 스트림 DNN이 엣지 분할을 최적화하고, 불균형 분류 문제를 완화하기 위해 가중 손실이 사용되었다. DcNet은 밝기 불균일성 문제 등 다양한 노이즈를 해결하고, 입력 이미지의 공간 차원을 줄이며, 타깃의 세부 정보를 복원하였다. 핵심 네트워크는 DCblock이라 불리는 블록 연결 구조로, 인코더와 디코더 사이에서 팽창 합성곱과 깊이별 분리 합성곱을 사용하여 이미지의 더 많은 문맥 정보를 확보하였다. MB-CEDN은 반지도 학습 모델로, 다중 타깃 분할을 위해 제안되었다. 이외에도 SC-CNN(Self-Cascaded CNN) [106], OS-ELM(Online Sequential Extreme Learning Machine) [107], IDUS(Iterative Deep Unsupervised Segmentation), IDSS(Iterative Deep Semi-supervised Segmentation) [108] 또한 실시간 분할을 달성하였다. SC-CNN은 스펙클 노이즈와 밝기 불균일성에 대응 가능하며, 지역적 및 전역적 특징을 동시에 활용한다. OS-ELM은 시간 가변 이득(TVG) 보정, 속도 보정, 집합 경험적 모드 분해(EEMD) 디노이징을 결합하였다. IDUS와 IDSS는 실시간 성능이 지도 학습 방식보다 우수했으며, 크기·무게·전력 소비가 적은 플랫폼에 적용되었다. 유사하게 MRF도 결과를 정제하는 데 유효하다. 이외에도 GAN [30]과 이미지 디노이징을 위한 딥 CNN(DnCNN) [109] 또한 분할에 사용되었다. DnCNN은 수용 영역 블록과 탐색 어텐션 메커니즘을 통합하여 단일 객체 이미지의 분할을 완성하였다. 이 모델은 더 많은 엣지 정보와 세부 사항을 유지할 수 있다.
+Real-time segmentation을 수행하기 위한 encoder-decoder network에는 ENet(Efficient Network) [102], ECNet(Efficient Convolutional network) [104], DcNet(dilated CNN) [105], MB-CEDN(Multibranch Convolutional Encoder–Decoder Network) [96] 등이 있음.
 
-Real-time segmentation tasks and encoder–decoder networks are hotly discussed. Efficient network (ENet) [102], efficient convolutional network (ECNet) [104], dilated CNN (DcNet) [105], and multibranch convolutional encoder–decoder network (MB-CEDN) [96] are encoder–decoder networks and achieved real-time segmentation. In general, an encoder learns rich hierarchical features and a decoder restores full input-size resolution feature maps. In ENet, a single stream DNN with multiple side outputs optimized edge segmentation and weighted loss was used to alleviate the influence of the imbalance classification. DcNet solved various noises, such as the intensity inhomogeneity problem, reduced the spatial dimension of input images, and recovered the details of the target. Its core network is a block connection named DCblock, which used dilated convolution and depthwise separable convolution between the encoder and the decoder to attain more context of images. MB-CEDN was a semisupervised learning model and was proposed for multitarget segmentation. In addition, self-cascaded CNN (SC-CNN) [106], online sequential extreme learning machine (OS-ELM) [107], iterative deep unsupervised segmentation (IDUS), and iterative deep semisupervised segmentation (IDSS) [108] also accomplished real-time segmentation. SC-CNN was available for speckle noise and intensity inhomogeneity and simultaneously used local and global features. OS-ELM combined with time-varying gain (TVG) correction, speed correction, and ensemble empirical mode decomposition (EEMD) denoising. Real-time of IDUS and IDSS outperformed supervised methods and applied to platform of low size, weight, and power. Similarly, MRF is available for refining the result. Besides, GAN [30] and deep CNN for image denoising (DnCNN) [109] were also used for segmentation. DnCNN integrated receptive field block and search attention mechanism to complete segmentation of a single object image. It retains more edge information and details.
+일반적으로 인코더는 rich hierarchical features를 학습하고, 디코더는 feature map을 input size와 동일한 크기와 resolution으로 복원함.
+
+ENet은 single stream DNN with multiple side outputs이 edge segmentation을 최적화하고, weighted loss로 imbalance classification을 최소화시킴.
+
+DcNet은 intensity inhomogeneity problem 등의 노이즈를 해결하고, 입력 이미지의 spatial dimension을 줄이며, target의 세부 정보를 복원함. Core network는 DCblock라는 block connection으로, 인코더와 디코더 사이에서 dilated convolution과 depthwise separable convolution을 사용해 이미지의 context를 추출함.
+
+MB-CEDN은 semisupervised learning model로, multitarget segmentation을 수행할 수 있음.
+
+그 외에는 SC-CNN(Self-Cascaded CNN) [106], OS-ELM(Online Sequential Extreme Learning Machine) [107], IDUS(Iterative Deep Unsupervised Segmentation), IDSS(Iterative Deep Semi-supervised Segmentation) [108] 등이 실시간 segmentation을 수행함.
+
+SC-CNN은 speckle noise 및 intensity inhomogeneity를 처리할 수 있으며 local 및 global features를 동시에 활용함.
+
+OS-ELM은 TVG, 속도 보정 및 EEMD(Ensemble Empirical Mode Decomposition) 디노이징을 활용함.
+
+IDUS와 IDSS의 실시간 성능은 supervised methods보다 우수하며, MRF도 결과 refining에 유리함.
+
+그 외에는 GAN [30] 및 이미지 디노이징을 위한 DnCNN(Deep CNN) [109] 또한 segmentation에 활용됨. DnCNN은 receptive field block과 search attention mechanism을 통합해 단일 객체 이미지의 segmentation을 수행함.
 
 ### Instance Segmentation
 
-이 방식은 클래스 레이블뿐만 아니라 ID도 함께 가진다. 위치 기반 객체 분할을 위한 이중 분할 어텐션(DSA-SOLO) [110]이 SSS 이미지 분할을 위해 제안되었으며, 공간 어텐션과 채널 어텐션을 융합하는 DSA 어텐션 모듈을 도입하였다. 해당 모델은 DSA를 SOLOv2의 FPN 네트워크에 임베딩하였고, 공개 데이터셋인 SCTD(sonar common target detection) [95]를 통해 학습되었다.
+Instance segmentation은 픽셀에 클래스 레이블과 ID를 부여하는 알고리즘으로, 위치 기반 객체 분할을 위한 이중 분할 어텐션(DSA-SOLO) [110]이 SSS 이미지 분할을 위해 제안되었으며, 공간 어텐션과 채널 어텐션을 융합하는 DSA 어텐션 모듈을 도입하였다. 해당 모델은 DSA를 SOLOv2의 FPN 네트워크에 임베딩하였고, 공개 데이터셋인 SCTD(sonar common target detection) [95]를 통해 학습되었다.
 
 It has not only the class label but also an ID. A double split attention segmentation objects by locations (DSA-SOLO) [110] was proposed for SSS image segmentation, which introduced a DSA attention module to fuse spatial attention and channel attention. The model embedded DSA into the FPN network of SOLOv2 and was trained by a public dataset called sonar common target detection (SCTD) [95].
 
