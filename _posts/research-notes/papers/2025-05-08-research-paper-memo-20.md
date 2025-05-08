@@ -76,8 +76,6 @@ Data augmentation에서 color segmentation, edge detection 등의 고전적 방�
 
 Training data가 부족할 때 효과적
 
-
-
 ---
 
 # 참고문헌
