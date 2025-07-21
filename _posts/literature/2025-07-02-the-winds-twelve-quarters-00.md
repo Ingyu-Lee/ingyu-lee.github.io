@@ -1,5 +1,5 @@
 ---
-title: "바람의 열두 방향 감상"
+title: "바람의 열두 방향 감상: 단편문학의 관점의 한계에 관해"
 excerpt: "바람의 열두 방향"
 thumbnail: literature/ursula_k_le_guin/250604_00.jpg
 banner: 999999_home_image_banner_textbook.jpg
@@ -44,6 +44,6 @@ tags:
 
 # 참고문헌
 
-[1]	R. H. Thaler and C. R. Sunstein, "Libertarian Paternalism," The American Economic Review, vol. 93, no. 2, pp. 175-179, 2003.
+[1] R. H. Thaler and C. R. Sunstein, "Libertarian Paternalism," The American Economic Review, vol. 93, no. 2, pp. 175-179, 2003.
 
-[2]	L. Bovens, "The Ethics of Nudge," in Preference Change: Approaches from Philosophy, Economics and Psychology, T. Grüne-Yanoff and S. O. Hansson, Eds. Dordrecht: Springer Netherlands, 2009, pp. 207-219.
+[2] L. Bovens, "The Ethics of Nudge," in Preference Change: Approaches from Philosophy, Economics and Psychology, T. Grüne-Yanoff and S. O. Hansson, Eds. Dordrecht: Springer Netherlands, 2009, pp. 207-219.
