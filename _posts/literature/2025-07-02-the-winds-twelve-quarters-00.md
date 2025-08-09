@@ -9,8 +9,8 @@ categories:
 tags:
   - Books
   - Literature
-  - Hermann Hesse
-  - Demian
+  - Ursula Kroeber Le Guin
+  - The Wind's Twelve Quarters
 ---
 
 <figure class="align-center" style="width: 30%">
