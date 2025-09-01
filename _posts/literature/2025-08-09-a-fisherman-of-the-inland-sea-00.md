@@ -1,5 +1,5 @@
 ---
-title: "내해의 어부 감상: 단편문학의 관점의 한계에 관해"
+title: "내해의 어부 감상: 단편과 프로파간다"
 excerpt: "내해의 어부"
 thumbnail: literature/ursula_k_le_guin/250722_00.jpg
 banner: 999999_home_image_banner_textbook.jpg
