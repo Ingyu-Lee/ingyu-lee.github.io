@@ -1,7 +1,7 @@
 ---
-title: "메모: "
+title: "메모: Concealed Hazardous Object Instance Segmentation for Terahertz Security Inspection Images With Channel-Spatialized Transformer"
 excerpt: ""
-thumbnail: study_notes/lab-paper/250924_01.jpeg
+thumbnail: study_notes/lab-paper/251005_00.jpeg
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Research Memo
 use_math: true
@@ -12,17 +12,17 @@ tags:
 ---
 
 <figure class="align-center" style="width: 60%">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/250924_01.jpeg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/250924_01.jpeg">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/251005_00.jpeg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/251005_00.jpeg">
   </a>
   <figcaption>
-  Fig.1 
+  Fig.1 Concealed Hazardous Object Instance Segmentation for Terahertz Security Inspection Images With Channel-Spatialized Transformer
   </figcaption>
 </figure>
 
-Published in: 
+Published in: IEEE Sensors Journal ( Volume: 24, Issue: 21, 01 November 2024)
 
-Date of Publication: 
+Date of Publication: 16 September 2024
 
 # Introduction
 
