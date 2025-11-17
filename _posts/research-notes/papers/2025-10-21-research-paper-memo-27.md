@@ -37,6 +37,7 @@ Infrared vision에 대해 visual transformer network 제시, 3가지 개선점�
 
 ## Method
 
+feature extraction 관련해선 다른 IEEE Sensors에서 image enhancement와 detection 키워드로 조사한 논문들처럼, 자체적인 backbone network 구성을 통해 개선함.
 
 # Conclusion
 
