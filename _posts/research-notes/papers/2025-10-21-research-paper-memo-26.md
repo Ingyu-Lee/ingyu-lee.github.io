@@ -47,6 +47,7 @@ Detailed branch는 wavelet transform을 이용해 영상을 주파수 대역으�
 
 ## Method
 
+feature extraction 관련해선 다른 IEEE Sensors에서 image enhancement와 detection 키워드로 조사한 논문들처럼, 자체적인 network 구성을 통해 feature extraction을 개선함.
 
 # Conclusion
 
