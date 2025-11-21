@@ -1,7 +1,7 @@
 ---
 title: "메모: MOA-YOLO: An Accurate, Real-Time, and Lightweight YOLOv10-Based Algorithm for Deep-Sea Fish Detection"
 excerpt: ""
-thumbnail: study_notes/lab-paper/251119_00.jpeg
+thumbnail: study_notes/lab-paper/251119_01.jpeg
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Research Memo
 use_math: true
@@ -12,8 +12,8 @@ tags:
 ---
 
 <figure class="align-center" style="width: 60%">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/251119_00.jpeg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/251119_00.jpeg">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/251119_01.jpeg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/study_notes/lab-paper/251119_01.jpeg">
   </a>
   <figcaption>
   Fig.1 MOA-YOLO: An Accurate, Real-Time, and Lightweight YOLOv10-Based Algorithm for Deep-Sea Fish Detection
