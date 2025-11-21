@@ -16,7 +16,7 @@ tags:
 
 <figure class="align-center" style="width: 30%">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/music/250902_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/politics/250902_00.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/music/250902_00.jpg">
   </a>
   <figcaption>
   Fig.1 음악에서 무엇을 들어 낼 것인가, PHONO
