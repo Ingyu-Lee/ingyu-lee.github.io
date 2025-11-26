@@ -59,6 +59,7 @@ Underwater image에 CLAHE, Water-Net 적용 후 YOLOv5s를 적용해, image enha
 
 # Memo
 
+강화학습은 잘 모르는 영역이니, 다음 연구 주제로 삼지 않는 한, 상세히 다루기보다는 일부 reference를 활용하는 방향으로 생각하자.
 
 ---
 
