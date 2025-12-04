@@ -1,6 +1,6 @@
 ---
 title: "Segmentation of Sidescan Sonar Imagery Using Markov Random Fields and Extreme Learning Machine"
-excerpt: "연구실 논문 공부"
+excerpt: "논문 공부"
 thumbnail: study_notes/lab-paper/241216_00.png
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Research Memo
