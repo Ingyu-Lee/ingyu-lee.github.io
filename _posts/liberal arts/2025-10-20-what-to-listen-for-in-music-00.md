@@ -1,5 +1,5 @@
 ---
-title: "음악에서 무엇을 들어 낼 것인가"
+title: "음악에서 무엇을 들어 낼 것인가 1회독"
 excerpt: ""
 thumbnail: liberal_arts/music/250902_00.jpg
 banner: 999999_home_image_banner_textbook.jpg
