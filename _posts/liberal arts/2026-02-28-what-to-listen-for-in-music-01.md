@@ -4,8 +4,6 @@ excerpt: ""
 thumbnail: liberal_arts/music/250902_00.jpg
 banner: 999999_home_image_banner_textbook.jpg
 banner_caption: Hobbies
-toc: true
-toc_sticky: true
 categories:
   - Hobbies/Liberal-Arts
 tags:
@@ -15,24 +13,44 @@ tags:
 gallery:
   - url: /assets/images/liberal_arts/music/260228_00.PNG
     image_path: /assets/images/liberal_arts/music/260228_00.PNG
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
   - url: /assets/images/liberal_arts/music/260228_01.PNG
     image_path: /assets/images/liberal_arts/music/260228_01.PNG
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
   - url: /assets/images/liberal_arts/music/260228_02.PNG
     image_path: /assets/images/liberal_arts/music/260228_02.PNG
+    alt: "placeholder image 3"
+    title: "Image 3 title caption"
   - url: /assets/images/liberal_arts/music/260228_03.PNG
     image_path: /assets/images/liberal_arts/music/260228_03.PNG
+    alt: "placeholder image 4"
+    title: "Image 4 title caption"
   - url: /assets/images/liberal_arts/music/260228_04.PNG
     image_path: /assets/images/liberal_arts/music/260228_04.PNG
+    alt: "placeholder image 5"
+    title: "Image 5 title caption"
   - url: /assets/images/liberal_arts/music/260228_05.PNG
     image_path: /assets/images/liberal_arts/music/260228_05.PNG
+    alt: "placeholder image 6"
+    title: "Image 6 title caption"
   - url: /assets/images/liberal_arts/music/260228_06.PNG
     image_path: /assets/images/liberal_arts/music/260228_06.PNG
+    alt: "placeholder image 7"
+    title: "Image 7 title caption"
   - url: /assets/images/liberal_arts/music/260228_07.PNG
     image_path: /assets/images/liberal_arts/music/260228_07.PNG
+    alt: "placeholder image 8"
+    title: "Image 8 title caption"
   - url: /assets/images/liberal_arts/music/260228_08.PNG
     image_path: /assets/images/liberal_arts/music/260228_08.PNG
+    alt: "placeholder image 9"
+    title: "Image 9 title caption"
   - url: /assets/images/liberal_arts/music/260228_09.PNG
     image_path: /assets/images/liberal_arts/music/260228_09.PNG
+    alt: "placeholder image 10"
+    title: "Image 10 title caption"
 ---
 
 <figure class="align-center" style="width: 30%">
@@ -59,9 +77,9 @@ gallery:
 
 개론서의 장점을 느꼈던 점은, 넓은 범위의 지식을 간단하게 다뤄, 지식을 더 깊게 파고들지 적당히 얕은 영역에서 부담없이 즐길지 고민할 수 있던 점이다. 개인적인 예시를 들자면, 음악이 익숙치 않아서 지식을 체화시키는 과정에서 입문 장벽을 느꼈던 점이다. 악곡의 구성이나 화음을 느끼기 위해서 음악을 집중해서 들어야 했고, 내가 틀렸는지 맞았는지 판단하기 위해 관련 정보를 계속 찾아봐야 했다. 학생 때 공부하듯, 느낌과 이론을 매칭하는 과정은 마치 예제와 연습문제를 푸는 기분이었고, 별 생각없이 듣던 음악에 시간과 노력을 더 투자하는 데에 부담도 느껴졌다.
 
-<figure class="align-center" style="width: 60%">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/music/260304_00.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/music/260304_00.jpg">
+<figure class="align-center" style="width: 80%">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/music/260304_00.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/music/260304_00.png">
   </a>
   <figcaption>
   Fig.2 Harman's How to listen
