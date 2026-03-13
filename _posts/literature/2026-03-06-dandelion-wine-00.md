@@ -1,5 +1,5 @@
 ---
-title: "민들레 와인: 삶과 죽음에 관해"
+title: "민들레 와인: 삶, 인생, 그리고 죽음에 관해"
 excerpt: "민들레 와인 독후감"
 thumbnail: literature/ray_bradbury/260306_00.jpg
 banner: 999999_home_image_banner_textbook.jpg
