@@ -1,6 +1,6 @@
 ---
 title: "한국 천주교 예비 신자 교리서 교회, 선교 그리고 성모 마리아"
-excerpt: "서양 문명을 이해하기 위한 카톨릭의 이해"
+excerpt: "서양 문명을 이해하기 위한 가톨릭의 이해"
 thumbnail: liberal_arts/religion/240729_catholic_00.jpg
 banner: 999999_home_image_banner_textbook_600_400.jpg
 banner_caption: Religion
@@ -8,7 +8,7 @@ toc: true
 toc_sticky: true
 use_math: true
 sidebar:
-  title: "카톨릭 공부"
+  title: "가톨릭 공부"
   nav: sidebar-catholic
 categories:
   - Hobbies/Liberal-Arts
@@ -49,7 +49,7 @@ tags:
 
 ## 제14과 천주의 성모 복되신 동정 마리아
 
-14과에서는 카톨릭에서 다루는 성모 마리아의 위상, 왜 기도를 하는지, 하느님께 드리는 기도와는 어떻게 다른지에 대해서 다룬다.
+14과에서는 가톨릭에서 다루는 성모 마리아의 위상, 왜 기도를 하는지, 하느님께 드리는 기도와는 어떻게 다른지에 대해서 다룬다.
 
 개신교와 천주교의 차이라고 검색하면 많이 나오는 것이 이 마리아에 대한 공경이다. 동시에 [성전聖傳][2]에 대한 견해도 크게 다르다. 이 성전을 포함하느냐 마느냐에 따라 마리아에 대한 공경을 하느냐 하지 않느냐로 연장선이 그어지는 느낌이 들기도 한다.
 
