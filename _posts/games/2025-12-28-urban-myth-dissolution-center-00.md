@@ -10,7 +10,7 @@ tags:
   - Games
 ---
 
-<figure class="align-center" style="width: 30%">
+<figure class="align-center" style="width: 70%">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/games/251228_00.jpg">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/games/251228_00.jpg">
   </a>
