@@ -1,6 +1,6 @@
 ---
 title: "Taowu Mastermind"
-thumbnail: 210801_painting_taowu_00.jpg
+thumbnail: miniatures/210801_painting_taowu_00.jpg
 banner: 999999_category_infinity_00.jpg
 banner_caption: Hobbies
 last_modified_at: 2021-08-01T11:30:00
