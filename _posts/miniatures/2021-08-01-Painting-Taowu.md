@@ -13,20 +13,20 @@ toc_sticky: true
 
 
 gallery:
-  - url: /assets/images/210801_painting_taowu_00.jpg
-    image_path: /assets/images/210801_painting_taowu_00.jpg
+  - url: /assets/images/miniatures/210801_painting_taowu_00.jpg
+    image_path: /assets/images/miniatures/210801_painting_taowu_00.jpg
     title: "Fig.1 Taowu Mastermind"
-  - url: /assets/images/210801_painting_taowu_01.jpg
-    image_path: /assets/images/210801_painting_taowu_01.jpg
+  - url: /assets/images/miniatures/210801_painting_taowu_01.jpg
+    image_path: /assets/images/miniatures/210801_painting_taowu_01.jpg
     title: "Fig.2 Taowu Mastermind"
-  - url: /assets/images/210801_painting_taowu_02.jpg
-    image_path: /assets/images/210801_painting_taowu_02.jpg
+  - url: /assets/images/miniatures/210801_painting_taowu_02.jpg
+    image_path: /assets/images/miniatures/210801_painting_taowu_02.jpg
     title: "Fig.3 Taowu Mastermind"
-  - url: /assets/images/210801_painting_taowu_03.jpg
-    image_path: /assets/images/210801_painting_taowu_03.jpg
+  - url: /assets/images/miniatures/210801_painting_taowu_03.jpg
+    image_path: /assets/images/miniatures/210801_painting_taowu_03.jpg
     title: "Fig.4 Taowu Mastermind"
-  - url: /assets/images/210801_painting_taowu_04.jpg
-    image_path: /assets/images/210801_painting_taowu_04.jpg
+  - url: /assets/images/miniatures/210801_painting_taowu_04.jpg
+    image_path: /assets/images/miniatures/210801_painting_taowu_04.jpg
     title: "Fig.5 Taowu Mastermind"
 ---
 
@@ -35,8 +35,8 @@ gallery:
 # 1. 흰색
 
 <figure class="align-center" style="width: 450px">
-  <a href="/assets/images/210801_painting_taowu_05.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/210801_painting_taowu_05.jpg" alt="">
+  <a href="/assets/images/miniatures/210801_painting_taowu_05.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/miniatures/210801_painting_taowu_05.jpg" alt="">
   </a>
   <figcaption>
   Fig.6 흰색에 사용한 도료 목록
@@ -46,8 +46,8 @@ gallery:
 # 2. 금 NMM
 
 <figure class="align-center" style="width: 450px">
-  <a href="/assets/images/210801_painting_taowu_06.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/210801_painting_taowu_06.jpg" alt="">
+  <a href="/assets/images/miniatures/210801_painting_taowu_06.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/miniatures/210801_painting_taowu_06.jpg" alt="">
   </a>
   <figcaption>
   Fig.7 금 NMM에 사용한 도료 목록
@@ -57,8 +57,8 @@ gallery:
 # 3. 청록색
 
 <figure class="align-center" style="width: 450px">
-  <a href="/assets/images/210801_painting_taowu_07.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/210801_painting_taowu_07.jpg" alt="">
+  <a href="/assets/images/miniatures/210801_painting_taowu_07.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/miniatures/210801_painting_taowu_07.jpg" alt="">
   </a>
   <figcaption>
   Fig.8 청록색에 사용한 도료 목록
@@ -68,8 +68,8 @@ gallery:
 # 4. 피부색
 
 <figure class="align-center" style="width: 450px">
-  <a href="/assets/images/210801_painting_taowu_08.jpg">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/210801_painting_taowu_08.jpg" alt="">
+  <a href="/assets/images/miniatures/210801_painting_taowu_08.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/miniatures/210801_painting_taowu_08.jpg" alt="">
   </a>
   <figcaption>
   Fig.9 피부색에 사용한 도료 목록
