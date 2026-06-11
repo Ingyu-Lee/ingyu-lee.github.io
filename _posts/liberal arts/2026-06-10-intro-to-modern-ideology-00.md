@@ -1,5 +1,5 @@
 ---
-title: "현대사상입문: 20세기 프랑스 철학을 바라보는 한 시선"
+title: "현대사상입문: 무비판적 프랑스 포스트모더니즘 입문서적"
 excerpt: "현대 사상이나 철학의 입문서인줄 알았더니 20세기 프랑스 철학 서적"
 thumbnail: liberal_arts/philosophy/260316_00.jpg
 banner: 999999_home_image_banner_textbook_600_400.jpg
