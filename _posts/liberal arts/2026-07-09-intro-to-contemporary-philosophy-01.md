@@ -15,8 +15,8 @@ gallery:
     image_path: /assets/images/liberal_arts/philosophy/260709_00.png
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: /assets/images/liberal_arts/philosophy/260709_01.png
-    image_path: /assets/images/liberal_arts/philosophy/260709_01.png
+  - url: /assets/images/liberal_arts/philosophy/260709_01.PNG
+    image_path: /assets/images/liberal_arts/philosophy/260709_01.PNG
     alt: "placeholder image 2"
     title: "Image 2 title caption"
   - url: /assets/images/liberal_arts/philosophy/260709_02.png
