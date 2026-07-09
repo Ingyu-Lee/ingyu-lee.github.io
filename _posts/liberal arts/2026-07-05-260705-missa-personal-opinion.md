@@ -10,7 +10,7 @@ tags:
   - Liberal Arts
 ---
 
-<figure style="width: 33%" class="align-center">
+<figure style="width: 70%" class="align-center">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/260705_00.jpg">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/liberal_arts/260705_00.jpg">
   </a>
